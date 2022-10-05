@@ -5,3 +5,7 @@ Eset Endpoint Security and Antivirus...
 * 2.Unpack
 * 3.Install
 * 4.Import Config
+
+* Block Port: 20-25,1900,53,67-68,5353,137-139,445,0,7,1,8118,9040,9050,5037-5038,5001,40000-65535,123,500,4500,135,162
+
+* Windows Firewall Config: firewall.wfw
