@@ -2907,18 +2907,18 @@
    </ITEM>
    <ITEM NAME="WindowsSecurityCenterIntegration">
     <ITEM NAME="Antivirus">
-     <NODE NAME="Registered" TYPE="number" VALUE="0" />
-     <NODE NAME="Publish" TYPE="number" VALUE="0" />
-     <NODE NAME="State" TYPE="number" VALUE="1" />
+     <NODE NAME="Registered" TYPE="number" VALUE="1" />
+     <NODE NAME="Publish" TYPE="number" VALUE="1" />
+     <NODE NAME="State" TYPE="number" VALUE="0" />
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="Scan" TYPE="number" VALUE="1" />
      <NODE NAME="Setting" TYPE="number" VALUE="1" />
      <NODE NAME="Update" TYPE="number" VALUE="1" />
     </ITEM>
     <ITEM NAME="Firewall">
-     <NODE NAME="Registered" TYPE="number" VALUE="0" />
-     <NODE NAME="Publish" TYPE="number" VALUE="0" />
-     <NODE NAME="State" TYPE="number" VALUE="1" />
+     <NODE NAME="Registered" TYPE="number" VALUE="1" />
+     <NODE NAME="Publish" TYPE="number" VALUE="1" />
+     <NODE NAME="State" TYPE="number" VALUE="0" />
      <NODE NAME="Domain" TYPE="number" VALUE="1" />
      <NODE NAME="Private" TYPE="number" VALUE="1" />
      <NODE NAME="Public" TYPE="number" VALUE="1" />
@@ -5536,6 +5536,31 @@
        <NODE NAME="bEnable" TYPE="number" VALUE="1" />
        <NODE NAME="strName" TYPE="string" VALUE="block" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
+       <NODE NAME="eDirection" TYPE="number" VALUE="0" />
+       <NODE NAME="eAction" TYPE="number" VALUE="1" />
+       <NODE NAME="bExtActionNotify" TYPE="number" VALUE="0" />
+       <NODE NAME="eProtocol" TYPE="number" VALUE="101" />
+       <NODE NAME="uCustomProtocol" TYPE="number" VALUE="0" />
+       <ITEM NAME="localZones" DELETE="1" />
+       <NODE NAME="strLocalIP" TYPE="string" VALUE="" />
+       <NODE NAME="strLocalPort" TYPE="string" VALUE="20-25,1900,67-68,5353,137-139,445,0,7,1,8118,9040,9050,5037-5038,5001,40000-65535,123,500,4500,135,162,10010,7680,5040,5050" />
+       <ITEM NAME="remoteZones" DELETE="1" />
+       <NODE NAME="strRemoteIP" TYPE="string" VALUE="" />
+       <NODE NAME="strRemotePort" TYPE="string" VALUE="20-25,1900,67-68,5353,137-139,445,0,7,1,8118,9040,9050,5037-5038,5001,40000-65535,123,500,4500,135,162,10010,7680,5040,5050" />
+       <NODE NAME="strIcmpType" TYPE="string" VALUE="" />
+       <NODE NAME="strAppPath" TYPE="string" VALUE="" />
+       <NODE NAME="strServiceName" TYPE="string" VALUE="" />
+       <NODE NAME="profileID" TYPE="string" VALUE="" />
+       <NODE NAME="bTemporary" TYPE="number" VALUE="0" />
+       <NODE NAME="bDefault" TYPE="number" VALUE="0" />
+       <ITEM NAME="stConditions" DELETE="1" />
+       <NODE NAME="eSeverity" TYPE="number" VALUE="1" />
+      </ITEM>
+      <ITEM NAME="42">
+       <NODE NAME="ruleID" TYPE="string" VALUE="4abb985c-9686-4e28-8307-99d10000001d" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="strName" TYPE="string" VALUE="block2" />
+       <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="1" />
        <NODE NAME="eAction" TYPE="number" VALUE="1" />
        <NODE NAME="bExtActionNotify" TYPE="number" VALUE="0" />
@@ -5543,10 +5568,10 @@
        <NODE NAME="uCustomProtocol" TYPE="number" VALUE="0" />
        <ITEM NAME="localZones" DELETE="1" />
        <NODE NAME="strLocalIP" TYPE="string" VALUE="" />
-       <NODE NAME="strLocalPort" TYPE="string" VALUE="20-25,1900,53,67-68,5353,137-139,445,0,7,1,8118,9040,9050,5037-5038,5001,40000-65535,123,500,4500,135" />
+       <NODE NAME="strLocalPort" TYPE="string" VALUE="53,27000-27050,4380,4379,3478" />
        <ITEM NAME="remoteZones" DELETE="1" />
        <NODE NAME="strRemoteIP" TYPE="string" VALUE="" />
-       <NODE NAME="strRemotePort" TYPE="string" VALUE="20-25,1900,53,67-68,5353,137-139,445,0,7,1,8118,9040,9050,5037-5038,5001,40000-65535,123,500,4500,135" />
+       <NODE NAME="strRemotePort" TYPE="string" VALUE="53,27000-27050,4380,4379,3478" />
        <NODE NAME="strIcmpType" TYPE="string" VALUE="" />
        <NODE NAME="strAppPath" TYPE="string" VALUE="" />
        <NODE NAME="strServiceName" TYPE="string" VALUE="" />
@@ -5936,6 +5961,47 @@
         <NODE NAME="strDhcpIP" TYPE="string" VALUE="192.168.1.1" />
         <NODE NAME="bCheckGatewayIP" TYPE="number" VALUE="0" />
         <NODE NAME="strGatewayIP" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckAdapterType" TYPE="number" VALUE="1" />
+        <NODE NAME="eAdapterType" TYPE="number" VALUE="0" />
+        <NODE NAME="bCheckWifiSsid" TYPE="number" VALUE="0" />
+        <NODE NAME="strWifiSsid" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckWifiProfile" TYPE="number" VALUE="0" />
+        <NODE NAME="strWifiProfile" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckWifiSecurity" TYPE="number" VALUE="0" />
+        <NODE NAME="eWifiSecurity" TYPE="number" VALUE="0" />
+        <NODE NAME="bCheckWifiEncryption" TYPE="number" VALUE="0" />
+        <NODE NAME="eWifiEncryption" TYPE="number" VALUE="0" />
+       </ITEM>
+       <ITEM NAME="stAuthentication">
+        <NODE NAME="strServerAddresses" TYPE="string" VALUE="" />
+        <NODE NAME="strServerPort" TYPE="string" VALUE="80" />
+        <NODE NAME="bUseRandomOrder" TYPE="number" VALUE="0" />
+        <NODE NAME="strPublicKeyBlob" TYPE="string" VALUE="" />
+       </ITEM>
+       <NODE NAME="bShowWifiNotification" TYPE="number" VALUE="1" />
+       <NODE NAME="bIsMyNetwork" TYPE="number" VALUE="0" />
+      </ITEM>
+      <ITEM NAME="3">
+       <NODE NAME="networkID" TYPE="string" VALUE="3cb17195-dd07-49e8-b6e4-6a2a0000000b" />
+       <NODE NAME="strName" TYPE="string" VALUE="Sieć przewodowa 3" />
+       <NODE NAME="bAskUser" TYPE="number" VALUE="0" />
+       <NODE NAME="eProtectionType" TYPE="number" VALUE="2" />
+       <NODE NAME="strTrustedAddresses" TYPE="string" VALUE="" />
+       <NODE NAME="profileID" TYPE="string" VALUE="" />
+       <NODE NAME="strUpdateProfile" TYPE="string" VALUE="" />
+       <ITEM NAME="stIdentification">
+        <NODE NAME="bCheckDnsSuffix" TYPE="number" VALUE="0" />
+        <NODE NAME="strDnsSuffix" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckWinsIP" TYPE="number" VALUE="0" />
+        <NODE NAME="strWinsIP" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckDnsIP" TYPE="number" VALUE="0" />
+        <NODE NAME="strDnsIP" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckLocalIP" TYPE="number" VALUE="0" />
+        <NODE NAME="strLocalIP" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckDhcpIP" TYPE="number" VALUE="0" />
+        <NODE NAME="strDhcpIP" TYPE="string" VALUE="" />
+        <NODE NAME="bCheckGatewayIP" TYPE="number" VALUE="1" />
+        <NODE NAME="strGatewayIP" TYPE="string" VALUE="192.168.1.1" />
         <NODE NAME="bCheckAdapterType" TYPE="number" VALUE="1" />
         <NODE NAME="eAdapterType" TYPE="number" VALUE="0" />
         <NODE NAME="bCheckWifiSsid" TYPE="number" VALUE="0" />
@@ -7139,7 +7205,7 @@
     <ITEM NAME="m_sOsVersion">
      <NODE NAME="dwMajorVersion" TYPE="number" VALUE="A" />
      <NODE NAME="dwMinorVersion" TYPE="number" VALUE="0" />
-     <NODE NAME="dwServicePack" TYPE="number" VALUE="4F7C" />
+     <NODE NAME="dwServicePack" TYPE="number" VALUE="585D" />
     </ITEM>
     <ITEM NAME="m_sProductVersion">
      <NODE NAME="dwMajorVersion" TYPE="number" VALUE="9" />
@@ -7885,7 +7951,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="633D3882" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="0" />
     </ITEM>
     <ITEM NAME="2">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
@@ -7901,7 +7967,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="633D3882" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="6345B1E6" />
     </ITEM>
     <ITEM NAME="3">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000101" />
@@ -7917,7 +7983,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="633D3882" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="6345B1E6" />
     </ITEM>
     <ITEM NAME="4">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
@@ -7933,7 +7999,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="633D3882" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="6345B1E6" />
     </ITEM>
     <ITEM NAME="5">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
@@ -7949,7 +8015,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="633D3882" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="6345B1E6" />
     </ITEM>
     <ITEM NAME="6">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
@@ -7965,7 +8031,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="633D3882" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="6345B1E6" />
     </ITEM>
    </ITEM>
   </ITEM>
