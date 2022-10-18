@@ -3812,7 +3812,7 @@
      <ITEM NAME="stRules" DELETE="1">
       <ITEM NAME="1">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -3839,7 +3839,7 @@
       </ITEM>
       <ITEM NAME="2">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000002" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -3864,7 +3864,7 @@
       </ITEM>
       <ITEM NAME="3">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -3889,7 +3889,7 @@
       </ITEM>
       <ITEM NAME="4">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -3914,7 +3914,7 @@
       </ITEM>
       <ITEM NAME="5">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000005" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -3939,7 +3939,7 @@
       </ITEM>
       <ITEM NAME="6">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000006" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4021,7 +4021,7 @@
       </ITEM>
       <ITEM NAME="9">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000009" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -4046,7 +4046,7 @@
       </ITEM>
       <ITEM NAME="A">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000000a" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4071,7 +4071,7 @@
       </ITEM>
       <ITEM NAME="B">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000000c" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="1" />
@@ -4096,7 +4096,7 @@
       </ITEM>
       <ITEM NAME="C">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000000e" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -4149,7 +4149,7 @@
       </ITEM>
       <ITEM NAME="E">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000040" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4174,7 +4174,7 @@
       </ITEM>
       <ITEM NAME="F">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000041" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="1" />
@@ -4199,7 +4199,7 @@
       </ITEM>
       <ITEM NAME="10">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000042" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -4252,7 +4252,7 @@
       </ITEM>
       <ITEM NAME="12">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000011" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4277,7 +4277,7 @@
       </ITEM>
       <ITEM NAME="13">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000012" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4302,7 +4302,7 @@
       </ITEM>
       <ITEM NAME="14">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000013" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4327,7 +4327,7 @@
       </ITEM>
       <ITEM NAME="15">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000014" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4352,7 +4352,7 @@
       </ITEM>
       <ITEM NAME="16">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000015" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4377,7 +4377,7 @@
       </ITEM>
       <ITEM NAME="17">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000016" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4402,7 +4402,7 @@
       </ITEM>
       <ITEM NAME="18">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000017" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4427,7 +4427,7 @@
       </ITEM>
       <ITEM NAME="19">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000018" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -4454,7 +4454,7 @@
       </ITEM>
       <ITEM NAME="1A">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000019" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4536,7 +4536,7 @@
       </ITEM>
       <ITEM NAME="1D">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000001c" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4563,7 +4563,7 @@
       </ITEM>
       <ITEM NAME="1E">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000001d" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4590,7 +4590,7 @@
       </ITEM>
       <ITEM NAME="1F">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000003e" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4942,7 +4942,7 @@
       </ITEM>
       <ITEM NAME="2B">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000029" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4967,7 +4967,7 @@
       </ITEM>
       <ITEM NAME="2C">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000002a" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -4994,7 +4994,7 @@
       </ITEM>
       <ITEM NAME="2D">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000003f" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -5135,7 +5135,7 @@
       </ITEM>
       <ITEM NAME="32">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000002f" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -5162,7 +5162,7 @@
       </ITEM>
       <ITEM NAME="33">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000030" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -5335,7 +5335,7 @@
       </ITEM>
       <ITEM NAME="39">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000035" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -5360,7 +5360,7 @@
       </ITEM>
       <ITEM NAME="3A">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000036" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -5385,7 +5385,7 @@
       </ITEM>
       <ITEM NAME="3B">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000037" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="2" />
@@ -5410,7 +5410,7 @@
       </ITEM>
       <ITEM NAME="3C">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000003b" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -5435,7 +5435,7 @@
       </ITEM>
       <ITEM NAME="3D">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000003c" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="1" />
@@ -5460,7 +5460,7 @@
       </ITEM>
       <ITEM NAME="3E">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000038" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -5485,7 +5485,7 @@
       </ITEM>
       <ITEM NAME="3F">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000039" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -5510,7 +5510,7 @@
       </ITEM>
       <ITEM NAME="40">
        <NODE NAME="ruleID" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000003a" />
-       <NODE NAME="bEnable" TYPE="number" VALUE="1" />
+       <NODE NAME="bEnable" TYPE="number" VALUE="0" />
        <NODE NAME="strName" TYPE="string" VALUE="@" />
        <NODE NAME="strDescription" TYPE="string" VALUE="" />
        <NODE NAME="eDirection" TYPE="number" VALUE="0" />
@@ -7861,7 +7861,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="634EF727" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="0" />
     </ITEM>
     <ITEM NAME="2">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
@@ -7877,7 +7877,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="634EF727" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="634F09FA" />
     </ITEM>
     <ITEM NAME="3">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000101" />
@@ -7893,7 +7893,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="634EF727" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="634F09FA" />
     </ITEM>
     <ITEM NAME="4">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
@@ -7909,7 +7909,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="634EF727" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="634F09FA" />
     </ITEM>
     <ITEM NAME="5">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
@@ -7925,7 +7925,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="634EF727" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="634F09FA" />
     </ITEM>
     <ITEM NAME="6">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
@@ -7941,7 +7941,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="634EF727" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="634F09FA" />
     </ITEM>
    </ITEM>
   </ITEM>
