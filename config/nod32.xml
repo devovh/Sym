@@ -4238,8 +4238,8 @@
     <ITEM NAME="Rules" DELETE="1">
      <ITEM NAME="1">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="3FC" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="652311AE" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="502" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="6523233F" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="2">
@@ -4310,8 +4310,8 @@
      </ITEM>
      <ITEM NAME="D">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000000f" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="6B" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="65230E8E" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="9B" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="65232309" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="E">
@@ -4622,14 +4622,14 @@
      </ITEM>
      <ITEM NAME="41">
       <NODE NAME="Uuid" TYPE="string" VALUE="7d723f29-975a-48d6-beb2-5c7d00000050" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="57D" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="65231620" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="614" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="652323F3" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
      <ITEM NAME="42">
       <NODE NAME="Uuid" TYPE="string" VALUE="9fa36df1-8bd8-4cdc-9c50-c34a00000005" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="18A" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="65231280" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="1A5" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="65231FA2" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
     </ITEM>
@@ -8660,13 +8660,13 @@
      </ITEM>
      <ITEM NAME="stOptions">
       <NODE NAME="EnableBridging" TYPE="number" VALUE="0" />
-      <NODE NAME="VsSmbAdminShareInAllowed" TYPE="number" VALUE="1" />
-      <NODE NAME="VsRpcSamInAllowed" TYPE="number" VALUE="1" />
-      <NODE NAME="VsRpcLsaInAllowed" TYPE="number" VALUE="1" />
-      <NODE NAME="VsRpcRegInAllowed" TYPE="number" VALUE="1" />
-      <NODE NAME="VsRpcScmInAllowed" TYPE="number" VALUE="1" />
-      <NODE NAME="VsRpcSrvInAllowed" TYPE="number" VALUE="1" />
-      <NODE NAME="VsRpcOtherInAllowed" TYPE="number" VALUE="1" />
+      <NODE NAME="VsSmbAdminShareInAllowed" TYPE="number" VALUE="0" />
+      <NODE NAME="VsRpcSamInAllowed" TYPE="number" VALUE="0" />
+      <NODE NAME="VsRpcLsaInAllowed" TYPE="number" VALUE="0" />
+      <NODE NAME="VsRpcRegInAllowed" TYPE="number" VALUE="0" />
+      <NODE NAME="VsRpcScmInAllowed" TYPE="number" VALUE="0" />
+      <NODE NAME="VsRpcSrvInAllowed" TYPE="number" VALUE="0" />
+      <NODE NAME="VsRpcOtherInAllowed" TYPE="number" VALUE="0" />
       <NODE NAME="VsProtocolSmb" TYPE="number" VALUE="1" />
       <NODE NAME="VsProtocolRpc" TYPE="number" VALUE="1" />
       <NODE NAME="VsProtocolRdp" TYPE="number" VALUE="1" />
@@ -10801,7 +10801,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6523118F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65231F41" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10820,7 +10820,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6523118F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65231F41" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10839,7 +10839,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6523118F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65231F41" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10858,7 +10858,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6523118F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65231F41" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10871,7 +10871,7 @@
     </ITEM>
     <ITEM NAME="2">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="65230EEE" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="65231D20" />
     </ITEM>
     <ITEM NAME="3">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
@@ -10879,11 +10879,11 @@
     </ITEM>
     <ITEM NAME="4">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="65230E76" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="652322F2" />
     </ITEM>
     <ITEM NAME="5">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="65230F12" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="652323E1" />
     </ITEM>
    </ITEM>
   </ITEM>
