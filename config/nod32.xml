@@ -2267,11 +2267,11 @@
       <NODE NAME="ReportResponse" TYPE="number" VALUE="0" />
       <NODE NAME="ReportSeverity" TYPE="number" VALUE="0" />
       <ITEM NAME="Application">
-       <NODE NAME="DisplayName" TYPE="string" VALUE="Dowolne" />
+       <NODE NAME="DisplayName" TYPE="string" VALUE="Proces hosta dla usług systemu Windows" />
        <NODE NAME="Icon" TYPE="string" VALUE="" />
-       <NODE NAME="Path" TYPE="string" VALUE="" />
+       <NODE NAME="Path" TYPE="string" VALUE="svchost.exe" />
        <NODE NAME="Signature" TYPE="number" VALUE="0" />
-       <NODE NAME="SignerName" TYPE="string" VALUE="" />
+       <NODE NAME="SignerName" TYPE="string" VALUE="Microsoft Windows Publisher" />
        <NODE NAME="PackageName" TYPE="string" VALUE="" />
       </ITEM>
       <NODE NAME="WindowsServiceName" TYPE="string" VALUE="" />
@@ -4686,8 +4686,8 @@
      </ITEM>
      <ITEM NAME="41">
       <NODE NAME="Uuid" TYPE="string" VALUE="7d723f29-975a-48d6-beb2-5c7d00000050" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="ABF" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="652528F8" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="AE8" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="65252B94" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
      <ITEM NAME="42">
@@ -10852,7 +10852,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6525228F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="0" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10871,7 +10871,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6525228F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65252B4B" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10890,7 +10890,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6525228F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65252B4B" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10909,7 +10909,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6525228F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65252B4B" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10928,7 +10928,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="6525228F" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="65252B4B" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
