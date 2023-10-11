@@ -12,3 +12,5 @@ Eset Endpoint Security and Antivirus...
 ```
 * Incomming Block - All
 * Disable All allow connections (config ESET) and Enable Port 53 UDP local and remote - process svchost.exe
+* For some programs, you need to deactivate the Eset firewall and use the program. 
+* Then activate the firewall again. In most cases everything works normally.
