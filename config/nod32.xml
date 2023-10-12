@@ -2259,7 +2259,7 @@
      </ITEM>
      <ITEM NAME="44">
       <NODE NAME="Uuid" TYPE="string" VALUE="4c061263-002a-416f-93ae-5a9800000020" />
-      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zezwól na połączenie dla Dowolne" />
       <NODE NAME="Description" TYPE="string" VALUE="" />
       <NODE NAME="Action" TYPE="number" VALUE="1" />
@@ -4542,8 +4542,8 @@
     <ITEM NAME="Rules" DELETE="1">
      <ITEM NAME="1">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="B3A" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527D8DA" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="B7F" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527DA09" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="2">
@@ -4926,20 +4926,26 @@
      </ITEM>
      <ITEM NAME="41">
       <NODE NAME="Uuid" TYPE="string" VALUE="7d723f29-975a-48d6-beb2-5c7d00000050" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="1606" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527D880" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="163A" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527DB65" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
      <ITEM NAME="42">
       <NODE NAME="Uuid" TYPE="string" VALUE="9fa36df1-8bd8-4cdc-9c50-c34a00000005" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="35C" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527D765" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="360" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527DB61" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
      <ITEM NAME="43">
       <NODE NAME="Uuid" TYPE="string" VALUE="46969d5d-ca45-4803-bc3c-409100000015" />
       <NODE NAME="HitCount" TYPE="number" VALUE="2D8" />
       <NODE NAME="LastUseTime" TYPE="number" VALUE="6525219C" />
+      <NODE NAME="Origin" TYPE="number" VALUE="0" />
+     </ITEM>
+     <ITEM NAME="44">
+      <NODE NAME="Uuid" TYPE="string" VALUE="99cb4027-85bb-41a5-acac-302500000040" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="2" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="6527DB5A" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
     </ITEM>
