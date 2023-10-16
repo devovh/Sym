@@ -2286,7 +2286,9 @@
       <NODE NAME="LocalIpAddresses" TYPE="string" VALUE="" />
       <ITEM NAME="LocalIpSetsUuids" DELETE="1" />
       <NODE NAME="RemoteIpAddresses" TYPE="string" VALUE="" />
-      <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
+      <ITEM NAME="RemoteIpSetsUuids" DELETE="1">
+       <NODE NAME="1" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffffd0000000" />
+      </ITEM>
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
      <ITEM NAME="45">
@@ -4926,8 +4928,8 @@
      </ITEM>
      <ITEM NAME="41">
       <NODE NAME="Uuid" TYPE="string" VALUE="7d723f29-975a-48d6-beb2-5c7d00000050" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="2085" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="652D1DFB" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="20A6" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="652D1F52" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
      <ITEM NAME="42">
