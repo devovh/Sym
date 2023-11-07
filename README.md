@@ -1,7 +1,7 @@
 # Eset
 Eset Smart Security...
 
-* 1.Download Code->Zip
+* 1.Code->Download Zip
 * 2.Unpack
 * 3.Install
 
