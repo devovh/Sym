@@ -5,7 +5,7 @@
    <ITEM NAME="ApplicationManagement">
     <ITEM NAME="ModificationDetector">
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
-     <NODE NAME="AllowSignedModifications" TYPE="number" VALUE="1" />
+     <NODE NAME="AllowSignedModifications" TYPE="number" VALUE="0" />
      <ITEM NAME="ExcludedApplicationPaths" DELETE="1" />
     </ITEM>
    </ITEM>
@@ -4220,8 +4220,8 @@
     <ITEM NAME="Rules" DELETE="1">
      <ITEM NAME="1">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="5" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="654A3270" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="37" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654A6BC5" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="2">
@@ -4262,8 +4262,8 @@
      </ITEM>
      <ITEM NAME="8">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000008" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="4" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654B6FFC" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="9">
@@ -4358,8 +4358,8 @@
      </ITEM>
      <ITEM NAME="18">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000001b" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="1E" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654B700D" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="19">
@@ -4388,8 +4388,8 @@
      </ITEM>
      <ITEM NAME="1D">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000020" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="6D" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="654A3853" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="355" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654B5903" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="1E">
@@ -4586,8 +4586,8 @@
      </ITEM>
      <ITEM NAME="3E">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000043" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="2" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="654A359A" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="C" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654B589A" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="3F">
@@ -4598,14 +4598,14 @@
      </ITEM>
      <ITEM NAME="40">
       <NODE NAME="Uuid" TYPE="string" VALUE="d7c89995-3a1c-4d8a-82d6-6cd800000004" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="AD" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="654A38CF" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="2D3" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654B7012" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
      <ITEM NAME="41">
       <NODE NAME="Uuid" TYPE="string" VALUE="989a73a4-bb6c-46c9-950d-9d7a00000009" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="5" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="654A359A" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="23" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="654B6FF9" />
       <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
     </ITEM>
@@ -7192,7 +7192,7 @@
    <ITEM NAME="WindowsSecurityCenterIntegration">
     <ITEM NAME="Antivirus">
      <NODE NAME="Registered" TYPE="number" VALUE="1" />
-     <NODE NAME="Publish" TYPE="number" VALUE="1" />
+     <NODE NAME="Publish" TYPE="number" VALUE="0" />
      <NODE NAME="State" TYPE="number" VALUE="0" />
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="Scan" TYPE="number" VALUE="1" />
@@ -7201,7 +7201,7 @@
     </ITEM>
     <ITEM NAME="Firewall">
      <NODE NAME="Registered" TYPE="number" VALUE="1" />
-     <NODE NAME="Publish" TYPE="number" VALUE="1" />
+     <NODE NAME="Publish" TYPE="number" VALUE="0" />
      <NODE NAME="State" TYPE="number" VALUE="0" />
      <NODE NAME="Domain" TYPE="number" VALUE="1" />
      <NODE NAME="Private" TYPE="number" VALUE="1" />
@@ -9720,7 +9720,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="654A3454" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="654B7015" />
     </ITEM>
     <ITEM NAME="2">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
@@ -9736,7 +9736,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="654A3454" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="654B7015" />
     </ITEM>
     <ITEM NAME="3">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000101" />
@@ -9752,7 +9752,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="654A3454" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="654B7015" />
     </ITEM>
     <ITEM NAME="4">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
@@ -9768,7 +9768,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="654A3454" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="654B7015" />
     </ITEM>
     <ITEM NAME="5">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
@@ -9784,7 +9784,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="654A3454" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="654B7015" />
     </ITEM>
     <ITEM NAME="6">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
@@ -9800,17 +9800,17 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="654A3454" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="654B7015" />
     </ITEM>
    </ITEM>
    <ITEM NAME="exec" DELETE="1">
     <ITEM NAME="1">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="654A31AE" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="654B58CD" />
     </ITEM>
     <ITEM NAME="2">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="654A31AE" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="654B58CD" />
     </ITEM>
     <ITEM NAME="3">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000101" />
@@ -9822,11 +9822,11 @@
     </ITEM>
     <ITEM NAME="5">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="654A3551" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="654B6FFA" />
     </ITEM>
     <ITEM NAME="6">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="654A3628" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="654B7007" />
     </ITEM>
    </ITEM>
   </ITEM>
