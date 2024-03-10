@@ -77,8 +77,8 @@ sc stop KeyIso
 sc config KeyIso start=disabled
 sc stop SamSs
 sc config SamSs start=disabled
-sc stop VaultSvc
-sc config VaultSvc start=disabled
+sc start VaultSvc
+sc config VaultSvc start=auto
 sc stop DiagTrack
 sc config DiagTrack start=disabled
 sc stop wlidsvc
