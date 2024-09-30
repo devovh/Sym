@@ -2,8 +2,8 @@ sc stop msrpc
 sc config msrpc start=disabled
 sc stop Dnscache
 sc config Dnscache start=disabled
-sc stop WinRM
-sc config WinRM start=disabled
+sc start WinRM
+sc config WinRM start=auto
 sc stop upnphost
 sc config upnphost start=disabled
 sc stop UmRdpService
@@ -62,8 +62,8 @@ sc stop LITSSVC
 sc config LITSSVC start=disabled
 sc stop clamd
 sc config clamd start=disabled
-sc start SNMPTRAP
-sc config SNMPTRAP start=auto
+sc stop SNMPTRAP
+sc config SNMPTRAP start=disabled
 sc start SharedAccess
 sc config SharedAccess start=auto
 sc stop GigabyteUpdateService
@@ -73,10 +73,10 @@ sc stop WpnService
 sc config WpnService start=disabled
 sc stop DsmSvc
 sc config DsmSvc start=disabled
-sc stop KeyIso
-sc config KeyIso start=disabled
-sc stop SamSs
-sc config SamSs start=disabled
+sc start KeyIso
+sc config KeyIso start=auto
+sc start SamSs
+sc config SamSs start=auto
 sc start VaultSvc
 sc config VaultSvc start=auto
 sc stop DiagTrack
