@@ -1,3 +1,5 @@
+sc stop tlntsvr
+sc config tlntsvr start=disabled
 sc stop msrpc
 sc config msrpc start=disabled
 sc stop Dnscache
@@ -60,10 +62,8 @@ sc stop AESMService
 sc config AESMService start=disabled
 sc stop LITSSVC
 sc config LITSSVC start=disabled
-sc stop clamd
-sc config clamd start=disabled
-sc stop SNMPTRAP
-sc config SNMPTRAP start=disabled
+sc start clamd
+sc config clamd start=auto
 sc start SharedAccess
 sc config SharedAccess start=auto
 sc stop GigabyteUpdateService
