@@ -8,8 +8,8 @@ sc stop msrpc
 sc config msrpc start=disabled
 sc stop Dnscache
 sc config Dnscache start=disabled
-sc start WinRM
-sc config WinRM start=auto
+sc stop WinRM
+sc config WinRM start=disabled
 sc stop upnphost
 sc config upnphost start=disabled
 sc stop UmRdpService
@@ -75,16 +75,16 @@ sc config GigabyteUpdateService start=disabled
 sc delete GigabyteUpdateService
 sc stop WpnService
 sc config WpnService start=disabled
-sc start DsmSvc
-sc config DsmSvc start=auto
+sc stop DsmSvc
+sc config DsmSvc start=disabled
 sc start KeyIso
 sc config KeyIso start=auto
 sc start SamSs
 sc config SamSs start=auto
 sc start VaultSvc
 sc config VaultSvc start=auto
-sc start DiagTrack
-sc config DiagTrack start=auto
+sc stop DiagTrack
+sc config DiagTrack start=disabled
 sc stop wlidsvc
 sc config wlidsvc start=disabled
 pause

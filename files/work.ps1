@@ -1,0 +1,1 @@
+Add-Computer -WorkGroupName "xmjjs2738Sjfdn"

@@ -1,1 +1,2 @@
 Disable-PSRemoting -Force
+pause
