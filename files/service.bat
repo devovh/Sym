@@ -87,4 +87,6 @@ sc stop DiagTrack
 sc config DiagTrack start=disabled
 sc stop wlidsvc
 sc config wlidsvc start=disabled
+sc stop SysMain
+sc config SysMain start=disabled
 pause
