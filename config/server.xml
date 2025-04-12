@@ -60,7 +60,7 @@
     <ITEM NAME="Rules" DELETE="1">
      <ITEM NAME="1">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
+      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Allow all traffic within the computer" />
       <NODE NAME="Description" TYPE="string" VALUE="" />
       <NODE NAME="Action" TYPE="number" VALUE="1" />
@@ -2178,8 +2178,8 @@
       <NODE NAME="Direction" TYPE="number" VALUE="0" />
       <NODE NAME="NetworkProtocol" TYPE="number" VALUE="6" />
       <NODE NAME="NetworkProtocolNumber" TYPE="number" VALUE="0" />
-      <NODE NAME="LocalPorts" TYPE="string" VALUE="0-65535" />
-      <NODE NAME="RemotePorts" TYPE="string" VALUE="0-79,81-442,444-65535" />
+      <NODE NAME="LocalPorts" TYPE="string" VALUE="0-79,81-442,444-3723,3725-8084,8086-65535" />
+      <NODE NAME="RemotePorts" TYPE="string" VALUE="0-79,81-442,444-3723,3725-8084,8086-65535" />
       <NODE NAME="IcmpTypes" TYPE="string" VALUE="" />
       <NODE NAME="LocalIpAddresses" TYPE="string" VALUE="" />
       <ITEM NAME="LocalIpSetsUuids" DELETE="1" />
@@ -2220,6 +2220,102 @@
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
      <ITEM NAME="43">
+      <NODE NAME="Uuid" TYPE="string" VALUE="2d6d3f34-c23b-4031-bd24-8d3f0000001a" />
+      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Reguła utworzona przez kreator dla: nginx.exe" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+      <NODE NAME="Action" TYPE="number" VALUE="1" />
+      <NODE NAME="NotifyUser" TYPE="number" VALUE="0" />
+      <NODE NAME="ReportResponse" TYPE="number" VALUE="0" />
+      <NODE NAME="ReportSeverity" TYPE="number" VALUE="0" />
+      <ITEM NAME="Application">
+       <NODE NAME="DisplayName" TYPE="string" VALUE="nginx.exe" />
+       <NODE NAME="Icon" TYPE="string" VALUE="data:image/x-icon;base64,AAABAAEAEBAAAAEAGABoAwAAFgAAACgAAAAQAAAAIAAAAAEAGAAAAAAAQAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAmQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD//wAA8A8AAPAPAADgBwAA48cAAMfjAADGAwAAjAEAAI4BAADH/wAAx+MAAOPHAADgBwAA8A8AAPAPAAD//wAA" />
+       <NODE NAME="Path" TYPE="string" VALUE="C:\Users\Administrator\Desktop\www\nginx.exe" />
+       <NODE NAME="Signature" TYPE="number" VALUE="0" />
+       <NODE NAME="SignerName" TYPE="string" VALUE="" />
+       <NODE NAME="PackageName" TYPE="string" VALUE="" />
+      </ITEM>
+      <NODE NAME="WindowsServiceName" TYPE="string" VALUE="" />
+      <NODE NAME="MatchChildProcessess" TYPE="number" VALUE="0" />
+      <NODE NAME="TargetOsFamily" TYPE="number" VALUE="1" />
+      <NODE NAME="Direction" TYPE="number" VALUE="0" />
+      <NODE NAME="NetworkProtocol" TYPE="number" VALUE="0" />
+      <NODE NAME="NetworkProtocolNumber" TYPE="number" VALUE="0" />
+      <NODE NAME="LocalPorts" TYPE="string" VALUE="" />
+      <NODE NAME="RemotePorts" TYPE="string" VALUE="" />
+      <NODE NAME="IcmpTypes" TYPE="string" VALUE="" />
+      <NODE NAME="LocalIpAddresses" TYPE="string" VALUE="" />
+      <ITEM NAME="LocalIpSetsUuids" DELETE="1" />
+      <NODE NAME="RemoteIpAddresses" TYPE="string" VALUE="" />
+      <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
+      <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
+     </ITEM>
+     <ITEM NAME="44">
+      <NODE NAME="Uuid" TYPE="string" VALUE="6effd58c-6b70-4676-817f-348500000020" />
+      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Reguła utworzona przez kreator dla: Authentication Server Daemon" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+      <NODE NAME="Action" TYPE="number" VALUE="1" />
+      <NODE NAME="NotifyUser" TYPE="number" VALUE="0" />
+      <NODE NAME="ReportResponse" TYPE="number" VALUE="0" />
+      <NODE NAME="ReportSeverity" TYPE="number" VALUE="0" />
+      <ITEM NAME="Application">
+       <NODE NAME="DisplayName" TYPE="string" VALUE="Authentication Server Daemon" />
+       <NODE NAME="Icon" TYPE="string" VALUE="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAADAtC19vrItjr+zLYTBtS0pwLQtbb6yLY6+sy2MvLEsjLKnKoywpimMsKYpjLCmKYywpimMsKYpjLCmKY2xpyp5v7MtkryxLP68sSz/v7Mtgr+zLX+8sSz/vLAs/7qvLP+wpin/rqQp/66kKf+upCn/rqQp/66kKf+upCn8saYqicC0LSW9sSzTvLAs/72xLN7AtC1KvbEswLyxLOO7ryzhsKYp4a6kKeGupCngrqQp7a6kKf+upCn/r6UpzrKoKiC3rCwAv7MtcLywLP28sCz/vrIskMG1LR6/sy09vbEsPrKoKj6wpyk+sacpP7ClKa+upCn/rqQp/LCmKmmtoykAwLQtAMG1LRi9sSzLvLAs/72xLObAtC1Ev7MtqLuwLN+wpircr6Up26+lKd2upCn2rqQp/6+lKcWzqCoVsqgqAMO3LQC7sCwAv7MtZLywLPq8sCz/vrIsmr+zLWm7ryz6sKUp/66kKf+upCn/rqQp/6+lKfixpypcr6UpALOoKwAAAAAAwbUtAMG1LRK+sizAvLAs/72xLO3AtC1QvLAsb7GmKYSvpSmAr6UpgK+lKYKwpilws6gqD7KoKgAAAAAAAAAAAMK2LQC9sSwAv7MtV72xLPe8sCz/vrIsqcS4LgezqCoJsacqYrCmKXqxpyputKoqFbSqKgAAAAAAAAAAAAAAAAAAAAAAwbUtAMK2LQy+siy0vLAs/72xLPPAtC1IsaYqTa+lKfSupCn/sKYpsLSpKguzqCoAAAAAAAAAAAAAAAAAAAAAAMO5LQC+si0Av7MtSr2xLPK8sCz/vbEswLCmKsKupCn/r6Up77GnKkOwpioAsqkpAAAAAAAAAAAAAAAAAAAAAAAAAAAAwbUtAMO3LQi+siynvLAs/7qvLP6wpSn+rqQp/7CmKaC1qioGs6gqAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMO2LQC/sy0Av7MtPr2xLO26ryz/sKUp/6+lKemxpyo4sacqALGrKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwbUtAMa5LgS+si2auq8s/7CmKf+wpimTuK0rA7OoKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANrALAC/sy0AwLQtM7uvLOexpirjsacqLrGnKgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwrYtANvMMQK7sCyNtKkqhpyUIwGzqCoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC7rywAvLEsHritKxy5riwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAAwAMAAOAHAADgBwAA8A8AAPAPAAD4HwAA+B8AAPw/AAD8PwAA/n8AAA==" />
+       <NODE NAME="Path" TYPE="string" VALUE="C:\Users\Administrator\Desktop\MC\build\bin\RelWithDebInfo\authserver.exe" />
+       <NODE NAME="Signature" TYPE="number" VALUE="0" />
+       <NODE NAME="SignerName" TYPE="string" VALUE="" />
+       <NODE NAME="PackageName" TYPE="string" VALUE="" />
+      </ITEM>
+      <NODE NAME="WindowsServiceName" TYPE="string" VALUE="" />
+      <NODE NAME="MatchChildProcessess" TYPE="number" VALUE="0" />
+      <NODE NAME="TargetOsFamily" TYPE="number" VALUE="1" />
+      <NODE NAME="Direction" TYPE="number" VALUE="0" />
+      <NODE NAME="NetworkProtocol" TYPE="number" VALUE="0" />
+      <NODE NAME="NetworkProtocolNumber" TYPE="number" VALUE="0" />
+      <NODE NAME="LocalPorts" TYPE="string" VALUE="" />
+      <NODE NAME="RemotePorts" TYPE="string" VALUE="" />
+      <NODE NAME="IcmpTypes" TYPE="string" VALUE="" />
+      <NODE NAME="LocalIpAddresses" TYPE="string" VALUE="" />
+      <ITEM NAME="LocalIpSetsUuids" DELETE="1" />
+      <NODE NAME="RemoteIpAddresses" TYPE="string" VALUE="" />
+      <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
+      <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
+     </ITEM>
+     <ITEM NAME="45">
+      <NODE NAME="Uuid" TYPE="string" VALUE="0d408afc-331e-4ed6-be71-10e400000022" />
+      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Reguła utworzona przez kreator dla: World Server Daemon" />
+      <NODE NAME="Description" TYPE="string" VALUE="" />
+      <NODE NAME="Action" TYPE="number" VALUE="1" />
+      <NODE NAME="NotifyUser" TYPE="number" VALUE="0" />
+      <NODE NAME="ReportResponse" TYPE="number" VALUE="0" />
+      <NODE NAME="ReportSeverity" TYPE="number" VALUE="0" />
+      <ITEM NAME="Application">
+       <NODE NAME="DisplayName" TYPE="string" VALUE="World Server Daemon" />
+       <NODE NAME="Icon" TYPE="string" VALUE="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAAABhYfN9YGDyjmFh8oRiYvUpYWHzbWBg8o5gYPKMX1/wjFpa4oxZWd+MWVngjFlZ4IxZWeCMWVngjFlZ4I1aWuF5YGDykl9f8P5fX/D/YGDygmBg8n9fX/D/X1/v/15e7f9ZWd//WFjd/1hY3f9YWN3/WFjd/1hY3f9YWN78WVngiWFh9CVgYPDTX1/v/2Bg8N5hYfNKYGDxwF9f8ONeXu3hWVng4VhY3eFYWN7gWFjd7VhY3f9YWN3/WVnezlpa4iBdXekAYGDycF9f7/1fX+//YGDykGFh9B5gYPM9X1/wPlpa4z5ZWeA+WVnhP1lZ369YWN3/WFjd/FlZ4GlXV9sAYWHzAGFh9BhgYPHLX1/v/19f8OZhYfREYGDyqF9f7t9ZWeDcWFje21hY3t1YWN32WFjd/1lZ38VaWuMVWlriAGJi9wBfX+4AYGDyZF9f7/pfX+//YGDxmmFh82leXu36WVnf/1hY3f9YWN3/WFjd/1hY3vhZWeFcWFjeAFtb5AAAAAAAYWH0AGJi9RJgYPHAX1/v/19f8O1hYfNQX1/ub1lZ4IRYWN6AWFjegFhY3oJZWd9wWlrjD1pa4wAAAAAAAAAAAGJi9wBgYPAAYGDyV19f8PdfX+//YGDxqWNj9wdaWuMJWVnhYllZ4HpZWeFuW1vlFVtb5QAAAAAAAAAAAAAAAAAAAAAAYWH0AGJi9gxgYPG0X1/v/19f8PNhYfNIWVngTVhY3vRYWN3/WVnfsFtb5QtbW+MAAAAAAAAAAAAAAAAAAAAAAGFh+QBgYPEAYWHySl9f8PJfX+//X1/wwFlZ4MJYWN3/WFje71pa4UNZWeAAWlrjAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmL1AGNj9whgYPGnX1/v/15e7f5ZWd/+WFjd/1lZ36BcXOYGWlrjAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGJi+ABgYPIAYWHzPl9f8O1eXu3/WVnf/1hY3ulaWuE4WlrhAFtb5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmL1AGRk+gRgYPKaXl7t/1lZ3/9ZWd+TXl7qA1tb4wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGho/wBhYfIAYWH0M15e7edZWeHjWlrhLlpa4QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYmL1AG5u/wJfX+6NW1vkhlBQxwFbW+MAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABeXu0AX1/uHl1d6hxeXusAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAEAAIABAADAAwAAwAMAAOAHAADgBwAA8A8AAPAPAAD4HwAA+B8AAPw/AAD8PwAA/n8AAA==" />
+       <NODE NAME="Path" TYPE="string" VALUE="C:\Users\Administrator\Desktop\MC\build\bin\RelWithDebInfo\worldserver.exe" />
+       <NODE NAME="Signature" TYPE="number" VALUE="0" />
+       <NODE NAME="SignerName" TYPE="string" VALUE="" />
+       <NODE NAME="PackageName" TYPE="string" VALUE="" />
+      </ITEM>
+      <NODE NAME="WindowsServiceName" TYPE="string" VALUE="" />
+      <NODE NAME="MatchChildProcessess" TYPE="number" VALUE="0" />
+      <NODE NAME="TargetOsFamily" TYPE="number" VALUE="1" />
+      <NODE NAME="Direction" TYPE="number" VALUE="0" />
+      <NODE NAME="NetworkProtocol" TYPE="number" VALUE="0" />
+      <NODE NAME="NetworkProtocolNumber" TYPE="number" VALUE="0" />
+      <NODE NAME="LocalPorts" TYPE="string" VALUE="" />
+      <NODE NAME="RemotePorts" TYPE="string" VALUE="" />
+      <NODE NAME="IcmpTypes" TYPE="string" VALUE="" />
+      <NODE NAME="LocalIpAddresses" TYPE="string" VALUE="" />
+      <ITEM NAME="LocalIpSetsUuids" DELETE="1" />
+      <NODE NAME="RemoteIpAddresses" TYPE="string" VALUE="" />
+      <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
+      <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
+     </ITEM>
+     <ITEM NAME="46">
       <NODE NAME="Uuid" TYPE="string" VALUE="783c1bd5-a7d1-4dea-893b-be4600000005" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2251,7 +2347,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="44">
+     <ITEM NAME="47">
       <NODE NAME="Uuid" TYPE="string" VALUE="c0e64520-fa18-4d47-bf3d-e4b200000006" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2283,7 +2379,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="45">
+     <ITEM NAME="48">
       <NODE NAME="Uuid" TYPE="string" VALUE="57e5f28c-c333-4961-b988-17a100000007" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2315,7 +2411,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="46">
+     <ITEM NAME="49">
       <NODE NAME="Uuid" TYPE="string" VALUE="85e5aca4-2ec6-423e-adaa-7d7600000008" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2347,7 +2443,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="47">
+     <ITEM NAME="4A">
       <NODE NAME="Uuid" TYPE="string" VALUE="74efa406-e088-4bfd-89b5-ec9a00000009" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2379,7 +2475,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="48">
+     <ITEM NAME="4B">
       <NODE NAME="Uuid" TYPE="string" VALUE="a6db7b5d-7d26-4c73-beed-254f0000000a" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2411,7 +2507,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="49">
+     <ITEM NAME="4C">
       <NODE NAME="Uuid" TYPE="string" VALUE="7b722459-de3f-4103-ad0b-e82e0000000b" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2443,7 +2539,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="4A">
+     <ITEM NAME="4D">
       <NODE NAME="Uuid" TYPE="string" VALUE="cde325fd-e102-43c5-94e4-dadf0000000c" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2475,7 +2571,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="4B">
+     <ITEM NAME="4E">
       <NODE NAME="Uuid" TYPE="string" VALUE="b2850dea-1dbe-4b2f-9afb-21d30000000d" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2507,7 +2603,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="4C">
+     <ITEM NAME="4F">
       <NODE NAME="Uuid" TYPE="string" VALUE="011ff67c-45ee-42da-9614-3c9600000017" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2539,9 +2635,9 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="4D">
+     <ITEM NAME="50">
       <NODE NAME="Uuid" TYPE="string" VALUE="c434507a-be24-401d-8169-47af0000017a" />
-      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
+      <NODE NAME="Enabled" TYPE="number" VALUE="0" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
       <NODE NAME="Description" TYPE="string" VALUE="" />
       <NODE NAME="Action" TYPE="number" VALUE="2" />
@@ -2571,7 +2667,7 @@
       <ITEM NAME="RemoteIpSetsUuids" DELETE="1" />
       <ITEM NAME="ConnectionProfileUuids" DELETE="1" />
      </ITEM>
-     <ITEM NAME="4E">
+     <ITEM NAME="51">
       <NODE NAME="Uuid" TYPE="string" VALUE="911f72bc-df9f-4e6d-af8d-9eb1000002e5" />
       <NODE NAME="Enabled" TYPE="number" VALUE="1" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Zablokuj połączenie dla Dowolny lub żaden" />
@@ -2860,14 +2956,6 @@
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.AddSuggestedFoldersToLibraryDialog_cw5n1h2txyewy" />
      </ITEM>
      <ITEM NAME="5">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.AAD.BrokerPlugin_1000.19580.1000.0_neutral_neutral_cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Konto służbowe" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Przypisane przez organizację" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Assets\SmallLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="6">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.AccountsControl_10.0.26100.1_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Poczta e-mail i konta" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.AccountsControl_cw5n1h2txyewy" />
@@ -2875,7 +2963,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AccountsControl_cw5n1h2txyewy\assets\SmallLogo.Theme-Light_Scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AccountsControl_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="7">
+     <ITEM NAME="6">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.AsyncTextService_10.0.26100.1_neutral__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="AsyncTextService" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.AsyncTextService_8wekyb3d8bbwe" />
@@ -2883,7 +2971,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AsyncTextService_8wekyb3d8bbwe\Assets\Square44x44Logo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AsyncTextService_8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="8">
+     <ITEM NAME="7">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.BioEnrollment_10.0.19587.1000_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Instalator usługi Windows Hello" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.BioEnrollment_cw5n1h2txyewy" />
@@ -2891,7 +2979,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.BioEnrollment_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="9">
+     <ITEM NAME="8">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.CredDialogHost_10.0.19595.1001_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Dialog poświadczeń" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.CredDialogHost_cw5n1h2txyewy" />
@@ -2899,7 +2987,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\microsoft.creddialoghost_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="A">
+     <ITEM NAME="9">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.DesktopAppInstaller_1.25.340.0_x64__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="App Installer" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.DesktopAppInstaller_8wekyb3d8bbwe" />
@@ -2907,7 +2995,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.25.340.0_x64__8wekyb3d8bbwe\Assets\AppPackageStoreLogo.scale-200.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.DesktopAppInstaller_1.25.340.0_x64__8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="B">
+     <ITEM NAME="A">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.ECApp_10.0.26100.1150_neutral__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Sterowanie wzrokiem" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.ECApp_8wekyb3d8bbwe" />
@@ -2915,7 +3003,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.ECApp_8wekyb3d8bbwe\Assets\Square44x44Logo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.ECApp_8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="C">
+     <ITEM NAME="B">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.LanguageExperiencePackpl-PL_26100.30.41.0_neutral__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet lokalizacyjny — polski" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.LanguageExperiencePackpl-PL_8wekyb3d8bbwe" />
@@ -2923,15 +3011,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.LanguageExperiencePackpl-PL_26100.30.41.0_neutral__8wekyb3d8bbwe\Assets\Square44x44Logo.scale-200.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.LanguageExperiencePackpl-PL_26100.30.41.0_neutral__8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="D">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.LockApp_10.0.26100.1301_neutral__cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Domyślny ekran blokady systemu Windows" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.LockApp_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\Assets\SmallLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="E">
+     <ITEM NAME="C">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.MicrosoftEdge.Stable_122.0.2365.106_neutral__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Microsoft Edge" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.MicrosoftEdge.Stable_8wekyb3d8bbwe" />
@@ -2939,7 +3019,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.MicrosoftEdge.Stable_122.0.2365.106_neutral__8wekyb3d8bbwe\SmallLogo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.MicrosoftEdge.Stable_122.0.2365.106_neutral__8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="F">
+     <ITEM NAME="D">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.MicrosoftEdgeDevToolsClient_1000.25128.1000.0_neutral_neutral_8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="ms-resource:DisplayName" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" />
@@ -2947,15 +3027,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe\Assets\F12-package_50.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.MicrosoftEdgeDevToolsClient_8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="10">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Zabezpieczenia Windows" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.SecHealthUI_8wekyb3d8bbwe" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe\Assets\WindowsSecurityAppList.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.SecHealthUI_1000.26100.1.0_x64__8wekyb3d8bbwe" />
-     </ITEM>
-     <ITEM NAME="11">
+     <ITEM NAME="E">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Win32WebViewHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Przeglądarka sieci Web aplikacji klasycznych" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Win32WebViewHost_cw5n1h2txyewy" />
@@ -2963,7 +3035,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Win32WebViewHost_cw5n1h2txyewy\Assets\solidsquare.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Win32WebViewHost_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="12">
+     <ITEM NAME="F">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.Apprep.ChxApp_1000.25128.1000.0_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Defender SmartScreen" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.Apprep.ChxApp_cw5n1h2txyewy" />
@@ -2971,7 +3043,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy\Assets\SmallLogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.AppRep.ChxApp_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="13">
+     <ITEM NAME="10">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.CapturePicker_10.0.19580.1000_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="CapturePicker" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.CapturePicker_cw5n1h2txyewy" />
@@ -2979,7 +3051,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.CapturePicker_cw5n1h2txyewy\Assets\Storelogo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.CapturePicker_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="14">
+     <ITEM NAME="11">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.CloudExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Twoje konto" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy" />
@@ -2987,7 +3059,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy\images\SmallLogo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.CloudExperienceHost_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="15">
+     <ITEM NAME="12">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.ContentDeliveryManager_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="ms-resource:AppDisplayName" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy" />
@@ -2995,7 +3067,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy\Images\SmallLogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.ContentDeliveryManager_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="16">
+     <ITEM NAME="13">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.NarratorQuickStart_10.0.26100.1_neutral_neutral_8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Narrator" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.NarratorQuickStart_8wekyb3d8bbwe" />
@@ -3003,7 +3075,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe\assets\NarratorAppList.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\microsoft.windows.narratorquickstart_8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="17">
+     <ITEM NAME="14">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.OOBENetworkCaptivePortal_10.0.21302.1000_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Przepływ portalu uwierzytelniania" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy" />
@@ -3011,7 +3083,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkCaptivePortal_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="18">
+     <ITEM NAME="15">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.OOBENetworkConnectionFlow_10.0.21302.1000_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Przepływ połączenia sieciowego" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy" />
@@ -3019,7 +3091,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.OOBENetworkConnectionFlow_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="19">
+     <ITEM NAME="16">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.PeopleExperienceHost_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Środowisko powłoki systemu Windows" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy" />
@@ -3027,7 +3099,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy\Assets\PeopleLogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.PeopleExperienceHost_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="1A">
+     <ITEM NAME="17">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.PinningConfirmationDialog_1000.25140.1001.0_neutral__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="PinningConfirmationDialog" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy" />
@@ -3035,23 +3107,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy\Assets\Storelogo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.PinningConfirmationDialog_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="1B">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.ShellExperienceHost_10.0.26100.1301_neutral_neutral_cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Środowisko powłoki systemu Windows" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy\Assets\smalllogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="1C">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.StartMenuExperienceHost_10.0.26100.1301_neutral_neutral_cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Start" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="1D">
+     <ITEM NAME="18">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.XGpuEjectDialog_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Usuń bezpiecznie urządzenie" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy" />
@@ -3059,7 +3115,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy\assets\SquareTile44x44.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.XGpuEjectDialog_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="1E">
+     <ITEM NAME="19">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Feedback Hub" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.WindowsFeedbackHub_8wekyb3d8bbwe" />
@@ -3067,7 +3123,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe\Assets\FeedbackHubAppList.scale-200.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.WindowsFeedbackHub_1.2401.20253.0_x64__8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="1F">
+     <ITEM NAME="1A">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.WindowsTerminal_1.22.10731.0_x64__8wekyb3d8bbwe" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Terminal Windows" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.WindowsTerminal_8wekyb3d8bbwe" />
@@ -3075,23 +3131,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.22.10731.0_x64__8wekyb3d8bbwe\Images\Square44x44Logo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.WindowsTerminal_1.22.10731.0_x64__8wekyb3d8bbwe" />
      </ITEM>
-     <ITEM NAME="20">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.CBS_1000.26100.18.0_x64__cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.CBS_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="21">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.Core_1000.26100.19.0_x64__cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.Core_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="22">
+     <ITEM NAME="1B">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.FileExp_1000.26100.3.0_x64__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.FileExp_cw5n1h2txyewy" />
@@ -3099,7 +3139,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.FileExp_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="23">
+     <ITEM NAME="1C">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.OOBE_1000.26100.2.0_x64__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.OOBE_cw5n1h2txyewy" />
@@ -3107,31 +3147,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.OOBE_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="24">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.Photon_1000.26100.4.0_x64__cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.Photon_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="25">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.AccountsService_1000.26100.1742.0_x64__cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="26">
-      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.IrisService_1000.26100.1742.0_x64__cw5n1h2txyewy" />
-      <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
-      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy" />
-      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
-      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
-      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy" />
-     </ITEM>
-     <ITEM NAME="27">
+     <ITEM NAME="1D">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.Search_1000.26100.1742.0_x64__cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Feature Experience Pack" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.Search_cw5n1h2txyewy" />
@@ -3139,7 +3155,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.Search_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.Search_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="28">
+     <ITEM NAME="1E">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.UndockedDevKit_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="UDK Package" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy" />
@@ -3147,7 +3163,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.UndockedDevKit_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="29">
+     <ITEM NAME="1F">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="NVIDIACorp.NVIDIAControlPanel_8.1.967.0_x64__56jybvy8sckqj" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="NVIDIA Control Panel" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="NVIDIACorp.NVIDIAControlPanel_56jybvy8sckqj" />
@@ -3155,7 +3171,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.967.0_x64__56jybvy8sckqj\Assets\Square44x44Logo.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\NVIDIACorp.NVIDIAControlPanel_8.1.967.0_x64__56jybvy8sckqj" />
      </ITEM>
-     <ITEM NAME="2A">
+     <ITEM NAME="20">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Windows.CBSPreview_10.0.19580.1000_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Kod kreskowy Windows — wersja zapoznawcza" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Windows.CBSPreview_cw5n1h2txyewy" />
@@ -3163,7 +3179,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy\Assets\Square44x44Logo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Windows.CBSPreview_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="2B">
+     <ITEM NAME="21">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="Windows.PrintDialog_6.2.3.0_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Drukowanie Windows" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="Windows.PrintDialog_cw5n1h2txyewy" />
@@ -3171,7 +3187,7 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Windows.PrintDialog_cw5n1h2txyewy\Assets\Square44x44Logo.targetsize-256.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Windows.PrintDialog_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="2C">
+     <ITEM NAME="22">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="c5e2524a-ea46-4f67-841f-6a9465d9d515_10.0.26100.1_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Eksplorator plików" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="c5e2524a-ea46-4f67-841f-6a9465d9d515_cw5n1h2txyewy" />
@@ -3179,13 +3195,149 @@
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.FileExplorer_cw5n1h2txyewy\assets\SquareTile44x44.scale-100.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.FileExplorer_cw5n1h2txyewy" />
      </ITEM>
-     <ITEM NAME="2D">
+     <ITEM NAME="23">
       <NODE NAME="PackageFullName" TYPE="string" VALUE="windows.immersivecontrolpanel_10.0.8.1000_neutral_neutral_cw5n1h2txyewy" />
       <NODE NAME="DisplayName" TYPE="string" VALUE="Ustawienia" />
       <NODE NAME="FamilyName" TYPE="string" VALUE="windows.immersivecontrolpanel_cw5n1h2txyewy" />
       <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
       <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Windows\ImmersiveControlPanel\Images\logo.png" />
       <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\ImmersiveControlPanel" />
+     </ITEM>
+     <ITEM NAME="24">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.AAD.BrokerPlugin_1000.19580.1000.2_neutral_neutral_cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Work or school account" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Assigned by your organization" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="25">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.LockApp_10.0.26100.3323_neutral__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Windows Default Lock Screen" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.LockApp_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\Microsoft.LockApp_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.LockApp_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="26">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.SecHealthUI_1000.27703.1006.0_x64__8wekyb3d8bbwe" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Zabezpieczenia Windows" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.SecHealthUI_8wekyb3d8bbwe" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.SecHealthUI_1000.27703.1006.0_x64__8wekyb3d8bbwe\Assets\WindowsSecuritySplashScreen.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\Microsoft.SecHealthUI_1000.27703.1006.0_x64__8wekyb3d8bbwe" />
+     </ITEM>
+     <ITEM NAME="27">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.ShellExperienceHost_10.0.26100.3624_neutral_neutral_cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Środowisko powłoki systemu Windows" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\ShellExperienceHost_cw5n1h2txyewy\Assets\storelogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\ShellExperienceHost_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="28">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="Microsoft.Windows.StartMenuExperienceHost_10.0.26100.3323_neutral_neutral_cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Start" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Corporation" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\assets\storelogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="29">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.55182690.Taskbar_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.55182690.Taskbar_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\SxS\MicrosoftWindows.55182690.Taskbar_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\SxS\MicrosoftWindows.55182690.Taskbar_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="2A">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.CBS_1000.26100.66.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.CBS_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.CBS_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="2B">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.Core_1000.26100.38.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.Core_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.Core_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="2C">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.Client.Photon_1000.26100.8.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.Client.Photon_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\MicrosoftWindows.Client.Photon_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="2D">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.AccountsService_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.AccountsService_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="2E">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.DesktopSpotlight_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.DesktopSpotlight_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="2F">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.IrisService_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.IrisService_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="30">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.RulesEngine_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.RulesEngine_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="31">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.SpeechRuntime_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.SpeechRuntime_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="32">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="MicrosoftWindows.LKG.TwinSxS_1000.26100.3775.0_x64__cw5n1h2txyewy" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Pakiet Windows Feature Experience" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Microsoft Windows" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\WINDOWS\SystemApps\LKG\MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy\Assets\StoreLogo.scale-100.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Windows\SystemApps\LKG\MicrosoftWindows.LKG.TwinSxS_cw5n1h2txyewy" />
+     </ITEM>
+     <ITEM NAME="33">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="WinRAR.ShellExtension_1.0.0.2_x64__d9ma7nkbkv4rp" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="WinRAR" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="WinRAR.ShellExtension_d9ma7nkbkv4rp" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="win.rar GmbH" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\WinRAR.ShellExtension_1.0.0.2_x64__d9ma7nkbkv4rp\StoreLogo.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\WinRAR.ShellExtension_1.0.0.2_x64__d9ma7nkbkv4rp" />
+     </ITEM>
+     <ITEM NAME="34">
+      <NODE NAME="PackageFullName" TYPE="string" VALUE="NotepadPlusPlus_1.0.0.0_neutral__7njy0v32s6xk6" />
+      <NODE NAME="DisplayName" TYPE="string" VALUE="Notepad++" />
+      <NODE NAME="FamilyName" TYPE="string" VALUE="NotepadPlusPlus_7njy0v32s6xk6" />
+      <NODE NAME="PublisherDisplayName" TYPE="string" VALUE="Notepad++" />
+      <NODE NAME="PathToLogo" TYPE="string" VALUE="C:\Program Files\WindowsApps\NotepadPlusPlus_1.0.0.0_neutral__7njy0v32s6xk6\Square44x44Logo.png" />
+      <NODE NAME="InstalledLocation" TYPE="string" VALUE="C:\Program Files\WindowsApps\NotepadPlusPlus_1.0.0.0_neutral__7njy0v32s6xk6" />
      </ITEM>
     </ITEM>
    </ITEM>
@@ -4287,8 +4439,8 @@
     <ITEM NAME="Rules" DELETE="1">
      <ITEM NAME="1">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="25" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F68140" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="87E" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F82AAE" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="2">
@@ -4329,8 +4481,8 @@
      </ITEM>
      <ITEM NAME="8">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000008" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="E" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F803DD" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="9">
@@ -4359,8 +4511,8 @@
      </ITEM>
      <ITEM NAME="D">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000000f" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="3" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F68641" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="E">
@@ -4425,8 +4577,8 @@
      </ITEM>
      <ITEM NAME="18">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff8000001b" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="E9" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F803E2" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="19">
@@ -4455,8 +4607,8 @@
      </ITEM>
      <ITEM NAME="1D">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000020" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="292" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F82719" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
      </ITEM>
      <ITEM NAME="1E">
@@ -4665,9 +4817,63 @@
      </ITEM>
      <ITEM NAME="40">
       <NODE NAME="Uuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000043" />
-      <NODE NAME="HitCount" TYPE="number" VALUE="0" />
-      <NODE NAME="LastUseTime" TYPE="number" VALUE="0" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="4" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F827B4" />
       <NODE NAME="Origin" TYPE="number" VALUE="2" />
+     </ITEM>
+     <ITEM NAME="41">
+      <NODE NAME="Uuid" TYPE="string" VALUE="67b01327-21f4-4928-b432-63b800000004" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="2CDC" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F82B0B" />
+      <NODE NAME="Origin" TYPE="number" VALUE="0" />
+     </ITEM>
+     <ITEM NAME="42">
+      <NODE NAME="Uuid" TYPE="string" VALUE="9072d63e-58c6-4e7f-bff1-d60a00000003" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="AF" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F78F8A" />
+      <NODE NAME="Origin" TYPE="number" VALUE="0" />
+     </ITEM>
+     <ITEM NAME="43">
+      <NODE NAME="Uuid" TYPE="string" VALUE="85e5aca4-2ec6-423e-adaa-7d7600000008" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="38" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F82A02" />
+      <NODE NAME="Origin" TYPE="number" VALUE="0" />
+     </ITEM>
+     <ITEM NAME="44">
+      <NODE NAME="Uuid" TYPE="string" VALUE="783c1bd5-a7d1-4dea-893b-be4600000005" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="30" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F7C032" />
+      <NODE NAME="Origin" TYPE="number" VALUE="0" />
+     </ITEM>
+     <ITEM NAME="45">
+      <NODE NAME="Uuid" TYPE="string" VALUE="2d6d3f34-c23b-4031-bd24-8d3f0000001a" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="2B8" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F82D33" />
+      <NODE NAME="Origin" TYPE="number" VALUE="5" />
+     </ITEM>
+     <ITEM NAME="46">
+      <NODE NAME="Uuid" TYPE="string" VALUE="e23898e0-8657-46fb-928d-7dd70000001e" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="4" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F7B95F" />
+      <NODE NAME="Origin" TYPE="number" VALUE="5" />
+     </ITEM>
+     <ITEM NAME="47">
+      <NODE NAME="Uuid" TYPE="string" VALUE="6effd58c-6b70-4676-817f-348500000020" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="11" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F828E2" />
+      <NODE NAME="Origin" TYPE="number" VALUE="5" />
+     </ITEM>
+     <ITEM NAME="48">
+      <NODE NAME="Uuid" TYPE="string" VALUE="0d408afc-331e-4ed6-be71-10e400000022" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="12" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F828E2" />
+      <NODE NAME="Origin" TYPE="number" VALUE="5" />
+     </ITEM>
+     <ITEM NAME="49">
+      <NODE NAME="Uuid" TYPE="string" VALUE="639cc687-2c00-4e16-bc96-262900000021" />
+      <NODE NAME="HitCount" TYPE="number" VALUE="1" />
+      <NODE NAME="LastUseTime" TYPE="number" VALUE="67F7C036" />
+      <NODE NAME="Origin" TYPE="number" VALUE="0" />
      </ITEM>
     </ITEM>
    </ITEM>
@@ -6999,7 +7205,7 @@
    </ITEM>
    <ITEM NAME="Modules">
     <ITEM NAME="Perseus">
-     <NODE NAME="QuarantineLastFixId" TYPE="number" VALUE="0" />
+     <NODE NAME="QuarantineLastFixId" TYPE="number" VALUE="ED39FC2E" />
     </ITEM>
    </ITEM>
    <ITEM NAME="NetworkAccessProtection">
@@ -7011,7 +7217,7 @@
       <NODE NAME="ProfileUuid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff02000000" />
       <NODE NAME="NetworkInterfaceType" TYPE="number" VALUE="1" />
       <NODE NAME="NetworkInterfaceName" TYPE="string" VALUE="Ethernet" />
-      <NODE NAME="NetworkInterfaceDescription" TYPE="string" VALUE="Realtek(R) PCI(e) Ethernet Controller" />
+      <NODE NAME="NetworkInterfaceDescription" TYPE="string" VALUE="Realtek PCIe GbE Family Controller" />
       <NODE NAME="NetworkInterfaceIpAddresses" TYPE="string" VALUE="192.168.1.65/24" />
       <NODE NAME="NetworkInterfaceMacAddress" TYPE="string" VALUE="74:56:3C:C1:ED:59" />
       <NODE NAME="DnsSuffix" TYPE="string" VALUE="" />
@@ -7030,8 +7236,8 @@
       </ITEM>
       <NODE NAME="WindowsProfile" TYPE="number" VALUE="3" />
       <NODE NAME="FirstConnectionTime" TYPE="number" VALUE="67F67F59" />
-      <NODE NAME="LastConnectionTime" TYPE="number" VALUE="67F67F59" />
-      <NODE NAME="TimeSpentSeconds" TYPE="number" VALUE="0" />
+      <NODE NAME="LastConnectionTime" TYPE="number" VALUE="67F79110" />
+      <NODE NAME="TimeSpentSeconds" TYPE="number" VALUE="111A6" />
       <NODE NAME="Connected" TYPE="number" VALUE="1" />
       <NODE NAME="PhysicalAdapter" TYPE="number" VALUE="1" />
       <NODE NAME="AuthenticationRequired" TYPE="number" VALUE="0" />
@@ -8319,7 +8525,10 @@
    <ITEM NAME="01000003">
     <ITEM NAME="settings">
      <NODE NAME="enabled" TYPE="number" VALUE="1" />
-     <ITEM NAME="BrowsersList" DELETE="1" />
+     <ITEM NAME="BrowsersList" DELETE="1">
+      <NODE NAME="1" TYPE="string" VALUE="c:\program files (x86)\microsoft\edge\application\msedge.exe" />
+      <NODE NAME="2" TYPE="string" VALUE="c:\program files\google\chrome\application\chrome.exe" />
+     </ITEM>
      <NODE NAME="enhancedMemoryProtection" TYPE="number" VALUE="1" />
      <NODE NAME="keyboardProtection" TYPE="number" VALUE="1" />
      <NODE NAME="extensionInstallationMode" TYPE="number" VALUE="2" />
@@ -8352,7 +8561,7 @@
    </ITEM>
    <ITEM NAME="01000007">
     <ITEM NAME="settings">
-     <NODE NAME="InstalledFeaturesSent" TYPE="number" VALUE="0" />
+     <NODE NAME="InstalledFeaturesSent" TYPE="number" VALUE="1" />
      <NODE NAME="SecurityReportDays" TYPE="number" VALUE="1E" />
      <NODE NAME="AdvancedLoggingEnabled" TYPE="number" VALUE="0" />
      <NODE NAME="CeipAlertWindowTimestamp" TYPE="number" VALUE="0" />
@@ -10568,7 +10777,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="67F68143" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="67F82796" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10587,7 +10796,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="67F68143" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="67F82796" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10606,7 +10815,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="67F68143" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="67F82796" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10625,7 +10834,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;1&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="67F68143" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="67F82796" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10644,7 +10853,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="1" />
      <NODE NAME="Params" TYPE="string" VALUE="&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?>&lt;PARAMS>&lt;SCHEDULED_TASK PLUGIN=&quot;1000600&quot; ACTION=&quot;2&quot; DESCRIPTION=&quot;&quot;>&lt;DATA>&lt;NODE NAME=&quot;thread_priority&quot; VALUE=&quot;FFFFFFFE&quot; TYPE=&quot;DWORD&quot; />&lt;NODE NAME=&quot;scan_level&quot; VALUE=&quot;FFF&quot; TYPE=&quot;DWORD&quot; />&lt;/DATA>&lt;/SCHEDULED_TASK>&lt;/PARAMS>" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="67F68143" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="67F82796" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10663,7 +10872,7 @@
      <NODE NAME="Enabled" TYPE="number" VALUE="1" />
      <NODE NAME="DontExecuteOnBattery" TYPE="number" VALUE="0" />
      <NODE NAME="Params" TYPE="string" VALUE="" />
-     <NODE NAME="EditedTime" TYPE="number" VALUE="67F68143" />
+     <NODE NAME="EditedTime" TYPE="number" VALUE="67F82796" />
      <NODE NAME="UseExecCredentials" TYPE="number" VALUE="0" />
      <NODE NAME="ExecUsername" TYPE="string" VALUE="" />
      <NODE NAME="ExecPassword" TYPE="password" VALUE="" />
@@ -10672,23 +10881,23 @@
    <ITEM NAME="exec" DELETE="1">
     <ITEM NAME="1">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000001" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="67F67FD1" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="67F7799A" />
     </ITEM>
     <ITEM NAME="2">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000100" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="67F67FD1" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="67F82268" />
     </ITEM>
     <ITEM NAME="3">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000102" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="0" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="67F8282E" />
     </ITEM>
     <ITEM NAME="4">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000003" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="67F680DC" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="67F8282E" />
     </ITEM>
     <ITEM NAME="5">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000004" />
-     <NODE NAME="LastExec" TYPE="number" VALUE="67F68019" />
+     <NODE NAME="LastExec" TYPE="number" VALUE="67F828F0" />
     </ITEM>
     <ITEM NAME="6">
      <NODE NAME="Guid" TYPE="string" VALUE="ffffffff-ffff-ffff-ffff-ffff80000200" />
