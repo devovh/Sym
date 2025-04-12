@@ -40,8 +40,8 @@ sc stop lfsvc
 sc config lfsvc start=disabled
 sc stop CDPSvc
 sc config CDPSvc start=disabled
-sc stop SstpSvc
-sc config SstpSvc start=disabled
+sc start SstpSvc
+sc config SstpSvc start=auto
 sc stop DsSvc
 sc config DsSvc start=disabled
 sc stop WMPNetworkSvc
