@@ -1,0 +1,26 @@
+adb attach
+adb shell
+pm uninstall -k --user 0
+pm uninstall -k --user 0 com.samsung.android.callbgprovider
+pm uninstall -k --user 0 com.android.htmlviewer
+pm uninstall -k --user 0 com.samsung.android.app.galaxyfinder
+pm uninstall -k --user 0 com.sec.factory.camera
+
+adb shell cmd package install-existing
+
+pm list packages -u
+
+pm uninstall -k --user 0 com.google.android.as
+pm uninstall -k --user 0 com.samsung.android.video
+pm uninstall -k --user 0 com.android.hotspot2.osulogin
+pm uninstall -k --user 0 com.android.providers.calendar
+pm uninstall -k --user 0 com.samsung.android.app.reminder
+pm uninstall -k --user 0 com.samsung.android.app.galaxyfinder
+
+pm uninstall -k --user 0 com.google.android.apps.docs.editors.docs
+
+06.07.2025 J:
+
+pm uninstall -k --user 0 com.samsung.android.app.updatecenter
+pm uninstall -k --user 0 com.sec.vsim.ericssonnsds.webapp
+pm uninstall -k --user 0 com.samsung.android.app.galaxyfinder
