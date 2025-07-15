@@ -3,7 +3,7 @@
 $settings = @{
     "Energy-Efficient Ethernet"                                   = "Disabled"
     "Flow Control"                                                = "Disabled"
-    "Interrupt Moderation"                                        = "Enabled"
+    "Interrupt Moderation"                                        = "Disabled"
     "IPv4 Checksum Offload"                                       = "Disabled"
     "Jumbo Frame"                                                 = "Disabled"
     "Large Send Offload v2 (IPv4)"                                = "Enabled"
