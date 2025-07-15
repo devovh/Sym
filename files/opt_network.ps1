@@ -1,41 +1,48 @@
-﻿# Optymalizacja wydajności karty sieciowej Realtek PCIe GbE (Ethernet)
+﻿$adapterName = "Ethernet"
 
-$adapter = "Ethernet"
+$settings = @{
+    "Energy-Efficient Ethernet"                                   = "Disabled"
+    "Flow Control"                                                = "Disabled"
+    "Interrupt Moderation"                                        = "Disabled"
+    "IPv4 Checksum Offload"                                       = "Disabled"
+    "Jumbo Frame"                                                 = "Disabled"
+    "Large Send Offload v2 (IPv4)"                                = "Disabled"
+    "Large Send Offload v2 (IPv6)"                                = "Disabled"
+    "Wake on magic packet when system is in the S0ix power state" = "Disabled"
+    "Maximum Number of RSS Queues"                                = "4 Queues"
+    "ARP Offload"                                                 = "Disabled"
+    "NS Offload"                                                  = "Disabled"
+    "Priority & VLAN"                                             = "Priority & VLAN Disabled"
+    "Receive Buffers"                                             = "512"
+    "Receive Side Scaling"                                        = "Enabled"
+    "Speed & Duplex"                                              = "1.0 Gbps Full Duplex"
+    "TCP Checksum Offload (IPv4)"                                 = "Disabled"
+    "TCP Checksum Offload (IPv6)"                                 = "Disabled"
+    "Transmit Buffers"                                            = "128"
+    "UDP Checksum Offload (IPv4)"                                 = "Disabled"
+    "UDP Checksum Offload (IPv6)"                                 = "Disabled"
+    "Wake on Magic Packet"                                        = "Disabled"
+    "Wake on pattern match"                                       = "Disabled"
+    "Advanced EEE"                                                = "Disabled"
+    "Auto Disable Gigabit"                                        = "Disabled"
+    "Green Ethernet"                                              = "Disabled"
+    "Gigabit Lite"                                                = "Disabled"
+    "Power Saving Mode"                                           = "Disabled"
+    "Shutdown Wake-On-Lan"                                        = "Disabled"
+    "WOL & Shutdown Link Speed"                                   = "Not Speed Down"
+    "VLAN ID"                                                     = "0"
+}
 
-# Wyłącz oszczędzanie energii i zbędne funkcje
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Energy-Efficient Ethernet" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Flow Control" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Interrupt Moderation" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Large Send Offload v2 (IPv4)" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Large Send Offload v2 (IPv6)" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Advanced EEE" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Green Ethernet" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Gigabit Lite" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Power Saving Mode" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Wake on Magic Packet" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Wake on pattern match" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Shutdown Wake-On-Lan" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "WOL & Shutdown Link Speed" -DisplayValue "Not Speed Down"
+Write-Host "Rozpoczynam optymalizację ustawień Ethernet dla interfejsu: $adapterName`n"
 
-# Ustaw pełną prędkość
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Speed & Duplex" -DisplayValue "1.0 Gbps Full Duplex"
+foreach ($name in $settings.Keys) {
+    try {
+        Write-Host "Ustawianie: $name na '$($settings[$name])'" -ForegroundColor Cyan
+        Set-NetAdapterAdvancedProperty -Name $adapterName -DisplayName $name -DisplayValue $settings[$name] -NoRestart -ErrorAction Stop
+    } catch {
+        Write-Warning "Nie udało się ustawić '$name': $($_.Exception.Message)"
+    }
+}
 
-# Ustaw bufor na maksimum
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Receive Buffers" -DisplayValue "512"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Transmit Buffers" -DisplayValue "128"
-
-# Wyłącz offload (opcjonalnie – testuj, czy daje korzyści)
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "TCP Checksum Offload (IPv4)" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "TCP Checksum Offload (IPv6)" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "UDP Checksum Offload (IPv4)" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "UDP Checksum Offload (IPv6)" -DisplayValue "Disabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "IPv4 Checksum Offload" -DisplayValue "Disabled"
-
-# Zostaw włączone: Receive Side Scaling, RSS Queues, VLAN Priority
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Receive Side Scaling" -DisplayValue "Enabled"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Maximum Number of RSS Queues" -DisplayValue "4 Queues"
-Set-NetAdapterAdvancedProperty -Name $adapter -DisplayName "Priority & VLAN" -DisplayValue "Priority Enabled"
-
-# Potwierdzenie
-Write-Host "Zakończono optymalizację interfejsu: $adapter" -ForegroundColor Green
+Write-Host "Optymalizacja zakończona. Zalecany restart systemu." -ForegroundColor Green
 Pause
