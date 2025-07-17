@@ -1,18 +1,18 @@
-﻿# Załaduj stan z pliku JSON
+﻿# Load state from a JSON file
 $defaultServices = Get-Content "services_default.json" | ConvertFrom-Json
 
-# Wczytaj bieżący stan
+# Load current state
 $currentServices = Get-Service | Select-Object Name, Status, StartType
 
-# Porównanie
+# Comparison
 foreach ($svc in $defaultServices) {
     $current = $currentServices | Where-Object { $_.Name -eq $svc.Name }
     if ($current) {
         if ($current.StartType -ne $svc.StartType) {
-            Write-Output "Różnica w $($svc.Name): StartType → JSON=$($svc.StartType), Current=$($current.StartType)"
+            Write-Output "Difference in $($svc.Name): StartType → JSON=$($svc.StartType), Current=$($current.StartType)"
         }
     } else {
-        Write-Output "Usługa $($svc.Name) nie została znaleziona w systemie"
+        Write-Output "Service $($svc.Name) was not found in the system"
     }
 }
 Pause
