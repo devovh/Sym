@@ -84,8 +84,8 @@
         "Description":  "Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information."
     },
     {
-        "Name":  "BluetoothUserService_13ebd9",
-        "DisplayName":  "BluetoothUserService_13ebd9",
+        "Name":  "BluetoothUserService",
+        "DisplayName":  "BluetoothUserService",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  null
@@ -126,15 +126,15 @@
         "Description":  "Provides facilities for managing UWP apps access to app capabilities as well as checking an app\u0027s access to specific app capabilities"
     },
     {
-        "Name":  "CaptureService_13ebd9",
-        "DisplayName":  "CaptureService_13ebd9",
+        "Name":  "CaptureService",
+        "DisplayName":  "CaptureService",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Enables optional screen capture functionality for applications that call the Windows.Graphics.Capture API."
     },
     {
-        "Name":  "cbdhsvc_13ebd9",
-        "DisplayName":  "Clipboard User Service_13ebd9",
+        "Name":  "cbdhsvc",
+        "DisplayName":  "Clipboard User Service",
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "This user service is used for Clipboard scenarios"
@@ -147,8 +147,8 @@
         "Description":  "This service is used for Connected Devices Platform scenarios"
     },
     {
-        "Name":  "CDPUserSvc_13ebd9",
-        "DisplayName":  "Connected Devices Platform User Service_13ebd9",
+        "Name":  "CDPUserSvc",
+        "DisplayName":  "Connected Devices Platform User Service",
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "This user service is used for Connected Devices Platform scenarios"
@@ -168,8 +168,8 @@
         "Description":  "Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled applications bought using the Microsoft Store will not behave correctly."
     },
     {
-        "Name":  "CloudBackupRestoreSvc_13ebd9",
-        "DisplayName":  "CloudBackupRestoreSvc_13ebd9",
+        "Name":  "CloudBackupRestoreSvc",
+        "DisplayName":  "CloudBackupRestoreSvc",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  null
@@ -182,8 +182,8 @@
         "Description":  "Manages the configuration and tracking of Component Object Model (COM)+-based components. If the service is stopped, most COM+-based components will not function properly. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
-        "Name":  "ConsentUxUserSvc_13ebd9",
-        "DisplayName":  "ConsentUX User Service_13ebd9",
+        "Name":  "ConsentUxUserSvc",
+        "DisplayName":  "ConsentUX User Service",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Allows the system to request user consent to allow apps to access sensitive resources and information such as the device\u0027s location"
@@ -196,8 +196,8 @@
         "Description":  "Manages communication between system components."
     },
     {
-        "Name":  "CredentialEnrollmentManagerUserSvc_13ebd9",
-        "DisplayName":  "CredentialEnrollmentManagerUserSvc_13ebd9",
+        "Name":  "CredentialEnrollmentManagerUserSvc",
+        "DisplayName":  "CredentialEnrollmentManagerUserSvc",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Credential Enrollment Manager"
@@ -238,8 +238,8 @@
         "Description":  "Helps the computer run more efficiently by optimizing files on storage drives."
     },
     {
-        "Name":  "DeviceAssociationBrokerSvc_13ebd9",
-        "DisplayName":  "DeviceAssociationBroker_13ebd9",
+        "Name":  "DeviceAssociationBrokerSvc",
+        "DisplayName":  "DeviceAssociationBroker",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Enables apps to pair devices"
@@ -259,15 +259,15 @@
         "Description":  "Enables a computer to recognize and adapt to hardware changes with little or no user input. Stopping or disabling this service will result in system instability."
     },
     {
-        "Name":  "DevicePickerUserSvc_13ebd9",
-        "DisplayName":  "DevicePicker_13ebd9",
+        "Name":  "DevicePickerUserSvc",
+        "DisplayName":  "DevicePicker",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "This user service is used for managing the Miracast, DLNA, and DIAL UI"
     },
     {
-        "Name":  "DevicesFlowUserSvc_13ebd9",
-        "DisplayName":  "DevicesFlow_13ebd9",
+        "Name":  "DevicesFlowUserSvc",
+        "DisplayName":  "DevicesFlow",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Allows ConnectUX and PC Settings to Connect and Pair with WiFi displays and Bluetooth devices."
@@ -728,8 +728,8 @@
         "Description":  "Collects and stores configuration information for the network and notifies programs when this information is modified. If this service is stopped, configuration information might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
-        "Name":  "NPSMSvc_13ebd9",
-        "DisplayName":  "Now Playing Session Manager Service_13ebd9",
+        "Name":  "NPSMSvc",
+        "DisplayName":  "Now Playing Session Manager Service",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "This service hosts the Now Playing Session Manager used for Media Scenarios"
@@ -742,15 +742,15 @@
         "Description":  "This service delivers network notifications (e.g. interface addition/deleting etc) to user mode clients. Stopping this service will cause loss of network connectivity. If this service is disabled, any other services that explicitly depend on this service will fail to start."
     },
     {
-        "Name":  "OneSyncSvc_13ebd9",
-        "DisplayName":  "Sync Host_13ebd9",
+        "Name":  "OneSyncSvc",
+        "DisplayName":  "Sync Host",
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "This service synchronizes mail, contacts, calendar and various other user data. Mail and other applications dependent on this functionality will not work properly when this service is not running."
     },
     {
-        "Name":  "P9RdrService_13ebd9",
-        "DisplayName":  "P9RdrService_13ebd9",
+        "Name":  "P9RdrService",
+        "DisplayName":  "P9RdrService",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Enables trigger-starting plan9 file servers."
@@ -770,8 +770,8 @@
         "Description":  "Enables remote users and 64-bit processes to query performance counters provided by 32-bit DLLs. If this service is stopped, only local users and 32-bit processes will be able to query performance counters provided by 32-bit DLLs."
     },
     {
-        "Name":  "PimIndexMaintenanceSvc_13ebd9",
-        "DisplayName":  "Contact Data_13ebd9",
+        "Name":  "PimIndexMaintenanceSvc",
+        "DisplayName":  "Contact Data",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Indexes contact data for fast contact searching. If you stop or disable this service, contacts might be missing from your search results."
@@ -826,8 +826,8 @@
         "Description":  "Provides support for secure privileged operations needed by low priv spooler."
     },
     {
-        "Name":  "PrintWorkflowUserSvc_13ebd9",
-        "DisplayName":  "PrintWorkflow_13ebd9",
+        "Name":  "PrintWorkflowUserSvc",
+        "DisplayName":  "PrintWorkflow",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Provides support for Print Workflow applications. If you turn off this service, you may not be able to print successfully."
@@ -1109,7 +1109,7 @@
         "Name":  "SstpSvc",
         "DisplayName":  "Secure Socket Tunneling Protocol Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Auto",
         "Description":  "Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers."
     },
     {
@@ -1239,8 +1239,8 @@
         "Description":  "This service logs unique client access requests, in the form of IP addresses and user names, of installed products and roles on the local server. This information can be queried, via Powershell, by administrators needing to quantify client demand of server software for offline Client Access License (CAL) management. If the service is disabled, client requests will not be logged and will not be retrievable via Powershell queries. Stopping the service will not affect query of historical data (see supporting documentation for steps to delete historical data). The local system administrator must consult his, or her, Windows Server license terms to determine the number of CALs that are required for the server software to be appropriately licensed; use of the UAL service and data does not alter this obligation."
     },
     {
-        "Name":  "UdkUserSvc_13ebd9",
-        "DisplayName":  "Udk User Service_13ebd9",
+        "Name":  "UdkUserSvc",
+        "DisplayName":  "Udk User Service",
         "Status":  4,
         "StartType":  "Manual",
         "Description":  "Shell components service"
@@ -1260,8 +1260,8 @@
         "Description":  "Allows the redirection of Printers/Drives/Ports for RDP connections"
     },
     {
-        "Name":  "UnistoreSvc_13ebd9",
-        "DisplayName":  "User Data Storage_13ebd9",
+        "Name":  "UnistoreSvc",
+        "DisplayName":  "User Data Storage",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Handles storage of structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly."
@@ -1274,8 +1274,8 @@
         "Description":  "Allows UPnP devices to be hosted on this computer. If this service is stopped, any hosted UPnP devices will stop functioning and no additional hosted devices can be added. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
-        "Name":  "UserDataSvc_13ebd9",
-        "DisplayName":  "User Data Access_13ebd9",
+        "Name":  "UserDataSvc",
+        "DisplayName":  "User Data Access",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Provides apps access to structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly."
@@ -1582,8 +1582,8 @@
         "Description":  "This service runs in session 0 and hosts the notification platform and connection provider which handles the connection between the device and WNS server."
     },
     {
-        "Name":  "WpnUserService_13ebd9",
-        "DisplayName":  "Windows Push Notifications User Service_13ebd9",
+        "Name":  "WpnUserService",
+        "DisplayName":  "Windows Push Notifications User Service",
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "This service hosts Windows notification platform which provides support for local and push notifications. Supported notifications are tile, toast and raw."

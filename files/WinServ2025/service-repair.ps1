@@ -1,8 +1,8 @@
 ﻿# Path to the original JSON file from a clean system
-$inputJsonPath = "C:\services_default.json"
+$inputJsonPath = Join-Path -Path $PSScriptRoot -ChildPath 'services_default.json'
 
 # Path to the sanitized file (optional)
-$filteredJsonPath = "C:\services_filtered.json"
+$filteredJsonPath = Join-Path -Path $PSScriptRoot -ChildPath 'services_filtered.json'
 
 Write-Host "Loading service configuration from: $inputJsonPath"
 

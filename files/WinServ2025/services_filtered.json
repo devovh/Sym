@@ -1,12 +1,5 @@
 ﻿[
     {
-        "Name":  "AJRouter",
-        "DisplayName":  "AllJoyn Router Service",
-        "Status":  1,
-        "StartType":  "Manual",
-        "Description":  "Routes AllJoyn messages for the local AllJoyn clients. If this service is stopped the AllJoyn clients that do not have their own bundled routers will be unable to run."
-    },
-    {
         "Name":  "ALG",
         "DisplayName":  "Application Layer Gateway Service",
         "Status":  1,
@@ -58,8 +51,8 @@
     {
         "Name":  "AudioEndpointBuilder",
         "DisplayName":  "Windows Audio Endpoint Builder",
-        "Status":  1,
-        "StartType":  "Manual",
+        "Status":  4,
+        "StartType":  "Auto",
         "Description":  "Manages audio devices for the Windows Audio service.  If this service is stopped, audio devices and effects will not function properly.  If this service is disabled, any services that explicitly depend on it will fail to start"
     },
     {
@@ -73,7 +66,7 @@
         "Name":  "AxInstSV",
         "DisplayName":  "ActiveX Installer (AxInstSV)",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Provides User Account Control validation for the installation of ActiveX controls from the Internet and enables management of ActiveX control installation based on Group Policy settings. This service is started on demand and if disabled the installation of ActiveX controls will behave according to default browser settings."
     },
     {
@@ -86,9 +79,16 @@
     {
         "Name":  "BITS",
         "DisplayName":  "Background Intelligent Transfer Service",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information."
+    },
+    {
+        "Name":  "BluetoothUserService",
+        "DisplayName":  "BluetoothUserService",
         "Status":  1,
         "StartType":  "Manual",
-        "Description":  "Transfers files in the background using idle network bandwidth. If the service is disabled, then any applications that depend on BITS, such as Windows Update or MSN Explorer, will be unable to automatically download programs and other information."
+        "Description":  null
     },
     {
         "Name":  "BrokerInfrastructure",
@@ -96,6 +96,20 @@
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "Windows infrastructure service that controls which background tasks can run on the system."
+    },
+    {
+        "Name":  "BTAGService",
+        "DisplayName":  "BTAGService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
+    },
+    {
+        "Name":  "BthAvctpSvc",
+        "DisplayName":  "BthAvctpSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
     },
     {
         "Name":  "bthserv",
@@ -151,7 +165,14 @@
         "DisplayName":  "Client License Service (ClipSVC)",
         "Status":  4,
         "StartType":  "Manual",
-        "Description":  "Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled applications bought using Windows Store will not behave correctly."
+        "Description":  "Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled applications bought using the Microsoft Store will not behave correctly."
+    },
+    {
+        "Name":  "CloudBackupRestoreSvc",
+        "DisplayName":  "CloudBackupRestoreSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
     },
     {
         "Name":  "COMSysApp",
@@ -203,6 +224,13 @@
         "Description":  "The DCOMLAUNCH service launches COM and DCOM servers in response to object activation requests. If this service is stopped or disabled, programs using COM or DCOM will not function properly. It is strongly recommended that you have the DCOMLAUNCH service running."
     },
     {
+        "Name":  "dcsvc",
+        "DisplayName":  "Declared Configuration(DC) service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Process Declared Configuration documents recevied from MDM and other channels and perform configurations on device"
+    },
+    {
         "Name":  "defragsvc",
         "DisplayName":  "Optimize drives",
         "Status":  1,
@@ -234,7 +262,7 @@
         "Name":  "DevicePickerUserSvc",
         "DisplayName":  "DevicePicker",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "This user service is used for managing the Miracast, DLNA, and DIAL UI"
     },
     {
@@ -259,13 +287,6 @@
         "Description":  "Registers and updates IP addresses and DNS records for this computer. If this service is stopped, this computer will not receive dynamic IP addresses and DNS updates. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
-        "Name":  "diagnosticshub.standardcollector.service",
-        "DisplayName":  "Microsoft (R) Diagnostics Hub Standard Collector Service",
-        "Status":  1,
-        "StartType":  "Manual",
-        "Description":  "Diagnostics Hub Standard Collector Service. When running, this service collects real time ETW events and processes them."
-    },
-    {
         "Name":  "DiagTrack",
         "DisplayName":  "Connected User Experiences and Telemetry",
         "Status":  4,
@@ -280,6 +301,13 @@
         "Description":  "Manages the connection and configuration of local and remote displays"
     },
     {
+        "Name":  "DisplayEnhancementService",
+        "DisplayName":  "DisplayEnhancementService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
+    },
+    {
         "Name":  "DmEnrollmentSvc",
         "DisplayName":  "Device Management Enrollment Service",
         "Status":  1,
@@ -290,7 +318,7 @@
         "Name":  "dmwappushservice",
         "DisplayName":  "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Routes Wireless Application Protocol (WAP) Push messages received by the device and synchronizes Device Management sessions"
     },
     {
@@ -298,7 +326,7 @@
         "DisplayName":  "DNS Client",
         "Status":  4,
         "StartType":  "Auto",
-        "Description":  "The DNS Client service (dnscache) caches Domain Name System (DNS) names and registers the full computer name for this computer. If the service is stopped, DNS names will continue to be resolved. However, the results of DNS name queries will not be cached and the computer\u0027s name will not be registered. If the service is disabled, any services that explicitly depend on it will fail to start."
+        "Description":  "The DNS Client service (dnscache) sends Domain Name System (DNS) queries, caches query results, and registers the computer\u0027s full name on the network. This service is not stoppable."
     },
     {
         "Name":  "DoSvc",
@@ -324,7 +352,7 @@
     {
         "Name":  "DsmSvc",
         "DisplayName":  "Device Setup Manager",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "Enables the detection, download and installation of device-related software. If this service is disabled, devices may be configured with outdated software, and may not work correctly."
     },
@@ -427,6 +455,13 @@
         "Description":  "Monitors the health and state for the Windows Camera Frame Server service."
     },
     {
+        "Name":  "GameInputSvc",
+        "DisplayName":  "GameInput Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Enables keyboards, mice, gamepads, and other input devices to be used with the GameInput API."
+    },
+    {
         "Name":  "gpsvc",
         "DisplayName":  "Group Policy Client",
         "Status":  4,
@@ -437,7 +472,7 @@
         "Name":  "GraphicsPerfSvc",
         "DisplayName":  "GraphicsPerfSvc",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Graphics performance monitor service"
     },
     {
@@ -464,9 +499,16 @@
     {
         "Name":  "InstallService",
         "DisplayName":  "Microsoft Store Install Service",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "Provides infrastructure support for the Microsoft Store.  This service is started on demand and if disabled then installations will not function properly."
+    },
+    {
+        "Name":  "InventorySvc",
+        "DisplayName":  "Inventory and Compatibility Appraisal service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "This service performs background system inventory, compatibility appraisal, and maintenance used by numerous system components."
     },
     {
         "Name":  "iphlpsvc",
@@ -513,8 +555,8 @@
     {
         "Name":  "lfsvc",
         "DisplayName":  "Geolocation Service",
-        "Status":  1,
-        "StartType":  "Disabled",
+        "Status":  4,
+        "StartType":  "Manual",
         "Description":  "This service monitors the current location of the system and manages geofences (a geographical location with associated events).  If you turn off this service, applications will be unable to use or receive notifications for geolocation or geofences."
     },
     {
@@ -528,7 +570,7 @@
         "Name":  "lltdsvc",
         "DisplayName":  "Link-Layer Topology Discovery Mapper",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Creates a Network Map, consisting of PC and device topology (connectivity) information, and metadata describing each PC and device.  If this service is disabled, the Network Map will not function properly."
     },
     {
@@ -539,11 +581,25 @@
         "Description":  "Provides support for the NetBIOS over TCP/IP (NetBT) service and NetBIOS name resolution for clients on the network, therefore enabling users to share files, print, and log on to the network. If this service is stopped, these functions might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
+        "Name":  "LocalKdc",
+        "DisplayName":  "Kerberos Local Key Distribution Center",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "This service enables users to log on to the local machine using the Kerberos authentication protocol. If this service is stopped, users will be unable to log on to the local machine. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    {
         "Name":  "LSM",
         "DisplayName":  "Local Session Manager",
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "Core Windows Service that manages local user sessions. Stopping or disabling this service will result in system instability."
+    },
+    {
+        "Name":  "LxpSvc",
+        "DisplayName":  "LxpSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
     },
     {
         "Name":  "MapsBroker",
@@ -557,7 +613,7 @@
         "DisplayName":  "McpManagementService",
         "Status":  1,
         "StartType":  "Manual",
-        "Description":  null
+        "Description":  "Universal Print Management Service"
     },
     {
         "Name":  "MicrosoftEdgeElevationService",
@@ -595,6 +651,13 @@
         "Description":  "Adds, modifies, and removes applications provided as a Windows Installer (*.msi, *.msp) package. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
+        "Name":  "NaturalAuthentication",
+        "DisplayName":  "NaturalAuthentication",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
+    },
+    {
         "Name":  "NcaSvc",
         "DisplayName":  "Network Connectivity Assistant",
         "Status":  1,
@@ -606,7 +669,7 @@
         "DisplayName":  "Network Connection Broker",
         "Status":  4,
         "StartType":  "Manual",
-        "Description":  "Brokers connections that allow Windows Store Apps to receive notifications from the internet."
+        "Description":  "Brokers connections that allow packaged Microsoft Store apps to receive notifications from the internet."
     },
     {
         "Name":  "Netlogon",
@@ -632,7 +695,7 @@
     {
         "Name":  "NetSetupSvc",
         "DisplayName":  "Network Setup Service",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "The Network Setup Service manages the installation of network drivers and permits the configuration of low-level network settings.  If this service is stopped, any driver installations that are in-progress may be cancelled."
     },
@@ -645,24 +708,31 @@
     },
     {
         "Name":  "NgcCtnrSvc",
-        "DisplayName":  "Microsoft Passport Container",
-        "Status":  1,
+        "DisplayName":  "NgcCtnrSvc",
+        "Status":  4,
         "StartType":  "Manual",
-        "Description":  "Manages local user identity keys used to authenticate user to identity providers as well as TPM virtual smart cards. If this service is disabled, local user identity keys and TPM virtual smart cards will not be accessible. It is recommended that you do not reconfigure this service."
+        "Description":  null
     },
     {
         "Name":  "NgcSvc",
-        "DisplayName":  "Microsoft Passport",
-        "Status":  1,
+        "DisplayName":  "NgcSvc",
+        "Status":  4,
         "StartType":  "Manual",
-        "Description":  "Provides process isolation for cryptographic keys used to authenticate to a user’s associated identity providers. If this service is disabled, all uses and management of these keys will not be available, which includes machine logon and single-sign on for apps and websites. This service starts and stops automatically. It is recommended that you do not reconfigure this service."
+        "Description":  null
     },
     {
         "Name":  "NlaSvc",
         "DisplayName":  "Network Location Awareness",
-        "Status":  4,
-        "StartType":  "Auto",
+        "Status":  1,
+        "StartType":  "Manual",
         "Description":  "Collects and stores configuration information for the network and notifies programs when this information is modified. If this service is stopped, configuration information might be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    {
+        "Name":  "NPSMSvc",
+        "DisplayName":  "Now Playing Session Manager Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "This service hosts the Now Playing Session Manager used for Media Scenarios"
     },
     {
         "Name":  "nsi",
@@ -670,6 +740,20 @@
         "Status":  4,
         "StartType":  "Auto",
         "Description":  "This service delivers network notifications (e.g. interface addition/deleting etc) to user mode clients. Stopping this service will cause loss of network connectivity. If this service is disabled, any other services that explicitly depend on this service will fail to start."
+    },
+    {
+        "Name":  "OneSyncSvc",
+        "DisplayName":  "Sync Host",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "This service synchronizes mail, contacts, calendar and various other user data. Mail and other applications dependent on this functionality will not work properly when this service is not running."
+    },
+    {
+        "Name":  "P9RdrService",
+        "DisplayName":  "P9RdrService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Enables trigger-starting plan9 file servers."
     },
     {
         "Name":  "PcaSvc",
@@ -721,11 +805,25 @@
         "Description":  "Manages power policy and power policy notification delivery."
     },
     {
+        "Name":  "PrintDeviceConfigurationService",
+        "DisplayName":  "Print Device Configuration Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "The Print Device Configuration Service manages the installation of IPP and UP printers. If this service is stopped, any printer installations that are in-progress may be canceled."
+    },
+    {
         "Name":  "PrintNotify",
         "DisplayName":  "Printer Extensions and Notifications",
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "This service opens custom printer dialog boxes and handles notifications from a remote print server or a printer. If you turn off this service, you won’t be able to see printer extensions or notifications."
+    },
+    {
+        "Name":  "PrintScanBrokerService",
+        "DisplayName":  "PrintScanBrokerService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Provides support for secure privileged operations needed by low priv spooler."
     },
     {
         "Name":  "PrintWorkflowUserSvc",
@@ -745,7 +843,7 @@
         "Name":  "PushToInstall",
         "DisplayName":  "Windows PushToInstall Service",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Provides infrastructure support for the Microsoft Store.  This service is started automatically and if disabled then remote installations will not function properly."
     },
     {
@@ -770,6 +868,13 @@
         "Description":  "Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
+        "Name":  "refsdedupsvc",
+        "DisplayName":  "ReFS Dedup Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "ReFS data deduplication and compression service to track file changes and run scheduled optimization jobs."
+    },
+    {
         "Name":  "RemoteAccess",
         "DisplayName":  "Routing and Remote Access",
         "Status":  1,
@@ -787,7 +892,7 @@
         "Name":  "RmSvc",
         "DisplayName":  "Radio Management Service",
         "Status":  4,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Radio Management and Airplane Mode Service"
     },
     {
@@ -843,7 +948,7 @@
         "Name":  "ScDeviceEnum",
         "DisplayName":  "Smart Card Device Enumeration Service",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Creates software device nodes for all smart card readers accessible to a given session. If this service is disabled, WinRT APIs will not be able to enumerate smart card readers."
     },
     {
@@ -870,7 +975,7 @@
     {
         "Name":  "SecurityHealthService",
         "DisplayName":  "Windows Security Service",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "Windows Security Service handles unified device protection and health information"
     },
@@ -878,7 +983,7 @@
         "Name":  "SEMgrSvc",
         "DisplayName":  "Payments and NFC/SE Manager",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Manages payments and Near Field Communication (NFC) based secure elements."
     },
     {
@@ -899,7 +1004,7 @@
         "Name":  "SensorDataService",
         "DisplayName":  "Sensor Data Service",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Delivers data from a variety of sensors"
     },
     {
@@ -924,17 +1029,10 @@
         "Description":  "Remote Desktop Configuration service (RDCS) is responsible for all Remote Desktop Services and Remote Desktop related configuration and session maintenance activities that require SYSTEM context. These include per-session temporary folders, RD themes, and RD certificates."
     },
     {
-        "Name":  "SgrmBroker",
-        "DisplayName":  "System Guard Runtime Monitor Broker",
-        "Status":  1,
-        "StartType":  "Manual",
-        "Description":  "Monitors and attests to the integrity of the Windows platform."
-    },
-    {
         "Name":  "SharedAccess",
         "DisplayName":  "Internet Connection Sharing (ICS)",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network."
     },
     {
@@ -959,7 +1057,7 @@
         "Description":  "Host service for the Microsoft Storage Spaces management provider. If this service is stopped or disabled, Storage Spaces cannot be managed."
     },
     {
-        "Name":  "SNMPTRAP",
+        "Name":  "SNMPTrap",
         "DisplayName":  "SNMP Trap",
         "Status":  1,
         "StartType":  "Manual",
@@ -970,12 +1068,12 @@
         "DisplayName":  "Print Spooler",
         "Status":  4,
         "StartType":  "Auto",
-        "Description":  "This service spools print jobs and handles interaction with the printer.  If you turn off this service, you won’t be able to print or see your printers."
+        "Description":  "This service spools print jobs and handles interaction with the printer.  If you turn off this service, you won\u0027t be able to print or see your printers."
     },
     {
         "Name":  "sppsvc",
         "DisplayName":  "Software Protection",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Auto",
         "Description":  "Enables the download, installation and enforcement of digital licenses for Windows and Windows applications. If the service is disabled, the operating system and licensed applications may run in a notification mode. It is strongly recommended that you not disable the Software Protection service."
     },
@@ -985,13 +1083,6 @@
         "Status":  1,
         "StartType":  "Disabled",
         "Description":  "Discovers networked devices and services that use the SSDP discovery protocol, such as UPnP devices. Also announces SSDP devices and services running on the local computer. If this service is stopped, SSDP-based devices will not be discovered. If this service is disabled, any services that explicitly depend on it will fail to start."
-    },
-    {
-        "Name":  "ssh-agent",
-        "DisplayName":  "OpenSSH Authentication Agent",
-        "Status":  1,
-        "StartType":  "Disabled",
-        "Description":  "Agent to hold private keys used for public key authentication."
     },
     {
         "Name":  "SstpSvc",
@@ -1050,17 +1141,10 @@
         "Description":  "Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered."
     },
     {
-        "Name":  "TabletInputService",
-        "DisplayName":  "Touch Keyboard and Handwriting Panel Service",
-        "Status":  4,
-        "StartType":  "Manual",
-        "Description":  "Enables Touch Keyboard and Handwriting Panel pen and ink functionality"
-    },
-    {
         "Name":  "tapisrv",
         "DisplayName":  "Telephony",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides Telephony API (TAPI) support for programs that control telephony devices on the local computer and, through the LAN, on servers that are also running the service."
     },
     {
@@ -1069,6 +1153,13 @@
         "Status":  1,
         "StartType":  "Manual",
         "Description":  "Allows users to connect interactively to a remote computer. Remote Desktop and Remote Desktop Session Host Server depend on this service.  To prevent remote use of this computer, clear the checkboxes on the Remote tab of the System properties control panel item."
+    },
+    {
+        "Name":  "TextInputManagementService",
+        "DisplayName":  "Text Input Management Service",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Enables text input, expressive input, touch keyboard, handwriting, and IMEs."
     },
     {
         "Name":  "Themes",
@@ -1108,7 +1199,7 @@
     {
         "Name":  "TrustedInstaller",
         "DisplayName":  "Windows Modules Installer",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "Enables installation, modification, and removal of Windows updates and optional components. If this service is disabled, install or uninstall of Windows updates might fail for this computer."
     },
@@ -1129,7 +1220,7 @@
     {
         "Name":  "UdkUserSvc",
         "DisplayName":  "Udk User Service",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "Shell components service"
     },
@@ -1218,6 +1309,13 @@
         "Description":  "Provides a mechanism to exchange data between the virtual machine and the operating system running on the physical computer."
     },
     {
+        "Name":  "vmicrdv",
+        "DisplayName":  "Hyper-V Remote Desktop Virtualization Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Provides a platform for communication between the virtual machine and the operating system running on the physical computer."
+    },
+    {
         "Name":  "vmicshutdown",
         "DisplayName":  "Hyper-V Guest Shutdown Service",
         "Status":  1,
@@ -1261,16 +1359,16 @@
     },
     {
         "Name":  "WaaSMedicSvc",
-        "DisplayName":  "Windows Update Medic Service",
-        "Status":  1,
+        "DisplayName":  "WaaSMedicSvc",
+        "Status":  4,
         "StartType":  "Manual",
-        "Description":  "Enables remediation and protection of Windows Update components."
+        "Description":  null
     },
     {
         "Name":  "WalletService",
         "DisplayName":  "WalletService",
         "Status":  1,
-        "StartType":  "Disabled",
+        "StartType":  "Manual",
         "Description":  "Hosts objects used by clients of the wallet"
     },
     {
@@ -1283,7 +1381,7 @@
     {
         "Name":  "WbioSrvc",
         "DisplayName":  "Windows Biometric Service",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "The Windows biometric service gives client applications the ability to capture, compare, manipulate, and store biometric data without gaining direct access to any biometric hardware or samples. The service is hosted in a privileged SVCHOST process."
     },
@@ -1292,7 +1390,14 @@
         "DisplayName":  "Windows Connection Manager",
         "Status":  4,
         "StartType":  "Auto",
-        "Description":  "Makes automatic connect/disconnect decisions based on the network connectivity options currently available to the PC and enables management of network connectivity based on Group Policy settings."
+        "Description":  "Makes automatic connect and disconnect decisions based on the network connectivity options currently available to the PC and enables management of network connectivity based on Group Policy settings."
+    },
+    {
+        "Name":  "wcncsvc",
+        "DisplayName":  "Windows Connect Now - Config Registrar",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "WCNCSVC hosts the Windows Connect Now Configuration which is Microsoft\u0027s Implementation of Wireless Protected Setup (WPS) protocol. This is used to configure Wireless LAN settings for an Access Point (AP) or a Wireless Device. The service is started programmatically as needed."
     },
     {
         "Name":  "WdiServiceHost",
@@ -1344,6 +1449,13 @@
         "Description":  "Allows errors to be reported when programs stop working or responding and allows existing solutions to be delivered. Also allows logs to be generated for diagnostic and repair services. If this service is stopped, error reporting might not work correctly and results of diagnostic services and repairs might not be displayed."
     },
     {
+        "Name":  "WFDSConMgrSvc",
+        "DisplayName":  "Wi-Fi Direct Services Connection Manager Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Manages connections to wireless services, including wireless display and docking."
+    },
+    {
         "Name":  "WiaRpc",
         "DisplayName":  "Still Image Acquisition Events",
         "Status":  1,
@@ -1375,15 +1487,22 @@
         "Name":  "WinRM",
         "DisplayName":  "Windows Remote Management (WS-Management)",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management. WS-Management is a standard web services protocol used for remote software and hardware management. The WinRM service listens on the network for WS-Management requests and processes them. The WinRM Service needs to be configured with a listener using winrm.cmd command line tool or through Group Policy in order for it to listen over the network. The WinRM service provides access to WMI data and enables event collection. Event collection and subscription to events require that the service is running. WinRM messages use HTTP and HTTPS as transports. The WinRM service does not depend on IIS but is preconfigured to share a port with IIS on the same machine.  The WinRM service reserves the /wsman URL prefix. To prevent conflicts with IIS, administrators should ensure that any websites hosted on IIS do not use the /wsman URL prefix."
     },
     {
         "Name":  "wisvc",
         "DisplayName":  "Windows Insider Service",
-        "Status":  1,
-        "StartType":  "Disabled",
+        "Status":  4,
+        "StartType":  "Manual",
         "Description":  "Provides infrastructure support for the Windows Insider Program. This service must remain enabled for the Windows Insider Program to work."
+    },
+    {
+        "Name":  "WlanSvc",
+        "DisplayName":  "WLAN AutoConfig",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "The WLANSVC service provides the logic required to configure, discover, connect to, and disconnect from a wireless local area network (WLAN) as defined by IEEE 802.11 standards. It also contains the logic to turn your computer into a software access point so that other devices or computers can connect to your computer wirelessly using a WLAN adapter that can support this. Stopping or disabling the WLANSVC service will make all WLAN adapters on your computer inaccessible from the Windows networking UI. It is strongly recommended that you have the WLANSVC service running if your computer has a WLAN adapter."
     },
     {
         "Name":  "wlidsvc",
@@ -1393,11 +1512,11 @@
         "Description":  "Enables user sign-in through Microsoft account identity services. If this service is stopped, users will not be able to logon to the computer with their Microsoft account."
     },
     {
-        "Name":  "WLMS",
-        "DisplayName":  "Windows Licensing Monitoring Service",
-        "Status":  4,
-        "StartType":  "Auto",
-        "Description":  "This service monitors the Windows software license state."
+        "Name":  "WManSvc",
+        "DisplayName":  "WManSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
     },
     {
         "Name":  "wmiApSrv",
@@ -1414,9 +1533,16 @@
         "Description":  "Shares Windows Media Player libraries to other networked players and media devices using Universal Plug and Play"
     },
     {
+        "Name":  "workfolderssvc",
+        "DisplayName":  "Work Folders",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "This service syncs files with the Work Folders server, enabling you to use the files on any of the PCs and devices on which you\u0027ve set up Work Folders."
+    },
+    {
         "Name":  "WPDBusEnum",
         "DisplayName":  "Portable Device Enumerator Service",
-        "Status":  1,
+        "Status":  4,
         "StartType":  "Manual",
         "Description":  "Enforces group policy for removable mass-storage devices. Enables applications such as Windows Media Player and Image Import Wizard to transfer and synchronize content using removable mass-storage devices."
     },
@@ -1435,6 +1561,13 @@
         "Description":  "This service hosts Windows notification platform which provides support for local and push notifications. Supported notifications are tile, toast and raw."
     },
     {
+        "Name":  "WSAIFabricSvc",
+        "DisplayName":  "WSAIFabricSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Provides support to communicate with AIFabric in Local service context over COM."
+    },
+    {
         "Name":  "WSearch",
         "DisplayName":  "Windows Search",
         "Status":  1,
@@ -1447,5 +1580,12 @@
         "Status":  4,
         "StartType":  "Manual",
         "Description":  "Enables the detection, download, and installation of updates for Windows and other programs. If this service is disabled, users of this computer will not be able to use Windows Update or its automatic updating feature, and programs will not be able to use the Windows Update Agent (WUA) API."
+    },
+    {
+        "Name":  "XblAuthManager",
+        "DisplayName":  "XblAuthManager",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  null
     }
 ]
