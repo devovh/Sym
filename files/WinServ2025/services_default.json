@@ -542,7 +542,7 @@
         "Name":  "LanmanServer",
         "DisplayName":  "Server",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Supports file, print, and named-pipe sharing over the network for this computer. If this service is stopped, these functions will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
