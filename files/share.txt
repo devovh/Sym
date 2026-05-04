@@ -1,0 +1,99 @@
+Server Manager->Tools->Computer Management->Share OFF
+
+
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters
+AutoShareServer 0
+restrictnullsessaccess 1
+Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa
+restrictanonymous 1
+restrictanonymoussam 1
+
+
+
+I know it's been a while since the original post, but I was also searching for a permanent solution to remove IPC$ folder which will insistently be back every time you reboot your machine or restart the server service.
+
+So I decided to create my own solution which removes the IPC$ admin shared folder every time I boot my computer. This also avoid the amount of issues caused for disabling the Server service. And because the Server service won't be disabled, you can also continue sharing other folders and a printer for example.
+
+This is what I did on Windows 10:
+
+1. Open the Windows Notepad and include this line on it:
+
+net share IPC$ /delete
+
+Save the file with this name DeleteIPCShared.bat
+
+3. Open Computer Management -> System Tools -> Task Scheduler -> Task Scheduler Library, right mouse click on it and then click on "Create Basic Task..."
+
+    Enter any name for your task
+
+    Enter any description and click Next >
+
+    Choose When the computer starts and click Next >
+
+    Choose Start a program then Next>
+
+    Browse and select the full path name where the file DeleteIPCShared.bat.
+
+    Leave the fields Add arguments and Start in blank, click Next >
+
+    Mark the option Open the Properties dialog for this task when I click Finish, and click Finish
+
+On tab General:
+
+    .Select Run whether user is logged or not
+
+    .Mark the option Run with highest privileges
+
+    .Choose your Windows version in Configure for:
+
+    .Uncheck the other options
+
+On tab Conditions:
+
+    .Uncheck all the options
+
+On tab Settings:
+
+    .Check Allow task to be run on demand
+
+    .Check If task fails, restart every:, and set to 1 minute, 3 times
+
+    .Check Stop the task if it runs longer than, set to 1 hour
+
+    .Check If the running task does not end when requested, force it to stop
+
+    .At the bottom Choose Do not start a new instance
+
+Click OK
+
+4. Restart your computer
+
+5. Open cmd and enter the command
+
+net share
+
+You should be able to see: There are no entries in the list
+
+6. Enjoy your computer without the annoying IPC$ admin shared folder 😉
+
+WHAT? Still don't know how to get rid of ADMIN$ and C$ admin shared folders? No problem, this one is a simpler and less hard work sequence of commands.
+
+Open cmd and enter these four command lines:
+
+    net share C$ /delete
+
+    net share ADMIN$ /delete
+
+    reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v AutoShareServer /t REG_DWORD /d 0 /f
+
+    reg add "HKLM\SYSTEM\CurrentControlSet\Services\LanmanServer\Parameters" /v AutoShareWks /t REG_DWORD /d 0 /f
+
+Reboot your computer.
+
+Open cmd and enter the command: net share
+
+I hope you enjoy now 😊
+
+Cheers,
+
+﴾ƜɦıƗԑɱⱷʋȿԑ™﴿
