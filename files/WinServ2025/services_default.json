@@ -45,7 +45,7 @@
         "Name":  "AppXSvc",
         "DisplayName":  "AppX Deployment Service (AppXSVC)",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides infrastructure support for deploying Store applications. This service is started on demand and if disabled Store applications will not be deployed to the system, and may not function properly."
     },
     {
@@ -129,28 +129,28 @@
         "Name":  "CaptureService",
         "DisplayName":  "CaptureService",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Enables optional screen capture functionality for applications that call the Windows.Graphics.Capture API."
     },
     {
         "Name":  "cbdhsvc",
         "DisplayName":  "Clipboard User Service",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "This user service is used for Clipboard scenarios"
     },
     {
         "Name":  "CDPSvc",
         "DisplayName":  "Connected Devices Platform Service",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "This service is used for Connected Devices Platform scenarios"
     },
     {
         "Name":  "CDPUserSvc",
         "DisplayName":  "Connected Devices Platform User Service",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "This user service is used for Connected Devices Platform scenarios"
     },
     {
@@ -164,7 +164,7 @@
         "Name":  "ClipSVC",
         "DisplayName":  "Client License Service (ClipSVC)",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides infrastructure support for the Microsoft Store. This service is started on demand and if disabled applications bought using the Microsoft Store will not behave correctly."
     },
     {
@@ -185,7 +185,7 @@
         "Name":  "ConsentUxUserSvc",
         "DisplayName":  "ConsentUX User Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Allows the system to request user consent to allow apps to access sensitive resources and information such as the device\u0027s location"
     },
     {
@@ -241,7 +241,7 @@
         "Name":  "DeviceAssociationBrokerSvc",
         "DisplayName":  "DeviceAssociationBroker",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Enables apps to pair devices"
     },
     {
@@ -290,7 +290,7 @@
         "Name":  "DiagTrack",
         "DisplayName":  "Connected User Experiences and Telemetry",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "The Connected User Experiences and Telemetry service enables features that support in-application and connected user experiences. Additionally, this service manages the event driven collection and transmission of diagnostic and usage information (used to improve the experience and quality of the Windows Platform) when the diagnostics and usage privacy option settings are enabled under Feedback and Diagnostics."
     },
     {
@@ -318,7 +318,7 @@
         "Name":  "dmwappushservice",
         "DisplayName":  "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Routes Wireless Application Protocol (WAP) Push messages received by the device and synchronizes Device Management sessions"
     },
     {
@@ -332,7 +332,7 @@
         "Name":  "DoSvc",
         "DisplayName":  "Delivery Optimization",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Performs content delivery optimization tasks"
     },
     {
@@ -423,14 +423,14 @@
         "Name":  "fdPHost",
         "DisplayName":  "Function Discovery Provider Host",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "The FDPHOST service hosts the Function Discovery (FD) network discovery providers. These FD providers supply network discovery services for the Simple Services Discovery Protocol (SSDP) and Web Services – Discovery (WS-D) protocol. Stopping or disabling the FDPHOST service will disable network discovery for these protocols when using FD. When this service is unavailable, network services using FD and relying on these discovery protocols will be unable to find network devices or resources."
     },
     {
         "Name":  "FDResPub",
         "DisplayName":  "Function Discovery Resource Publication",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Publishes this computer and resources attached to this computer so they can be discovered over the network.  If this service is stopped, network resources will no longer be published and they will not be discovered by other computers on the network."
     },
     {
@@ -444,21 +444,21 @@
         "Name":  "FrameServer",
         "DisplayName":  "Windows Camera Frame Server",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Enables multiple clients to access video frames from camera devices."
     },
     {
         "Name":  "FrameServerMonitor",
         "DisplayName":  "Windows Camera Frame Server Monitor",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Monitors the health and state for the Windows Camera Frame Server service."
     },
     {
         "Name":  "GameInputSvc",
         "DisplayName":  "GameInput Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Enables keyboards, mice, gamepads, and other input devices to be used with the GameInput API."
     },
     {
@@ -549,14 +549,14 @@
         "Name":  "LanmanWorkstation",
         "DisplayName":  "Workstation",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Creates and maintains client network connections to remote servers using the SMB protocol. If this service is stopped, these connections will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
         "Name":  "lfsvc",
         "DisplayName":  "Geolocation Service",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "This service monitors the current location of the system and manages geofences (a geographical location with associated events).  If you turn off this service, applications will be unable to use or receive notifications for geolocation or geofences."
     },
     {
@@ -710,14 +710,14 @@
         "Name":  "NgcCtnrSvc",
         "DisplayName":  "NgcCtnrSvc",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  null
     },
     {
         "Name":  "NgcSvc",
         "DisplayName":  "NgcSvc",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  null
     },
     {
@@ -745,7 +745,7 @@
         "Name":  "OneSyncSvc",
         "DisplayName":  "Sync Host",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "This service synchronizes mail, contacts, calendar and various other user data. Mail and other applications dependent on this functionality will not work properly when this service is not running."
     },
     {
@@ -773,7 +773,7 @@
         "Name":  "PimIndexMaintenanceSvc",
         "DisplayName":  "Contact Data",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Indexes contact data for fast contact searching. If you stop or disable this service, contacts might be missing from your search results."
     },
     {
@@ -808,14 +808,14 @@
         "Name":  "PrintDeviceConfigurationService",
         "DisplayName":  "Print Device Configuration Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "The Print Device Configuration Service manages the installation of IPP and UP printers. If this service is stopped, any printer installations that are in-progress may be canceled."
     },
     {
         "Name":  "PrintNotify",
         "DisplayName":  "Printer Extensions and Notifications",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "This service opens custom printer dialog boxes and handles notifications from a remote print server or a printer. If you turn off this service, you won’t be able to see printer extensions or notifications."
     },
     {
@@ -829,7 +829,7 @@
         "Name":  "PrintWorkflowUserSvc",
         "DisplayName":  "PrintWorkflow",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides support for Print Workflow applications. If you turn off this service, you may not be able to print successfully."
     },
     {
@@ -850,21 +850,21 @@
         "Name":  "QWAVE",
         "DisplayName":  "Quality Windows Audio Video Experience",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Quality Windows Audio Video Experience (qWave) is a networking platform for Audio Video (AV) streaming applications on IP home networks. qWave enhances AV streaming performance and reliability by ensuring network quality-of-service (QoS) for AV applications. It provides mechanisms for admission control, run time monitoring and enforcement, application feedback, and traffic prioritization."
     },
     {
         "Name":  "RasAuto",
         "DisplayName":  "Remote Access Auto Connection Manager",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Creates a connection to a remote network whenever a program references a remote DNS or NetBIOS name or address."
     },
     {
         "Name":  "RasMan",
         "DisplayName":  "Remote Access Connection Manager",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Manages dial-up and virtual private network (VPN) connections from this computer to the Internet or other remote networks. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
@@ -983,7 +983,7 @@
         "Name":  "SEMgrSvc",
         "DisplayName":  "Payments and NFC/SE Manager",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Manages payments and Near Field Communication (NFC) based secure elements."
     },
     {
@@ -1004,14 +1004,14 @@
         "Name":  "SensorDataService",
         "DisplayName":  "Sensor Data Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Delivers data from a variety of sensors"
     },
     {
         "Name":  "SensorService",
         "DisplayName":  "Sensor Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "A service for sensors that manages different sensors\u0027 functionality. Manages Simple Device Orientation (SDO) and History for sensors. Loads the SDO sensor that reports device orientation changes.  If this service is stopped or disabled, the SDO sensor will not be loaded and so auto-rotation will not occur. History collection from Sensors will also be stopped."
     },
     {
@@ -1039,7 +1039,7 @@
         "Name":  "SharedAccess",
         "DisplayName":  "Internet Connection Sharing (ICS)",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network."
     },
     {
@@ -1109,7 +1109,7 @@
         "Name":  "SstpSvc",
         "DisplayName":  "Secure Socket Tunneling Protocol Service",
         "Status":  1,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Provides support for the Secure Socket Tunneling Protocol (SSTP) to connect to remote computers using VPN. If this service is disabled, users will not be able to use SSTP to access remote servers."
     },
     {
@@ -1123,7 +1123,7 @@
         "Name":  "StiSvc",
         "DisplayName":  "Windows Image Acquisition (WIA)",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides image acquisition services for scanners and cameras"
     },
     {
@@ -1151,7 +1151,7 @@
         "Name":  "SysMain",
         "DisplayName":  "SysMain",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Maintains and improves system performance over time."
     },
     {
@@ -1207,7 +1207,7 @@
         "Name":  "TokenBroker",
         "DisplayName":  "Web Account Manager",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "This service is used by Web Account Manager to provide single-sign-on to apps and services."
     },
     {
@@ -1263,7 +1263,7 @@
         "Name":  "UnistoreSvc",
         "DisplayName":  "User Data Storage",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Handles storage of structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly."
     },
     {
@@ -1277,7 +1277,7 @@
         "Name":  "UserDataSvc",
         "DisplayName":  "User Data Access",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides apps access to structured user data, including contact info, calendars, messages, and other content. If you stop or disable this service, apps that use this data might not work correctly."
     },
     {
@@ -1389,7 +1389,7 @@
         "Name":  "WalletService",
         "DisplayName":  "WalletService",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Hosts objects used by clients of the wallet"
     },
     {
@@ -1403,7 +1403,7 @@
         "Name":  "WbioSrvc",
         "DisplayName":  "Windows Biometric Service",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "The Windows biometric service gives client applications the ability to capture, compare, manipulate, and store biometric data without gaining direct access to any biometric hardware or samples. The service is hosted in a privileged SVCHOST process."
     },
     {
@@ -1445,7 +1445,7 @@
         "Name":  "Wecsvc",
         "DisplayName":  "Windows Event Collector",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "This service manages persistent subscriptions to events from remote sources that support WS-Management protocol. This includes Windows Vista event logs, hardware and IPMI-enabled event sources. The service stores forwarded events in a local Event Log. If this service is stopped or disabled event subscriptions cannot be created and forwarded events cannot be accepted."
     },
     {
@@ -1508,14 +1508,14 @@
         "Name":  "WinRM",
         "DisplayName":  "Windows Remote Management (WS-Management)",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Windows Remote Management (WinRM) service implements the WS-Management protocol for remote management. WS-Management is a standard web services protocol used for remote software and hardware management. The WinRM service listens on the network for WS-Management requests and processes them. The WinRM Service needs to be configured with a listener using winrm.cmd command line tool or through Group Policy in order for it to listen over the network. The WinRM service provides access to WMI data and enables event collection. Event collection and subscription to events require that the service is running. WinRM messages use HTTP and HTTPS as transports. The WinRM service does not depend on IIS but is preconfigured to share a port with IIS on the same machine.  The WinRM service reserves the /wsman URL prefix. To prevent conflicts with IIS, administrators should ensure that any websites hosted on IIS do not use the /wsman URL prefix."
     },
     {
         "Name":  "wisvc",
         "DisplayName":  "Windows Insider Service",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Provides infrastructure support for the Windows Insider Program. This service must remain enabled for the Windows Insider Program to work."
     },
     {
@@ -1529,7 +1529,7 @@
         "Name":  "wlidsvc",
         "DisplayName":  "Microsoft Account Sign-in Assistant",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Enables user sign-in through Microsoft account identity services. If this service is stopped, users will not be able to logon to the computer with their Microsoft account."
     },
     {
@@ -1557,7 +1557,7 @@
         "Name":  "WMPNetworkSvc",
         "DisplayName":  "Windows Media Player Network Sharing Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Shares Windows Media Player libraries to other networked players and media devices using Universal Plug and Play"
     },
     {
@@ -1613,7 +1613,7 @@
         "Name":  "XblAuthManager",
         "DisplayName":  "XblAuthManager",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  null
     }
 ]
