@@ -115,7 +115,7 @@
         "Name":  "bthserv",
         "DisplayName":  "Bluetooth Support Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "The Bluetooth service supports discovery and association of remote Bluetooth devices.  Stopping or disabling this service may cause already installed Bluetooth devices to fail to operate properly and prevent new devices from being discovered or associated."
     },
     {
@@ -885,7 +885,7 @@
         "Name":  "RemoteRegistry",
         "DisplayName":  "Remote Registry",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Enables remote users to modify registry settings on this computer. If this service is stopped, the registry can be modified only by users on this computer. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
@@ -969,7 +969,7 @@
         "Name":  "seclogon",
         "DisplayName":  "Secondary Logon",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Enables starting processes under alternate credentials. If this service is stopped, this type of logon access will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
     },
     {
@@ -1025,7 +1025,7 @@
         "Name":  "SessionEnv",
         "DisplayName":  "Remote Desktop Configuration",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Remote Desktop Configuration service (RDCS) is responsible for all Remote Desktop Services and Remote Desktop related configuration and session maintenance activities that require SYSTEM context. These include per-session temporary folders, RD themes, and RD certificates."
     },
     {
@@ -1074,7 +1074,7 @@
         "Name":  "Spooler",
         "DisplayName":  "Print Spooler",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "This service spools print jobs and handles interaction with the printer.  If you turn off this service, you won\u0027t be able to print or see your printers."
     },
     {
@@ -1172,7 +1172,7 @@
         "Name":  "TermService",
         "DisplayName":  "Remote Desktop Services",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Allows users to connect interactively to a remote computer. Remote Desktop and Remote Desktop Session Host Server depend on this service.  To prevent remote use of this computer, clear the checkboxes on the Remote tab of the System properties control panel item."
     },
     {
@@ -1256,7 +1256,7 @@
         "Name":  "UmRdpService",
         "DisplayName":  "Remote Desktop Services UserMode Port Redirector",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Allows the redirection of Printers/Drives/Ports for RDP connections"
     },
     {
@@ -1466,7 +1466,7 @@
         "Name":  "WerSvc",
         "DisplayName":  "Windows Error Reporting Service",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Allows errors to be reported when programs stop working or responding and allows existing solutions to be delivered. Also allows logs to be generated for diagnostic and repair services. If this service is stopped, error reporting might not work correctly and results of diagnostic services and repairs might not be displayed."
     },
     {
