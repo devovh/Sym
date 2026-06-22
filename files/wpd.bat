@@ -1,0 +1,2 @@
+cipher /w:C:
+pause
