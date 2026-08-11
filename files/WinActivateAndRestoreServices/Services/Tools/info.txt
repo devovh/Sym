@@ -1,0 +1,7 @@
+1.Add the run as administrator function to the context menu, right-click the Add_PS1_Run_as_administrator.reg file and confirm the registry entry operation.
+
+2.Place the services_default.json file in the same path as the check-serv.ps1 file and run the script as administrator.
+
+3.You can export your services to a csv file for better diagnosis.
+
+4.signed.ps1 is used to unlock powershell scripts, sometimes it is needed to run a given ps1 script.

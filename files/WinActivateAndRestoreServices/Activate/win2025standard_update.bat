@@ -1,0 +1,1 @@
+DISM /online /Set-Edition:ServerStandard /ProductKey:TVRH6-WHNXV-R9WG3-9XRFY-MY832 /AcceptEula

@@ -1,0 +1,1822 @@
+﻿[
+    {
+        "Name":  "AarSvc",
+        "DisplayName":  "Agent Activation Runtime",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Runtime for activating conversational agent applications"
+    },
+    {
+        "Name":  "ALG",
+        "DisplayName":  "Usługa bramy warstwy aplikacji",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę wtyczek protokołów innych firm dla Udostępniania połączenia internetowego."
+    },
+    {
+        "Name":  "AppIDSvc",
+        "DisplayName":  "Tożsamość aplikacji",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Określa i weryfikuje tożsamość aplikacji. Wyłączenie tej usługi uniemożliwi wymuszanie zasad funkcji AppLocker."
+    },
+    {
+        "Name":  "Appinfo",
+        "DisplayName":  "Informacje o aplikacji",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia uruchamianie aplikacji interaktywnych z dodatkowymi uprawnieniami administracyjnymi. Jeśli ta usługa zostanie zatrzymana, użytkownicy nie będą mogli uruchamiać aplikacji z dodatkowymi uprawnieniami administracyjnymi, których mogą wymagać do wykonywania żądanych zadań użytkownika."
+    },
+    {
+        "Name":  "AppMgmt",
+        "DisplayName":  "Zarządzanie aplikacjami",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Przetwarza żądania instalacji, usunięcia i wyliczenia oprogramowania wdrożonego za pośrednictwem zasad grupy. Jeśli ta usługa zostanie wyłączona, użytkownicy nie będą mogli instalować, usuwać ani wyliczać oprogramowania wdrożonego za pośrednictwem zasad grupy. Jeśli ta usługa zostanie wyłączona, nie będzie możliwe uruchamianie żadnych usług jawnie od niej zależnych."
+    },
+    {
+        "Name":  "AppReadiness",
+        "DisplayName":  "Przygotowywanie aplikacji",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Przygotuj aplikacje do użycia po pierwszym zalogowaniu użytkownika do tego komputera oraz do dodawania nowych aplikacji."
+    },
+    {
+        "Name":  "AppVClient",
+        "DisplayName":  "Microsoft App-V Client",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Manages App-V users and virtual applications"
+    },
+    {
+        "Name":  "AppXSvc",
+        "DisplayName":  "AppX Deployment Service (AppXSVC)",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Provides infrastructure support for deploying Store applications. This service is started on demand and if disabled Store applications will not be deployed to the system, and may not function properly."
+    },
+    {
+        "Name":  "ApxSvc",
+        "DisplayName":  "Usługa serwera proxy wirtualnego urządzenia audio systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza wirtualnymi urządzeniami audio dla programów opartych na systemie Windows.  Jeśli ta usługa zostanie zatrzymana, wirtualne urządzenia audio nie będą działać poprawnie.  Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne nie będą uruchamiane"
+    },
+    {
+        "Name":  "AssignedAccessManagerSvc",
+        "DisplayName":  "Usługa AssignedAccessManager",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa AssignedAccessManager obsługuje środowisko kiosku w systemie Windows."
+    },
+    {
+        "Name":  "AudioEndpointBuilder",
+        "DisplayName":  "Konstruktor punktów końcowych audio systemu Windows",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zarządza urządzeniami audio dla usługi Audio systemu Windows. Jeśli ta usługa zostanie zatrzymana, urządzenia i efekty audio nie będą działać poprawnie. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "Audiosrv",
+        "DisplayName":  "Windows Audio",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zarządza audio w programach dla systemu Windows. Jeśli ta usługa zostanie zatrzymana, urządzenia i efekty audio nie będą działać poprawnie. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "autotimesvc",
+        "DisplayName":  "Czas komórkowy",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa ustawia czas na podstawie komunikatów NITZ z sieci komórkowej"
+    },
+    {
+        "Name":  "AxInstSV",
+        "DisplayName":  "Instalator kontrolek ActiveX (AxInstSV)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia weryfikację funkcji Kontrola konta użytkownika w celu instalacji kontrolek ActiveX pochodzących z Internetu oraz umożliwia zarządzanie instalacją kontrolki ActiveX na podstawie ustawień zasad grupy. Ta usługa jest uruchamiana na żądanie i jeśli zostanie wyłączona, instalacja kontrolek ActiveX będzie przebiegać zgodnie z ustawieniami domyślnymi przeglądarki."
+    },
+    {
+        "Name":  "BcastDVRUserService",
+        "DisplayName":  "Usługa użytkownika DVR z gry i transmisja",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa użytkownika służy do obsługi nagrań z gier i transmisji na żywo"
+    },
+    {
+        "Name":  "BDESVC",
+        "DisplayName":  "Usługa szyfrowania dysków funkcją BitLocker",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Element BDESVC obsługuje usługę szyfrowania dysków funkcją BitLocker. Funkcja szyfrowania dysków funkcją BitLocker umożliwia bezpieczne uruchamianie systemu operacyjnego, a także pełne szyfrowanie woluminów systemu operacyjnego, zarówno stałych, jak i wymiennych. Dzięki tej usłudze funkcja BitLocker może monitować użytkowników o wykonanie różnych akcji związanych z woluminami po ich zainstalowaniu oraz automatycznie odblokowywać woluminy bez konieczności interakcji ze strony użytkowników. Dodatkowo usługa umożliwia przechowywanie informacji odzyskiwania w usłudze Active Directory, jeśli jest dostępna, oraz zagwarantowanie użycia najnowszych certyfikatów odzyskiwania, jeśli zachodzi taka konieczność. Zatrzymanie lub wyłączenie tej usługi uniemożliwi użytkownikom korzystanie z tych funkcji."
+    },
+    {
+        "Name":  "BFE",
+        "DisplayName":  "Podstawowy aparat filtrowania",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Podstawowy aparat filtrowania (BFE) jest usługą, która zarządza zasadami zapory i zabezpieczeniami protokołu internetowego (IPsec) oraz implementuje filtrowanie w trybie użytkownika. Zatrzymanie lub wyłączenie usługi BFE znacząco osłabi zabezpieczenia systemu. Doprowadzi także do nieprzewidywalnego zachowania aplikacji zarządzana IPsec i zapory."
+    },
+    {
+        "Name":  "BITS",
+        "DisplayName":  "Usługa inteligentnego transferu w tle",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Przesyła pliki w tle przy użyciu niewykorzystanej przepustowości sieci. Jeśli ta usługa zostanie wyłączona, wszystkie aplikacje zależne od usługi inteligentnego transferu w tle (BITS), takie jak Windows Update lub MSN Explorer, nie będą mogły automatycznie pobierać programów ani innych informacji."
+    },
+    {
+        "Name":  "BluetoothUserService",
+        "DisplayName":  "Usługa obsługi użytkownika protokołu Bluetooth",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa użytkownika protokołu Bluetooth zapewnia prawidłowe działanie funkcji protokołu Bluetooth związanych z każdą sesją użytkownika."
+    },
+    {
+        "Name":  "BrokerInfrastructure",
+        "DisplayName":  "Usługa infrastruktury zadań w tle",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa infrastruktury systemu Windows określająca, jakie zadania w tle mogą być uruchamiane w systemie."
+    },
+    {
+        "Name":  "BTAGService",
+        "DisplayName":  "Usługa bramy audio Bluetooth",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa obsługująca rolę bramy audio profilu głośnomówiącego Bluetooth."
+    },
+    {
+        "Name":  "BthAvctpSvc",
+        "DisplayName":  "Usługa AVCTP",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "To jest usługa protokołu AVCTP (Audio Video Control Transport Protocol)"
+    },
+    {
+        "Name":  "bthserv",
+        "DisplayName":  "Usługa obsługi Bluetooth",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Bluetooth obsługuje wykrywanie i kojarzenie zdalnych urządzeń Bluetooth. Zatrzymanie lub wyłączenie tej usługi może spowodować, że zainstalowane urządzenia Bluetooth nie będą działać poprawnie i będą uniemożliwiać wykrywanie albo kojarzenie nowych urządzeń."
+    },
+    {
+        "Name":  "camsvc",
+        "DisplayName":  "Usługa Menedżer dostępu do możliwości",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza funkcje służące do zarządzania dostępem aplikacji platformy UWP do możliwości aplikacji oraz sprawdzania, czy aplikacja ma dostęp do określonych możliwości aplikacji"
+    },
+    {
+        "Name":  "CaptureService",
+        "DisplayName":  "CaptureService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Włącza opcjonalną funkcję przechwytywania ekranu dla aplikacji wywołujących API Windows.Graphics.Capture."
+    },
+    {
+        "Name":  "cbdhsvc",
+        "DisplayName":  "Usługa użytkownika Schowek",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa użytkownika jest używana w scenariuszach związanych ze schowkiem"
+    },
+    {
+        "Name":  "CDPSvc",
+        "DisplayName":  "Usługa platformy podłączonych urządzeń",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa ma zastosowanie w przypadku scenariuszy platformy podłączonych urządzeń"
+    },
+    {
+        "Name":  "CDPUserSvc",
+        "DisplayName":  "Usługa użytkownika platformy podłączonych urządzeń",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa użytkownika ma zastosowanie w przypadku scenariuszy platformy podłączonych urządzeń"
+    },
+    {
+        "Name":  "CertPropSvc",
+        "DisplayName":  "Propagacja certyfikatu",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Kopiuje certyfikaty użytkownika i certyfikaty główne z kart inteligentnych do magazynu certyfikatów bieżącego użytkownika, wykrywa włożenie karty inteligentnej do czytnika oraz w razie potrzeby instaluje ministerownik Plug and Play karty."
+    },
+    {
+        "Name":  "ClipSVC",
+        "DisplayName":  "Usługa licencjonowania klienta (ClipSVC)",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę infrastruktury dla sklepu Microsoft Store. Ta usługa jest uruchamiana na żądanie, a jej wyłączenie spowoduje niepoprawne działanie aplikacji kupionych w sklepie Microsoft Store."
+    },
+    {
+        "Name":  "CloudBackupRestoreSvc",
+        "DisplayName":  "Usługa kopii zapasowych i przywracania w chmurze",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Monitoruje system pod kątem zmian w stanach aplikacji i ustawień oraz w razie potrzeby wykonuje operacje tworzenia kopii zapasowej i przywracania w chmurze."
+    },
+    {
+        "Name":  "cloudidsvc",
+        "DisplayName":  "Usługa tożsamości w chmurze firmy Microsoft",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Obsługuje integracje z usługami tożsamości w chmurze firmy Microsoft.  Jeśli ta zasada zostanie wyłączona, ograniczenia dzierżawy nie będą wymuszane poprawnie."
+    },
+    {
+        "Name":  "COMSysApp",
+        "DisplayName":  "Aplikacja systemowa modelu COM+",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza konfiguracją i śledzeniem składników opartych na modelu COM+. Jeśli ta usługa zostanie zatrzymana, większość składników opartych na modelu COM+ nie będzie działać właściwie. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "ConsentUxUserSvc",
+        "DisplayName":  "Usługa użytkownika ConsentUX",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia systemowi monitowanie o zgodę użytkownika w celu umożliwienia aplikacjom dostępu do poufnych zasobów i informacji, takich jak lokalizacja urządzenia"
+    },
+    {
+        "Name":  "CoreMessagingRegistrar",
+        "DisplayName":  "CoreMessaging",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Manages communication between system components."
+    },
+    {
+        "Name":  "CredentialEnrollmentManagerUserSvc",
+        "DisplayName":  "CredentialEnrollmentManagerUserSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Menedżer poświadczeń rejestracji"
+    },
+    {
+        "Name":  "CryptSvc",
+        "DisplayName":  "Usługi kryptograficzne",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zapewnia trzy usługi zarządzania: usługę bazy danych katalogu, która potwierdza podpisy plików systemu Windows i zezwala na instalowanie nowych programów; usługę chronionego magazynu głównego, która dodaje i usuwa certyfikaty zaufanego głównego urzędu certyfikacji z tego komputera; oraz usługę automatycznego aktualizowania certyfikatów głównych, która pobiera certyfikaty główne z witryny Windows Update i umożliwia scenariusze takie jak SSL. Jeśli ta usługa zostanie zatrzymana, te usługi zarządzania nie będą działać poprawnie. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "CscService",
+        "DisplayName":  "Pliki trybu offline",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Pliki trybu offline wykonuje działania konserwacyjne na pamięci podręcznej plików trybu offline, odpowiada na zdarzenia logowania i wylogowywania użytkowników, implementuje funkcje wewnętrzne publicznego interfejsu API i wysyła zdarzenia do programów zainteresowanych działaniami związanymi z plikami trybu offline i zmianami w stanie pamięci podręcznej."
+    },
+    {
+        "Name":  "DcomLaunch",
+        "DisplayName":  "Program uruchamiający proces serwera DCOM",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa DCOMLAUNCH uruchamia serwery COM i DCOM w odpowiedzi na żądania aktywacji obiektów. Jeśli ta usługa jest zatrzymana lub wyłączona, programy używające funkcji COM lub DCOM nie będą działać prawidłowo. Zdecydowanie zaleca się, aby usługa DCOMLAUNCH działała."
+    },
+    {
+        "Name":  "dcsvc",
+        "DisplayName":  "Zadeklarowana usługa konfiguracji (DC)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Przetwarzaj zadeklarowane dokumenty konfiguracji otrzymane z usługi MDM i innych kanałów oraz wykonaj konfiguracje na urządzeniu"
+    },
+    {
+        "Name":  "defragsvc",
+        "DisplayName":  "Optymalizowanie dysków",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zwiększa wydajność działania komputera przez optymalizację plików na dyskach magazynowania."
+    },
+    {
+        "Name":  "DeviceAssociationBrokerSvc",
+        "DisplayName":  "DeviceAssociationBroker",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Enables apps to pair devices"
+    },
+    {
+        "Name":  "DeviceAssociationService",
+        "DisplayName":  "Usługa kojarzenia urządzeń",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia parowanie systemów i urządzeń przewodowych i bezprzewodowych."
+    },
+    {
+        "Name":  "DeviceInstall",
+        "DisplayName":  "Usługa instalacji urządzeń",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia komputerowi rozpoznawanie i adaptowanie zmian sprzętu bez udziału lub przy nieznacznym udziale użytkownika. Zatrzymanie lub wyłączenie tej usługi spowoduje niestabilność systemu."
+    },
+    {
+        "Name":  "DevicePickerUserSvc",
+        "DisplayName":  "DevicePicker",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa użytkownika służy do zarządzania interfejsami użytkownika Miracast, DLNA i DIAL"
+    },
+    {
+        "Name":  "DevicesFlowUserSvc",
+        "DisplayName":  "Przepływ urządzeń",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zezwala na używanie oprogramowania ConnectUX i ustawień komputera w celu nawiązywania połączenia i parowania z wyświetlaczami Wi-Fi oraz urządzeniami Bluetooth."
+    },
+    {
+        "Name":  "DevQueryBroker",
+        "DisplayName":  "Broker wykrywania w tle zapytań dotyczących urządzeń",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia wykrywanie urządzeń przez aplikacje za pomocą zadania w tle"
+    },
+    {
+        "Name":  "Dhcp",
+        "DisplayName":  "Klient DHCP",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Rejestruje i aktualizuje adresy IP i rekordy DNS dla tego komputera. Jeśli ta usługa zostanie zatrzymana, ten komputer nie będzie odbierał dynamicznych adresów IP i aktualizacji DNS. Jeśli ta usługa zostanie wyłączona, uruchomienie usług jawnie od niej zależnych nie będzie możliwe."
+    },
+    {
+        "Name":  "diagsvc",
+        "DisplayName":  "Diagnostic Execution Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Executes diagnostic actions for troubleshooting support"
+    },
+    {
+        "Name":  "DiagTrack",
+        "DisplayName":  "Środowiska i telemetria połączonego użytkownika",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa Środowiska i telemetria połączonego użytkownika umożliwia korzystanie z funkcji, które obsługują środowiska w aplikacji i połączonego użytkownika. Ta usługa zarządza także zbieraniem i transmisją informacji diagnostycznych i użycia (te działania są sterowane zdarzeniami), gdy opcje prywatności diagnostyki i użycia są włączone w obszarze Opinie i diagnostyka. (Informacje są używane do udoskonalania środowiska pracy i jakości platformy systemu Windows)."
+    },
+    {
+        "Name":  "DialogBlockingService",
+        "DisplayName":  "Usługa blokowania okna dialogowego",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Usługa blokowania okna dialogowego"
+    },
+    {
+        "Name":  "DispBrokerDesktopSvc",
+        "DisplayName":  "Usługa zasad wyświetlania",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zarządza połączeniami i konfiguracjami wyświetlaczy lokalnych i zdalnych"
+    },
+    {
+        "Name":  "DisplayEnhancementService",
+        "DisplayName":  "Usługa ulepszania wyświetlania",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa służąca do zarządzania ulepszeniami wyświetlania, takimi jak sterowanie jasnością."
+    },
+    {
+        "Name":  "DmEnrollmentSvc",
+        "DisplayName":  "Usługa rejestracji zarządzania urządzeniami",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Wykonuje operacje rejestracji urządzeń na potrzeby zarządzania urządzeniami"
+    },
+    {
+        "Name":  "dmwappushservice",
+        "DisplayName":  "Usługa routingu komunikatów wypychanych protokołu aplikacji bezprzewodowych (WAP) aplikacji Zarządzanie urządzeniami",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Kieruje komunikaty wypychane protokołu aplikacji bezprzewodowych (WAP) odbierane przez urządzenie i synchronizuje sesje aplikacji Zarządzanie urządzeniami"
+    },
+    {
+        "Name":  "Dnscache",
+        "DisplayName":  "Klient DNS",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa klienta DNS (dnscache) wysyła zapytania systemu nazw domen (DNS), buforuje wyniki zapytań i rejestruje pełną nazwę komputera w sieci. Tej usługi nie można zatrzymać."
+    },
+    {
+        "Name":  "DoSvc",
+        "DisplayName":  "Optymalizacja dostarczania",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Wykonuje zadania optymalizacji dostarczania zawartości"
+    },
+    {
+        "Name":  "dot3svc",
+        "DisplayName":  "Automatyczna konfiguracja sieci przewodowej",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa automatycznej konfiguracji sieci przewodowej (DOT3SVC) służy do realizacji uwierzytelniania metodą IEEE 802.1X w interfejsach Ethernet. Jeśli bieżąca konfiguracji sieci przewodowej wymusza uwierzytelnianie 802.1X, usługa DOT3SVC powinna być skonfigurowana do działania w celu ustanowienia łączności w warstwie 2 i/lub przyznania dostępu do zasobów sieciowych. Usługa DOT3SVC nie ma wpływu na sieci przewodowe, które nie wymuszają uwierzytelniania 802.1X."
+    },
+    {
+        "Name":  "DPS",
+        "DisplayName":  "Usługa zasad diagnostyki",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa Zasady diagnostyki umożliwia wykrywanie problemów, rozwiązywanie problemów i rozpoznawanie składników systemu Windows. Jeśli ta usługa zostanie zatrzymana, diagnostyka nie będzie już działać."
+    },
+    {
+        "Name":  "DsmSvc",
+        "DisplayName":  "Menedżer konfiguracji urządzeń",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia wykrywanie, pobieranie i instalowanie oprogramowania związanego z urządzeniami. W przypadku wyłączenia tej usługi urządzenia mogą być konfigurowane za pomocą nieaktualnego oprogramowania i nie działać poprawnie."
+    },
+    {
+        "Name":  "DsSvc",
+        "DisplayName":  "Usługa udostępniania danych",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia funkcję brokera danych między aplikacjami."
+    },
+    {
+        "Name":  "DusmSvc",
+        "DisplayName":  "Zużycie danych",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zużycie danych sieciowych, limit transferu, ograniczenie zużycia danych w tle, sieci taryfowe."
+    },
+    {
+        "Name":  "EapHost",
+        "DisplayName":  "Protokół uwierzytelniania rozszerzonego (EAP)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Protokół uwierzytelniania rozszerzonego (EAP) zapewnia uwierzytelnianie sieci w sieciach przewodowych i bezprzewodowych 802.1x, sieciach VPN i funkcji ochrony dostępu do sieci (NAP). Protokół EAP zapewnia także interfejsy programowania aplikacji (API), które są używane przez klientów dostępu do sieci, w tym klientów dostępu do sieci bezprzewodowych i VPN, podczas procesu uwierzytelniania. Jeśli wyłączysz tę usługę, ten komputer nie będzie mógł uzyskać dostępu do sieci, które wymagają uwierzytelniania EAP."
+    },
+    {
+        "Name":  "edgeupdate",
+        "DisplayName":  "Microsoft Edge Update Service (edgeupdate)",
+        "Status":  1,
+        "StartType":  "Auto",
+        "Description":  "Zapewnia aktualność programu Microsoft. Jeśli ta usługa jest wyłączona lub zatrzymana, program Microsoft nie będzie aktualizowany, co oznacza, że odkrywane luki w zabezpieczeniach nie będą usuwane, a niektóre funkcje mogą nie działać. Ta usługa odinstalowuje się, gdy nie ma używającego jej programu Microsoft."
+    },
+    {
+        "Name":  "edgeupdatem",
+        "DisplayName":  "Microsoft Edge Update Service (edgeupdatem)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia aktualność programu Microsoft. Jeśli ta usługa jest wyłączona lub zatrzymana, program Microsoft nie będzie aktualizowany, co oznacza, że odkrywane luki w zabezpieczeniach nie będą usuwane, a niektóre funkcje mogą nie działać. Ta usługa odinstalowuje się, gdy nie ma używającego jej programu Microsoft."
+    },
+    {
+        "Name":  "EFS",
+        "DisplayName":  "System szyfrowania plików (EFS)",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza podstawową technologię szyfrowania plików na potrzeby przechowywania zaszyfrowanych plików w woluminach systemu plików NTFS. Jeśli ta usługa jest zatrzymana lub wyłączona, aplikacje nie będą miały dostępu do zaszyfrowanych plików."
+    },
+    {
+        "Name":  "embeddedmode",
+        "DisplayName":  "Tryb osadzony",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa tryb osadzonego umożliwia stosowanie scenariuszy związanych z aplikacjami działającymi w tle. Wyłączenie tej usługi uniemożliwi uaktywnianie aplikacji działających w tle."
+    },
+    {
+        "Name":  "EntAppSvc",
+        "DisplayName":  "Usługa zarządzania aplikacjami w przedsiębiorstwach",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia zarządzanie aplikacjami w przedsiębiorstwach."
+    },
+    {
+        "Name":  "EventLog",
+        "DisplayName":  "Dziennik zdarzeń Windows",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa zarządza zdarzeniami i dziennikami zdarzeń. Obsługuje ona rejestrowanie zdarzeń, zapytania dotyczące zdarzeń, subskrybowanie zdarzeń, archiwizowanie dzienników zdarzeń i zarządzanie metadanymi zdarzeń. Umożliwia wyświetlanie zdarzeń w formacie XML i zwykłego tekstu. Zatrzymanie tej usługi może naruszyć zabezpieczenia systemu i zmniejszyć jego niezawodność."
+    },
+    {
+        "Name":  "EventSystem",
+        "DisplayName":  "System zdarzeń COM+",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Obsługuje usługę powiadamiania o zdarzeniu systemowym (SENS, System Event Notification Service), która zapewnia automatyczną dystrybucję zdarzeń do subskrybujących składników modelu COM (Component Object Model). Jeżeli usługa zostanie zatrzymana, usługa SENS zostanie zamknięta i nie będzie mogła dostarczać informacji o logowaniu i wylogowaniu. Jeżeli usługa ta zostanie wyłączona, wszystkie usługi, które jawnie od niej zależą, nie będą mogły zostać uruchomione."
+    },
+    {
+        "Name":  "fdPHost",
+        "DisplayName":  "Host dostawcy odnajdowania funkcji",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa FDPHOST udostępnia dostawców odnajdowania sieci dla odnajdowania funkcji. Ci dostawcy odnajdowania funkcji dostarczają usługi odnajdowania sieci na potrzeby protokołów Simple Services Discovery Protocol (SSDP) i Web Services – Discovery (WS-D). Zatrzymanie lub wyłączenie usługi FDPHOST wyłączy odnajdowanie sieci dla tych protokołów podczas korzystania z odnajdowania funkcji. Gdy ta usługa jest niedostępna, usługi sieciowe używające odnajdowania funkcji i polegające na tych protokołach odnajdowania nie będą mogły odnaleźć urządzeń i zasobów sieciowych."
+    },
+    {
+        "Name":  "FDResPub",
+        "DisplayName":  "Publikacja zasobów odnajdowania funkcji",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Publikuje ten komputer i dołączone do niego zasoby, dzięki czemu można je odnajdować w sieci. Jeśli ta usługa zostanie zatrzymana, zasoby sieciowe nie będą już publikowane i inne komputery w sieci nie będą mogły ich odnaleźć."
+    },
+    {
+        "Name":  "fhsvc",
+        "DisplayName":  "Usługa historii plików",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Chroni pliki użytkownika przed przypadkową utratą, kopiując je do lokalizacji kopii zapasowej"
+    },
+    {
+        "Name":  "FontCache",
+        "DisplayName":  "Usług systemu Windows buforowania czcionek",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Poprawia wydajność aplikacji dzięki buforowaniu danych często używanych czcionek. Jeśli ta usługa jeszcze nie działa, zostanie uruchomiona przez aplikacje. Usługę można wyłączyć, ale zmniejszy to wydajność aplikacji."
+    },
+    {
+        "Name":  "FrameServer",
+        "DisplayName":  "Serwer klatek kamer systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia wielu klientom dostęp do klatek wideo z kamer."
+    },
+    {
+        "Name":  "FrameServerMonitor",
+        "DisplayName":  "Monitor serwera klatek kamer systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Monitoruje kondycję i stan dla usługi ramek aparatu fotograficznego systemu Windows."
+    },
+    {
+        "Name":  "GameInputSvc",
+        "DisplayName":  "GameInput Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Enables keyboards, mice, gamepads, and other input devices to be used with the GameInput API."
+    },
+    {
+        "Name":  "gpsvc",
+        "DisplayName":  "Klient zasad grupy",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa jest odpowiedzialna za stosowanie ustawień skonfigurowanych przez administratorów dla komputera i użytkowników za pośrednictwem składnika zasad grupy. Jeśli usługa zostanie wyłączona, ustawienia nie zostaną zastosowane, a aplikacjami i składnikami nie będzie można zarządzać przez zasady grupy. Wszelkie składniki i aplikacje zależne od składnika zasad grupy mogą nie funkcjonować przy wyłączonej usłudze."
+    },
+    {
+        "Name":  "GraphicsPerfSvc",
+        "DisplayName":  "GraphicsPerfSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Graphics performance monitor service"
+    },
+    {
+        "Name":  "hidserv",
+        "DisplayName":  "Usługa urządzeń interfejsu HID",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia aktywację i obsługę przycisków akcji na klawiaturze, pilotów zdalnego sterowania i innych urządzeń multimedialnych. Zalecane jest pozostawienie tej usługi włączonej."
+    },
+    {
+        "Name":  "HvHost",
+        "DisplayName":  "Usługa hosta funkcji HV",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia interfejs funkcji hypervisor Hyper-V w celu obsługi liczników wydajności każdej partycji w systemie operacyjnym hosta."
+    },
+    {
+        "Name":  "icssvc",
+        "DisplayName":  "Usługa hotspotu mobilnego systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia udostępnianie połączenia danych komórkowych na innym urządzeniu."
+    },
+    {
+        "Name":  "IKEEXT",
+        "DisplayName":  "Moduły obsługi kluczy IPsec IKE i AuthIP",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa IKEEXT obejmuje moduły obsługi wymiany kluczy IKE (Internet Keying Exchange) i AuthIP (Authenticated Internet Protocol). Te moduły obsługi kluczy służą do uwierzytelniania i wymiany kluczy w protokole IPsec (Internet Protocol security). Zatrzymanie lub wyłączenie usługi IKEEXT spowoduje wyłączenie wymiany kluczy IKE i AuthIP z komputerami równorzędnymi. Typowa konfiguracja protokołu IPsec przewiduje korzystanie z modułu IKE lub AuthIP i dlatego zatrzymanie lub wyłączenie usługi IKEEXT może spowodować niepowodzenie protokołu IPsec i naruszenie zabezpieczeń systemu. Zdecydowanie zaleca się uruchomienie usługi IKEEXT."
+    },
+    {
+        "Name":  "InstallService",
+        "DisplayName":  "Usługa instalacji sklepu Microsoft Store",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza obsługę infrastruktury na potrzeby sklepu Microsoft Store. Ta usługa jest uruchamiana na żądanie. W przypadku jej wyłączenia instalacje nie będą wykonywane poprawnie."
+    },
+    {
+        "Name":  "InventorySvc",
+        "DisplayName":  "Usługa oceny spisu i zgodności",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa wykonuje inwentaryzację systemu w tle, ocenę zgodności i konserwację używaną przez wiele składników systemu."
+    },
+    {
+        "Name":  "iphlpsvc",
+        "DisplayName":  "Pomoc IP",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zapewnia łączność tunelową przy użyciu technologii przejściowych IPv6 (6to4, ISATAP, Port Proxy i Teredo) oraz protokołu IP-HTTPS. Jeśli usługa ta jest zatrzymana, komputer nie będzie korzystać z rozszerzonej łączności oferowanej przez te technologie."
+    },
+    {
+        "Name":  "IpxlatCfgSvc",
+        "DisplayName":  "Usługa konfiguracji translacji adresów IP",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Konfiguruje i włącza translację adresów z wersji v4 na wersję v6 i odwrotnie"
+    },
+    {
+        "Name":  "KeyIso",
+        "DisplayName":  "Izolacja klucza CNG",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa izolacji klucza CNG jest obsługiwana w procesie LSA. Ta usługa zapewnia izolację procesu klucza dla kluczy prywatnych i skojarzonych operacji kryptograficznych zgodnie z wymaganiami kryteriów wspólnych. Usługa przechowuje długotrwałe klucze i używa ich w bezpiecznym procesie zgodnym z wymaganiami kryteriów wspólnych."
+    },
+    {
+        "Name":  "KtmRm",
+        "DisplayName":  "Usługa KTMRM dla usługi Koordynator transakcji rozproszonych",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Koordynuje transakcje między usługą Koordynator transakcji rozproszonych (MSDTC) i menedżerem transakcji jądra (KTM). Jeśli nie jest potrzebna, zaleca się pozostawienie tej usługi zatrzymanej. Jeśli jest potrzebna, zarówno usługa MSDTC, jak i KTM uruchomią tę usługę automatycznie. Jeśli ta usługa jest wyłączona, wszelkie transakcje usługi MSDTC wchodzące w interakcje z menedżerem zasobów jądra nie powiodą się, a wszelkie usługi bezpośrednio od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "LanmanServer",
+        "DisplayName":  "Serwer",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Oferuje udostępnianie w sieci plików, drukarek i potoków dla tego komputera. Jeśli ta usługa zostanie zatrzymana, te funkcje staną się niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "LanmanWorkstation",
+        "DisplayName":  "Stacja robocza",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Tworzy klienckie połączenia sieciowe z serwerami zdalnymi za pomocą protokołu SMB i zarządza nimi. Jeśli ta usługa zostanie zatrzymana, te połączenia będą niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "lfsvc",
+        "DisplayName":  "Usługa geolokalizacji",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa monitoruje bieżące położenie systemu i zarządza granicami geograficznymi (położeniem geograficznym ze skojarzonymi zdarzeniami). W przypadku wyłączenia tej usługi aplikacje nie będą mogły używać ani odbierać powiadomień dotyczących geolokalizacji lub granic geograficznych."
+    },
+    {
+        "Name":  "LicenseManager",
+        "DisplayName":  "Usługa Menedżera licencji systemu Windows",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza obsługę infrastruktury na potrzeby sklepu Microsoft Store. Ta usługa jest uruchamiana na żądanie. W przypadku jej wyłączenia zawartość uzyskana za pośrednictwem sklepu Microsoft Store nie będzie działać poprawnie."
+    },
+    {
+        "Name":  "lltdsvc",
+        "DisplayName":  "Mapowanie z odnajdywaniem topologii warstwy linku",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Tworzy mapę sieci, która obejmuje informacje o topologii komputerów PC i urządzeń (łączności między nimi) oraz metadane opisujące każdy komputer PC i urządzenie. Jeśli ta usługa jest wyłączona, mapa sieci nie będzie funkcjonować prawidłowo."
+    },
+    {
+        "Name":  "lmhosts",
+        "DisplayName":  "Pomoc TCP/IP NetBIOS",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę systemu NetBIOS w usłudze TCP/IP (NetBT) i rozpoznawanie nazw systemu NetBIOS dla klientów w sieci, umożliwiając użytkownikom udostępnianie plików, drukarek i logowanie w sieci. Jeśli ta usługa zostanie zatrzymana, funkcje te mogą być niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "LocalKdc",
+        "DisplayName":  "Lokalne centrum dystrybucji kluczy Kerberos",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa umożliwia użytkownikom logowanie się na komputerze lokalnym przy użyciu protokołu uwierzytelniania Kerberos. Jeśli ta usługa zostanie zatrzymana, użytkownicy nie będą mogli logować się na komputerze lokalnym. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne nie będą uruchamiane."
+    },
+    {
+        "Name":  "LSM",
+        "DisplayName":  "Menedżer sesji lokalnej",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Podstawowa usługa systemu Windows zarządzająca lokalnymi sesjami użytkowników. Zatrzymanie lub wyłączenie tej usługi spowoduje niestabilność systemu."
+    },
+    {
+        "Name":  "LxpSvc",
+        "DisplayName":  "Usługa możliwości językowych",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę infrastruktury na potrzeby wdrażania i konfigurowania zlokalizowanych zasobów systemu Windows. Ta usługa jest uruchamiana na żądanie, a jeśli zostanie wyłączona, dodatkowe języki systemu Windows nie zostaną wdrożone w systemie, przez co system Windows może działać niepoprawnie."
+    },
+    {
+        "Name":  "MapsBroker",
+        "DisplayName":  "Menedżer pobranych map",
+        "Status":  1,
+        "StartType":  "Auto",
+        "Description":  "Usługa systemu Windows umożliwiająca aplikacjom dostęp do pobranych map. Jest ona uruchamiana na żądanie przez aplikację uzyskującą dostęp do pobranych map. Wyłączenie tej usługi uniemożliwi aplikacjom uzyskiwanie dostępu do map."
+    },
+    {
+        "Name":  "McpManagementService",
+        "DisplayName":  "McpManagementService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa uniwersalnego zarządzania drukowaniem"
+    },
+    {
+        "Name":  "MessagingService",
+        "DisplayName":  "Usługa wiadomości",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Wiadomości SMS raportowania usług i powiązane funkcje."
+    },
+    {
+        "Name":  "MicrosoftEdgeElevationService",
+        "DisplayName":  "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zachowuje aktualność kanału Microsoft Edge. Jeśli ta usługa będzie wyłączona, aplikacja nie będzie aktualizowana."
+    },
+    {
+        "Name":  "mpssvc",
+        "DisplayName":  "Zapora Windows Defender",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zapora Windows Defender pomaga chronić ten komputer, uniemożliwiając nieautoryzowanym użytkownikom uzyskiwanie dostępu do tego komputera za pośrednictwem Internetu lub sieci."
+    },
+    {
+        "Name":  "MSDTC",
+        "DisplayName":  "Koordynator transakcji rozproszonych",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Koordynuje transakcje obejmujące zasięgiem wiele menedżerów zasobów, takich jak bazy danych, kolejki komunikatów i systemy plików. Jeśli ta usługa zostanie zatrzymana, te transakcje nie powiodą się. Jeśli ta usługa zostanie wyłączona, wszelkie usługi bezpośrednio od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "MSiSCSI",
+        "DisplayName":  "Usługa inicjatora iSCSI firmy Microsoft",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza internetowymi sesjami SCSI (sesjami iSCSI) między tym komputerem a zdalnymi urządzeniami docelowymi iSCSI. Jeśli ta usługa zostanie zatrzymana, ten komputer nie będzie mógł logować się do obiektów docelowych iSCSI ani uzyskiwać do nich dostępu. Jeśli ta usługa zostanie wyłączona, nie będzie można uruchamiać żadnych usług, które w sposób jawny zależą od tej usługi."
+    },
+    {
+        "Name":  "msiserver",
+        "DisplayName":  "Instalator Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Dodaje, modyfikuje i usuwa aplikacje dostarczane jako pakiet Instalatora Windows (*.msi, *.msp). Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "MsKeyboardFilter",
+        "DisplayName":  "Filtr klawiatury firmy Microsoft",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Kontroluje filtrowanie i mapowanie naciśnięć klawiszy"
+    },
+    {
+        "Name":  "NaturalAuthentication",
+        "DisplayName":  "Naturalne uwierzytelnianie",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa agregatora sygnałów, która ocenia sygnały na podstawie współczynników godziny, sieci, geolokalizacji, protokołu Bluetooth i CDF. Obsługiwane funkcje do Odblokowanie urządzenia, Blokada dynamiczna i zasady Dynamo MDM."
+    },
+    {
+        "Name":  "NcaSvc",
+        "DisplayName":  "Asystent łączności sieciowej",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia powiadomienia o stanie funkcji DirectAccess dla składników interfejsu użytkownika"
+    },
+    {
+        "Name":  "NcbService",
+        "DisplayName":  "Broker połączeń sieciowych",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Przekazuje połączenia umożliwiające spakowanym aplikacjom ze sklepu Microsoft Store odbieranie powiadomień z Internetu."
+    },
+    {
+        "Name":  "NcdAutoSetup",
+        "DisplayName":  "Autokonfiguracja urządzeń podłączonych do sieci",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa autokonfiguracji urządzeń podłączonych do sieci monitoruje i instaluje zakwalifikowane urządzenia podłączone do zakwalifikowanej sieci. Zatrzymanie lub wyłączenie tej usługi uniemożliwi systemowi Windows automatyczne wykrywanie i instalowanie kwalifikowanych urządzeń podłączonych do sieci. Użytkownicy będą mogli nadal ręcznie, za pomocą interfejsu użytkownika, dodawać do komputera urządzenia podłączone do sieci."
+    },
+    {
+        "Name":  "Netlogon",
+        "DisplayName":  "Netlogon",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Podtrzymuje kanał zabezpieczeń między tym komputerem a kontrolerem domeny w celu uwierzytelniania użytkowników i usług. Jeśli ta usługa zostanie zatrzymana, ten komputer może nie uwierzytelniać użytkowników i usług, a kontroler domeny może nie rejestrować rekordów DNS. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "Netman",
+        "DisplayName":  "Połączenia sieciowe",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza obiektami w folderze Połączenia sieciowe i telefoniczne, w którym można wyświetlać zarówno połączenia sieci lokalnej (LAN), jak i połączenia zdalne."
+    },
+    {
+        "Name":  "netprofm",
+        "DisplayName":  "Usługa listy sieci",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Identyfikuje sieci, do których komputer jest podłączony, zbiera i przechowuje właściwości tych sieci oraz powiadamia aplikacje o zmianie tych właściwości."
+    },
+    {
+        "Name":  "NetSetupSvc",
+        "DisplayName":  "Usługa konfiguracji sieci",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa konfiguracji sieci zarządza instalacją sterowników sieci i umożliwia konfigurację ustawień sieci niskiego poziomu. Jeśli zostanie zatrzymana, trwające instalacje sterowników mogą zostać anulowane."
+    },
+    {
+        "Name":  "NetTcpPortSharing",
+        "DisplayName":  "Usługa udostępniania portów Net.Tcp",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Umożliwia udostępnianie portów TCP za pomocą protokołu net.tcp."
+    },
+    {
+        "Name":  "NgcCtnrSvc",
+        "DisplayName":  "Kontener usługi Microsoft Passport",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Zarządza kluczami tożsamości użytkownika lokalnego używanymi do uwierzytelniania użytkownika u dostawców tożsamości oraz wirtualnymi kartami inteligentnymi modułu TPM. Jeśli ta usługa zostanie wyłączona, klucze tożsamości użytkownika lokalnego i wirtualne karty inteligentne modułu TPM nie będą dostępne. Zaleca się, aby nie zmieniać konfiguracji tej usługi."
+    },
+    {
+        "Name":  "NgcSvc",
+        "DisplayName":  "Microsoft Passport",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia izolację procesów dla kluczy kryptograficznych używanych do uwierzytelniania u skojarzonych dostawców tożsamości użytkownika. Jeśli ta usługa zostanie wyłączona, wszystkie użycia tych kluczy i zarządzanie nimi nie będą dostępne. Dotyczy to również logowania na komputerze oraz logowania jednokrotnego aplikacji i witryn internetowych. Ta usługa jest uruchamiana i zatrzymywana automatycznie. Zaleca się, aby nie zmieniać konfiguracji tej usługi."
+    },
+    {
+        "Name":  "NlaSvc",
+        "DisplayName":  "Rozpoznawanie lokalizacji w sieci",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zbiera i magazynuje informacje o konfiguracji sieci i powiadamia pogramy o zmianach tych informacji. Jeśli ta usługa zostanie zatrzymana, informacje o konfiguracji mogą być niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "NPSMSvc",
+        "DisplayName":  "Trwa odtwarzanie usługi Menedżera sesji",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa hostuje Menedżera sesji teraz odtwarzanych używanego na potrzeby scenariuszy multimedialnych"
+    },
+    {
+        "Name":  "nsi",
+        "DisplayName":  "Usługa interfejsu magazynu sieciowego",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa dostarcza powiadomienia sieciowe (np. o dodaniu/usunięciu interfejsu itp.) dla klientów działających w trybie użytkownika. Zatrzymanie tej usługi może spowodować utratę łączności sieciowej. Jeśli ta usługa zostanie wyłączona, wszystkie inne usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "OneSyncSvc",
+        "DisplayName":  "Synchronizuj hosta",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa synchronizuje pocztę, kontakty, kalendarz i różne inne dane użytkownika. Poczta i inne aplikacje zależne od tej funkcjonalności nie będą działać prawidłowo, jeśli ta usługa nie jest uruchomiona."
+    },
+    {
+        "Name":  "P9RdrService",
+        "DisplayName":  "P9RdrService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Włącza wyzwalające uruchamianie serwery plików systemu Plan 9."
+    },
+    {
+        "Name":  "PcaSvc",
+        "DisplayName":  "Usługa Asystent zgodności programów",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa zapewnia obsługę Asystenta zgodności programów. Asystent zgodności programów monitoruje programy instalowane i uruchamiane przez użytkownika oraz wykrywa znane problemy ze zgodnością. Jeśli ta usługa zostanie zatrzymana, Asystent zgodności programów nie będzie działał prawidłowo."
+    },
+    {
+        "Name":  "PeerDistSvc",
+        "DisplayName":  "BranchCache",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa buforuje zawartość sieci z węzłów równorzędnych w podsieci lokalnej."
+    },
+    {
+        "Name":  "PenService",
+        "DisplayName":  "PenService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa pióra"
+    },
+    {
+        "Name":  "perceptionsimulation",
+        "DisplayName":  "Usługa symulacji percepcji systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Włącza przestrzenną symulację percepcji, zarządzanie kamerą wirtualną oraz przestrzenną symulację wprowadzania."
+    },
+    {
+        "Name":  "PerfHost",
+        "DisplayName":  "Host biblioteki DLL liczników wydajności",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia użytkownikom zdalnym i procesom 64-bitowym badanie liczników wydajności udostępnianych przez 32-bitowe biblioteki DLL. Jeśli ta usługa zostanie zatrzymana, badanie liczników wydajności udostępnianych przez 32-bitowe biblioteki DLL będzie możliwe tylko w przypadku użytkowników lokalnych i procesów 32-bitowych."
+    },
+    {
+        "Name":  "PhoneSvc",
+        "DisplayName":  "Usługa telefoniczna",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza stanem obsługi telefonii w urządzeniu"
+    },
+    {
+        "Name":  "PimIndexMaintenanceSvc",
+        "DisplayName":  "Dane kontaktowe",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Indeksuje dane kontaktowe na potrzeby szybkiego wyszukiwania kontaktów. Jeśli zatrzymasz lub wyłączysz tę usługę, kontakty mogą zostać pominięte w wynikach wyszukiwania."
+    },
+    {
+        "Name":  "pla",
+        "DisplayName":  "Dzienniki wydajności i \u0026alerty",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Dzienniki wydajności i alerty zbiera dane dotyczące wydajności z komputerów lokalnych lub zdalnych na podstawie wstępnie skonfigurowanych parametrów harmonogramu, a następnie zapisuje dane w dzienniku lub wyzwala alert. Jeśli ta usługa będzie zatrzymana, informacje dotyczące wydajności nie będą zbierane. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "PlugPlay",
+        "DisplayName":  "Plug and Play",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia komputerowi rozpoznawanie i adaptowanie zmian sprzętu bez udziału lub przy nieznacznym udziale użytkownika. Zatrzymanie lub wyłączenie tej usługi spowoduje niestabilność systemu."
+    },
+    {
+        "Name":  "PolicyAgent",
+        "DisplayName":  "Agent zasad IPsec",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zabezpieczenia protokołu internetowego (protokół IPsec) obsługują uwierzytelnianie węzłów równorzędnych na poziomie sieci, uwierzytelnianie miejsca pochodzenia danych, integralność danych, poufność danych (szyfrowanie) i ochronę powtarzania. Ta usługa wymusza stosowanie zasad IPsec utworzonych za pomocą przystawki Zasady zabezpieczeń IP lub narzędzia wiersza polecenia „netsh ipsec”. Jeśli zatrzymasz tę usługę, a zasady wymagają używania protokołu IPsec w połączeniach, mogą wystąpić problemy z łącznością sieciową. Ponadto gdy ta usługa zostanie zatrzymana, nie będzie możliwe zdalne zarządzanie Zaporą Windows Defender."
+    },
+    {
+        "Name":  "Power",
+        "DisplayName":  "Zasilanie",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zarządza zasadami zasilania i dostarczaniem powiadomień zasad zasilania."
+    },
+    {
+        "Name":  "PrintDeviceConfigurationService",
+        "DisplayName":  "Usługa konfiguracji urządzenia drukowania",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa konfiguracji urządzeń drukujących zarządza instalacją drukarek IPP i UP. Jeśli ta usługa zostanie zatrzymana, wszelkie trwające instalacje drukarek mogą zostać anulowane."
+    },
+    {
+        "Name":  "PrintNotify",
+        "DisplayName":  "Rozszerzenia i powiadomienia drukarek",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa otwiera niestandardowe okna dialogowe drukarki i obsługuje powiadomienia od zdalnego serwera wydruku lub drukarki. Jeśli ta usługa zostanie wyłączona, nie będą widoczne rozszerzenia ani powiadomienia drukarek."
+    },
+    {
+        "Name":  "PrintScanBrokerService",
+        "DisplayName":  "PrintScanBrokerService",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę bezpiecznych operacji uprzywilejowanych wymaganych przez bufor o niskim poziomie uprawnień."
+    },
+    {
+        "Name":  "PrintWorkflowUserSvc",
+        "DisplayName":  "Przepływ pracy drukowania",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę aplikacji przepływu pracy drukowania. Jeśli wyłączysz tę usługę, możesz nie mieć możliwości pomyślnego drukowania."
+    },
+    {
+        "Name":  "ProfSvc",
+        "DisplayName":  "Usługa profilów użytkowników",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa odpowiada za ładowanie i zwalnianie profilów użytkowników. Jeśli ta usługa zostanie zatrzymana lub wyłączona, użytkownicy nie będą mogli pomyślnie się logować i wylogowywać, aplikacje będą mogły mieć problemy z uzyskiwaniem dostępu do danych użytkowników, a składniki zarejestrowane w celu odbierania powiadomień o zdarzeniach profilów nie będą ich odbierać."
+    },
+    {
+        "Name":  "PushToInstall",
+        "DisplayName":  "Usługa PushToInstall systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza obsługę infrastruktury na potrzeby sklepu Microsoft Store. Ta usługa jest uruchamiana automatycznie. W przypadku jej wyłączenia instalacje zdalne nie będą wykonywane poprawnie."
+    },
+    {
+        "Name":  "QWAVE",
+        "DisplayName":  "Quality Windows Audio Video Experience",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Quality Windows Audio Video Experience (qWave) to platforma sieciowa dla aplikacji przesyłania strumieniowego audio/wideo w domowych sieciach IP. Platforma qWave poprawia wydajność i niezawodność przesyłania strumieniowego audio/wideo, zapewniając jakość usługi sieciowej (QoS) dla aplikacji audio/wideo. Udostępnia mechanizmy do kontroli wpływu danych, monitorowania i wymuszania w czasie wykonania, obsługi informacji zwrotnych aplikacji i nadawania priorytetów ruchu w sieci."
+    },
+    {
+        "Name":  "RasAuto",
+        "DisplayName":  "Menedżer autopołączenia dostępu zdalnego",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Tworzy połączenie do sieci zdalnej za każdym razem, gdy dowolny program odwołuje się do nazwy lub adresu zdalnego systemu DNS lub NetBIOS."
+    },
+    {
+        "Name":  "RasMan",
+        "DisplayName":  "Menedżer połączeń usługi Dostęp zdalny",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza połączeniami telefonicznymi i połączeniami wirtualnej sieci prywatnej (VPN) wykonywanymi z tego komputera do Internetu lub innych sieci zdalnych. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "refsdedupsvc",
+        "DisplayName":  "Usługa deduplikacji w systemie plików ReFS",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa deduplikacji i kompresji danych w systemie plików ReFS do śledzenia zmian w plikach i uruchamiania zaplanowanych zadań optymalizacyjnych."
+    },
+    {
+        "Name":  "RemoteAccess",
+        "DisplayName":  "Routing i dostęp zdalny",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Oferuje usługi routingu firmom w środowiskach sieci lokalnych i rozległych."
+    },
+    {
+        "Name":  "RemoteRegistry",
+        "DisplayName":  "Rejestr zdalny",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Umożliwia użytkownikom zdalnym modyfikowanie ustawień rejestru na tym komputerze. Jeśli ta usługa zostanie zatrzymana, rejestr będą mogli modyfikować tylko użytkownicy tego komputera. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "RetailDemo",
+        "DisplayName":  "Usługa trybu pokazowego",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa trybu pokazowego steruje działaniem urządzenia podczas pracy w trybie pokazowym."
+    },
+    {
+        "Name":  "RmSvc",
+        "DisplayName":  "Usługa zarządzania radiem",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa zarządzania radiem i trybem samolotowym"
+    },
+    {
+        "Name":  "RpcEptMapper",
+        "DisplayName":  "Program mapowania punktów końcowych wywołań RPC",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Rozpoznaje identyfikatory interfejsów RPC dla punktów końcowych transportu. Jeśli usługa zostanie zatrzymana lub wyłączona, programy korzystające z usług zdalnego wywoływania procedur (RPC) nie będą funkcjonować prawidłowo."
+    },
+    {
+        "Name":  "RpcLocator",
+        "DisplayName":  "Lokalizator usługi zdalnego wywołania procedury (RPC)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "W systemie Windows 2003 i wcześniejszych wersjach systemu Windows usługa lokalizatora zdalnego wywołania procedur (RPC) zarządza bazą danych usługi nazw RPC. W systemie Windows Vista i nowszych wersjach systemu Windows, usługa ta nie wykonuje żadnej funkcji i jest obecna tylko dla zapewnienia zgodności aplikacji."
+    },
+    {
+        "Name":  "RpcSs",
+        "DisplayName":  "Zdalne wywoływanie procedur (RPC)",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa RPCSS to menedżer sterowania usługami dla serwerów COM i DCOM. Wykonuje żądania aktywacji obiektów, rozpoznania eksportera obiektów i rozproszone usuwanie elementów bezużytecznych dla serwerów COM i DCOM. Jeśli ta usługa jest zatrzymana lub wyłączona, programy używające funkcji COM lub DCOM nie będą działać prawidłowo. Zdecydowanie zaleca się, aby usługa RPCSS działała."
+    },
+    {
+        "Name":  "SamSs",
+        "DisplayName":  "Menedżer kont zabezpieczeń",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Uruchomienie tej usługi informuje inne usługi, że Menedżer kont zabezpieczeń jest gotowy do akceptowania żądań. Wyłączenie tej usługi spowoduje, że inne usługi w systemie nie będą powiadamiane o gotowości Menedżera kont zabezpieczeń, przez co te usługi mogą być uruchamiane nieprawidłowo. Tej usługi nie należy wyłączać."
+    },
+    {
+        "Name":  "SCardSvr",
+        "DisplayName":  "Karta inteligentna",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza dostępem do kart inteligentnych czytanych przez ten komputer. Jeśli ta usługa zostanie zatrzymana, ten komputer nie będzie mógł czytać kart inteligentnych. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "ScDeviceEnum",
+        "DisplayName":  "Usługa wyliczania urządzeń karty inteligentnej",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Tworzy węzły urządzeń programowych dla czytników kart inteligentnych dostępne w danej sesji. Po wyłączeniu usługi interfejsy API systemu WinRT nie będą mogły wyliczać czytników kart inteligentnych."
+    },
+    {
+        "Name":  "Schedule",
+        "DisplayName":  "Harmonogram zadań",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Umożliwia użytkownikowi konfigurowanie i planowanie automatycznych zadań na tym komputerze. Ta usługa obsługuje również wiele zadań systemu Windows o znaczeniu krytycznym. Jeśli ta usługa zostanie zatrzymana lub wyłączona, zadania te nie będą uruchamiane o zaplanowanej godzinie. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne nie będą uruchamiane."
+    },
+    {
+        "Name":  "SCPolicySvc",
+        "DisplayName":  "Zasady usuwania karty inteligentnej",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia skonfigurowanie systemu w taki sposób, aby po usunięciu karty inteligentnej był blokowany pulpit użytkownika."
+    },
+    {
+        "Name":  "SDRSVC",
+        "DisplayName":  "Kopia zapasowa systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia możliwości kopii zapasowej i przywracania systemu Windows."
+    },
+    {
+        "Name":  "seclogon",
+        "DisplayName":  "Logowanie pomocnicze",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia uruchamianie procesów z użyciem alternatywnych poświadczeń. Jeśli ta usługa zostanie zatrzymana, ten typ dostępu poprzez logowanie stanie się niedostępny. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "SecurityHealthService",
+        "DisplayName":  "Usługa Zabezpieczenia Windows",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa Zabezpieczenia Windows obsługuje ujednolicone informacje dotyczące ochrony i kondycji urządzenia"
+    },
+    {
+        "Name":  "SEMgrSvc",
+        "DisplayName":  "Menedżer płatności i funkcji NFC/SE",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Służy do zarządzania płatnościami i elementami zabezpieczeń opartymi na funkcji komunikacji zbliżeniowej (NFC)."
+    },
+    {
+        "Name":  "SENS",
+        "DisplayName":  "Usługa powiadamiania o zdarzeniach systemowych",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Monitoruje zdarzenia systemowe i powiadamia o nich subskrybentów systemu zdarzeń COM+."
+    },
+    {
+        "Name":  "Sense",
+        "DisplayName":  "Usługa Zaawansowana ochrona przed zagrożeniami w usłudze Windows Defender",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Zaawansowana ochrona przed zagrożeniami w usłudze Windows Defender umożliwia ochronę przed zaawansowanymi zagrożeniami przez monitorowanie i zgłaszanie zdarzeń zabezpieczeń występujących na komputerze."
+    },
+    {
+        "Name":  "SensorDataService",
+        "DisplayName":  "Usługa danych czujników",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza dane z różnych czujników"
+    },
+    {
+        "Name":  "SensorService",
+        "DisplayName":  "Usługa czujników",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa czujników zarządzająca różnymi funkcjami czujników. Zarządza funkcją prostej orientacji urządzenia i historią na potrzeby czujników. Ładuje czujnik SDO raportujący zmiany orientacji urządzenia. Jeśli ta usługa jest zatrzymana lub wyłączona, czujnik SDO nie zostanie załadowany i automatyczna zmiana orientacji nie będzie wykonywana. Zbieranie historii z czujników także zostanie zatrzymane."
+    },
+    {
+        "Name":  "SensrSvc",
+        "DisplayName":  "Usługa monitorowania czujników",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Monitoruje różne czujniki, aby prezentować dane i dostosowywać wyświetlacz do stanu systemu i użytkownika. Zatrzymanie lub wyłączenie tej usługi spowoduje, że jasność wyświetlacza nie będzie dostosowywana do warunków oświetlenia. Zatrzymanie tej usługi może również wpłynąć na inne funkcje systemu."
+    },
+    {
+        "Name":  "SessionEnv",
+        "DisplayName":  "Menedżer konfiguracji usług pulpitu zdalnego",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Konfiguracja usług pulpitu zdalnego odpowiada za wszystkie działania konfiguracji i obsługi sesji związane z usługami pulpitu zdalnego i pulpitem zdalnym, które wymagają kontekstu systemowego. Obejmują one foldery tymczasowe poszczególnych sesji, kompozycje i certyfikaty pulpitu zdalnego."
+    },
+    {
+        "Name":  "SgrmBroker",
+        "DisplayName":  "Broker monitorów czasu wykonywania funkcji System Guard",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Monitoruje i zaświadcza integralność platformy Windows."
+    },
+    {
+        "Name":  "SharedAccess",
+        "DisplayName":  "Udostępnianie połączenia internetowego (ICS)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia usługi translacji adresów sieciowych, adresowania, rozpoznawania nazw i/lub blokowania dostępu intruzów wszystkim komputerom w sieci domowej lub biurowej."
+    },
+    {
+        "Name":  "ShellHWDetection",
+        "DisplayName":  "Wykrywanie sprzętu powłoki",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zapewnia powiadomienia o zdarzeniach sprzętowych Autoodtwarzania."
+    },
+    {
+        "Name":  "shpamsvc",
+        "DisplayName":  "Shared PC Account Manager",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Manages profiles and accounts on a SharedPC configured device"
+    },
+    {
+        "Name":  "smphost",
+        "DisplayName":  "Miejsca do magazynowania firmy Microsoft — SMP",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa hosta dla dostawcy zarządzania miejscami do magazynowania firmy Microsoft. Jeśli ta usługa jest zatrzymana lub wyłączona, nie można zarządzać miejscami do magazynowania."
+    },
+    {
+        "Name":  "SmsRouter",
+        "DisplayName":  "Usługa routera SMS systemu Microsoft Windows.",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Kieruje komunikaty na podstawie reguł do odpowiednich klientów."
+    },
+    {
+        "Name":  "SNMPTrap",
+        "DisplayName":  "SNMP Trap",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Odbiera wiadomości pułapek generowane przez lokalnych lub zdalnych agentów protokołu SNMP (Simple Network Management Protocol) i przesyła dalej wiadomości do programów zarządzających SNMP uruchomionych na tym komputerze. Jeśli ta usługa zostanie zatrzymana, programy oparte na SNMP na tym komputerze nie będą odbierać wiadomości pułapek. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "Spooler",
+        "DisplayName":  "Bufor wydruku",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa buforuje zadania drukowania i obsługuje współpracę z drukarką.  Jeśli wyłączysz tę usługę, nie będzie można drukować ani wyświetlać drukarek."
+    },
+    {
+        "Name":  "sppsvc",
+        "DisplayName":  "Ochrona oprogramowania",
+        "Status":  1,
+        "StartType":  "Auto",
+        "Description":  "Umożliwia pobieranie, instalowanie i egzekwowanie licencji cyfrowych na system Windows i aplikacje pracujące w systemie Windows. Jeśli usługa jest wyłączona, system operacyjny i licencjonowane aplikacje mogą pracować w trybie powiadamiania. Zaleca się niewyłączanie usługi ochrony oprogramowania."
+    },
+    {
+        "Name":  "SSDPSRV",
+        "DisplayName":  "Odnajdywanie SSDP",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Wykrywa urządzenia i usługi sieciowe, które korzystają z protokołu odnajdywania SSDP, na przykład urządzenia UPnP. Zgłasza także urządzenia i usługi SSDP działające na komputerze lokalnym. Po zatrzymaniu tej usługi urządzenia działające na podstawie protokołu SSDP nie będą odnajdywane. Gdy ta usługa będzie wyłączona, nie będzie można uruchomić żadnych usług bezpośrednio od niej zależnych."
+    },
+    {
+        "Name":  "ssh-agent",
+        "DisplayName":  "OpenSSH Authentication Agent",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Agent to hold private keys used for public key authentication."
+    },
+    {
+        "Name":  "SstpSvc",
+        "DisplayName":  "Usługa Protokół SSTP",
+        "Status":  1,
+        "StartType":  "Auto",
+        "Description":  "Udostępnia obsługę protokołu SSTP (Secure Socket Tunneling Protocol) umożliwiającego łączenie się z komputerami zdalnymi przy użyciu sieci VPN. Jeśli ta usługa zostanie wyłączona, użytkownicy nie będą mogli uzyskiwać dostępu do serwerów zdalnych za pomocą protokołu SSTP."
+    },
+    {
+        "Name":  "StateRepository",
+        "DisplayName":  "Usługa repozytorium stanów",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Udostępnia wymaganą obsługę infrastruktury dla modelu aplikacji."
+    },
+    {
+        "Name":  "StiSvc",
+        "DisplayName":  "Windows Image Acquisition (WIA)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia usługi pozyskiwania obrazów dla skanerów i aparatów fotograficznych."
+    },
+    {
+        "Name":  "StorSvc",
+        "DisplayName":  "Usługa magazynu",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Udostępnia usługi ustawień magazynów i usługi umożliwiające rozszerzanie magazynów zewnętrznych"
+    },
+    {
+        "Name":  "svsvc",
+        "DisplayName":  "Weryfikator punktowy",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Weryfikuje potencjalne uszkodzenia systemu plików."
+    },
+    {
+        "Name":  "swprv",
+        "DisplayName":  "Dostawca kopiowania w tle oprogramowania firmy Microsoft",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza kopiami woluminów w tle opartymi na oprogramowaniu, wykonanymi przez Usługę kopiowania woluminów w tle. Jeżeli usługa jest zatrzymana, nie można zarządzać kopiami woluminów w tle opartymi na oprogramowaniu. Jeżeli ta usługa jest wyłączona, uruchomienie żadnej usługi jawnie od niej zależnej nie powiedzie się."
+    },
+    {
+        "Name":  "SysMain",
+        "DisplayName":  "SysMain",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Utrzymuje wydajność systemu i poprawia ją w dłuższym czasie."
+    },
+    {
+        "Name":  "SystemEventsBroker",
+        "DisplayName":  "Broker zdarzeń systemowych",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Koordynuje wykonywanie pracy w tle dla aplikacji WinRT. W przypadku zatrzymania lub wyłączenia tej usługi praca w tle może nie być wyzwalana."
+    },
+    {
+        "Name":  "TapiSrv",
+        "DisplayName":  "Telefonia",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę telefonii API (TAPI) dla programów sterujących urządzeniami telefonii na komputerze lokalnym i, za pośrednictwem sieci LAN, na serwerach, na których działa ta usługa."
+    },
+    {
+        "Name":  "TermService",
+        "DisplayName":  "Usługi pulpitu zdalnego",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zezwala użytkownikom na interakcyjne łączenie się z komputerem zdalnym. Pulpit zdalny i serwer hosta sesji pulpitu zdalnego są zależne od tej usługi. Aby uniemożliwić zdalne używanie tego komputera, wyczyść pola wyboru na karcie Zdalny w elemencie Panelu sterowania, który zawiera właściwości systemu."
+    },
+    {
+        "Name":  "TextInputManagementService",
+        "DisplayName":  "Usługa zarządzania wprowadzaniem tekstu",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Umożliwia wprowadzanie tekstu, wprowadzanie ekspresyjne, klawiaturę dotykową, pismo ręczne i edytory IME."
+    },
+    {
+        "Name":  "Themes",
+        "DisplayName":  "Kompozycje",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zapewnia zarządzanie kompozycjami obsługiwanymi przez użytkownika."
+    },
+    {
+        "Name":  "TieringEngineService",
+        "DisplayName":  "Zarządzanie warstwami magazynowania",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Optymalizuje rozmieszczenie danych na warstwach magazynowania we wszystkich magazynach warstwowych w systemie."
+    },
+    {
+        "Name":  "TimeBrokerSvc",
+        "DisplayName":  "Broker czasu",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Koordynuje wykonywanie pracy w tle dla aplikacji WinRT. W przypadku zatrzymania lub wyłączenia tej usługi praca w tle może nie być wyzwalana."
+    },
+    {
+        "Name":  "TokenBroker",
+        "DisplayName":  "Menedżer kont internetowych",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Menedżer kont internetowych używa tej usługi w celu dostarczania funkcji logowania jednokrotnego w aplikacjach i usługach."
+    },
+    {
+        "Name":  "TrkWks",
+        "DisplayName":  "Klient śledzenia linków rozproszonych",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Utrzymuje linki między plikami systemu NTFS na komputerze lub między komputerami w sieci."
+    },
+    {
+        "Name":  "TroubleshootingSvc",
+        "DisplayName":  "Usługa Zalecane kroki rozwiązywania problemów",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia automatyczne eliminowanie znanych problemów przez stosowanie zalecanych kroków rozwiązywania problemów. Jeśli ta usługa zostanie zatrzymana, na urządzeniu nie będą wykonywane zalecane kroki rozwiązywania problemów odpowiednie dla występujących problemów."
+    },
+    {
+        "Name":  "TrustedInstaller",
+        "DisplayName":  "Instalator modułów systemu Windows",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia instalowanie, modyfikowanie i usuwanie aktualizacji oraz składników opcjonalnych systemu Windows. Jeśli ta usługa zostanie wyłączona, instalowanie lub odinstalowywanie aktualizacji systemu Windows dla tego komputera może kończyć się niepowodzeniem."
+    },
+    {
+        "Name":  "tzautoupdate",
+        "DisplayName":  "Automatyczna aktualizacja strefy czasowej",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Automatycznie ustawia strefę czasową systemu."
+    },
+    {
+        "Name":  "UdkUserSvc",
+        "DisplayName":  "Usługa użytkownika UDK",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa składników powłoki"
+    },
+    {
+        "Name":  "UevAgentService",
+        "DisplayName":  "User Experience Virtualization Service",
+        "Status":  1,
+        "StartType":  "Disabled",
+        "Description":  "Provides support for application and OS settings roaming"
+    },
+    {
+        "Name":  "UmRdpService",
+        "DisplayName":  "Przekierowanie portu trybu użytkownika usług pulpitu zdalnego",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia przekierowywanie drukarek/sterowników/portów dla połączeń RDP"
+    },
+    {
+        "Name":  "UnistoreSvc",
+        "DisplayName":  "Magazyn danych użytkownika",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Obsługuje przechowywanie danych użytkownika ze strukturą, w tym informacje kontaktowe, kalendarze, wiadomości oraz inną zawartość. Jeśli zatrzymasz lub wyłączysz tę usługę, aplikacje korzystające z tych danych mogą nie działać prawidłowo."
+    },
+    {
+        "Name":  "upnphost",
+        "DisplayName":  "Host urządzenia UPnP",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia obsługiwanie urządzeń UPnP na tym komputerze. Jeśli ta usługa zostanie zatrzymana, wszystkie obsługiwane urządzenia UPnP przestaną działać i nie będzie można dodać żadnych nowych obsługiwanych urządzeń. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "UserDataSvc",
+        "DisplayName":  "Dostęp do danych użytkownika",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia dostęp aplikacji do danych użytkownika ze strukturą, w tym informacji kontaktowych, kalendarzy, wiadomości oraz innej zawartości. Jeśli zatrzymasz lub wyłączysz tę usługę, aplikacje korzystające z tych danych mogą nie działać prawidłowo."
+    },
+    {
+        "Name":  "UserManager",
+        "DisplayName":  "Menedżer użytkowników",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Menedżer użytkowników udostępnia składniki środowiska wykonawczego wymagane dla interakcji wielu użytkowników. Jeśli ta usługa zostanie zatrzymana, niektóre aplikacje mogą nie działać poprawnie."
+    },
+    {
+        "Name":  "UsoSvc",
+        "DisplayName":  "Usługa koordynatora aktualizacji",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zarządza aktualizacjami systemu Windows. Jeśli ta usługa zostanie zatrzymana, nie będziesz mieć możliwości pobierania najnowszych aktualizacji i instalowania ich na swoich urządzeniach."
+    },
+    {
+        "Name":  "VaultSvc",
+        "DisplayName":  "Menedżer poświadczeń",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia bezpieczne przechowywanie i pobieranie poświadczeń przez użytkowników, aplikacji i pakiety usług zabezpieczeń."
+    },
+    {
+        "Name":  "vds",
+        "DisplayName":  "Dysk wirtualny",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia usługi zarządzające dyskami, woluminami, systemami plików i macierzami magazynowymi."
+    },
+    {
+        "Name":  "vmicguestinterface",
+        "DisplayName":  "Interfejs usługi gościa funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia interfejs hosta funkcji Hyper-V na potrzeby interakcji z określonymi usługami maszyny wirtualnej."
+    },
+    {
+        "Name":  "vmicheartbeat",
+        "DisplayName":  "Usługa pulsu funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Monitoruje stan tej maszyny wirtualnej, zgłaszając puls w regularnych interwałach. Ta usługa pomaga zidentyfikować uruchomione maszyny wirtualne, które przestały odpowiadać."
+    },
+    {
+        "Name":  "vmickvpexchange",
+        "DisplayName":  "Usługa wymiany danych funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia mechanizm wymiany danych między maszyną wirtualną a systemem operacyjnym uruchomionym na komputerze fizycznym."
+    },
+    {
+        "Name":  "vmicrdv",
+        "DisplayName":  "Usługa wirtualizacji pulpitu zdalnego funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia platformę komunikacji między maszyną wirtualną a systemem operacyjnym uruchomionym na komputerze fizycznym."
+    },
+    {
+        "Name":  "vmicshutdown",
+        "DisplayName":  "Usługa zamykania systemu gościa funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia mechanizm zamykania systemu operacyjnego tej maszyny wirtualnej z poziomu interfejsów zarządzania na komputerze fizycznym."
+    },
+    {
+        "Name":  "vmictimesync",
+        "DisplayName":  "Usługa synchronizacji czasu funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Synchronizuje czas systemowy tej maszyny wirtualnej z czasem systemowym komputera fizycznego."
+    },
+    {
+        "Name":  "vmicvmsession",
+        "DisplayName":  "Usługa PowerShell Direct funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia mechanizm umożliwiający zarządzanie maszyną wirtualną za pomocą programu PowerShell przez sesję maszyny wirtualnej i bez użycia sieci wirtualnej."
+    },
+    {
+        "Name":  "vmicvss",
+        "DisplayName":  "Obiekt żądający usługi kopiowania woluminów w tle funkcji Hyper-V",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Koordynuje komunikację wymaganą do wykonywania kopii zapasowych aplikacji i danych tej maszyny wirtualnej z poziomu systemu operacyjnego na komputerze fizycznym za pomocą usługi kopiowania woluminów w tle."
+    },
+    {
+        "Name":  "VSS",
+        "DisplayName":  "Kopiowanie woluminów w tle",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza i implementuje kopie woluminów w tle używane dla kopii zapasowej i do innych celów. Jeśli ta usługa zostanie zatrzymana, kopie w tle będą niedostępne dla kopii zapasowej, co może spowodować błąd kopii zapasowej. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "W32Time",
+        "DisplayName":  "Windows Time",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start."
+    },
+    {
+        "Name":  "WaaSMedicSvc",
+        "DisplayName":  "WaaSMedicSvc",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  null
+    },
+    {
+        "Name":  "WalletService",
+        "DisplayName":  "Usługa portfela",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Obsługuje obiekty używane przez klientów korzystających z portfela"
+    },
+    {
+        "Name":  "WarpJITSvc",
+        "DisplayName":  "Warp JIT Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Enables JIT compilation support in d3d10warp.dll for processes in which code generation is disabled."
+    },
+    {
+        "Name":  "wbengine",
+        "DisplayName":  "Usługa Aparat kopii zapasowej na poziomie bloku",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa WBENGINE jest używana przez narzędzie Kopia zapasowa systemu Windows podczas operacji wykonywania kopii zapasowej i przywracania. Jeśli ta usługa zostanie zatrzymana przez użytkownika, może to spowodować niepowodzenie obecnie uruchomionej operacji wykonywania kopii zapasowej lub przywracania. Wyłączenie tej usługi może spowodować wyłączenie operacji wykonywania kopii zapasowej i przywracania przy użyciu narzędzia Kopia zapasowa systemu Windows na tym komputerze."
+    },
+    {
+        "Name":  "WbioSrvc",
+        "DisplayName":  "Usługa biometryczna systemu Windows",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa biometryczna systemu Windows umożliwia aplikacjom klienckim przechwytywanie, porównywanie i przechowywanie danych biometrycznych oraz wykonywanie na nich operacji bez uzyskiwania bezpośredniego dostępu do sprzętu lub próbek biometrycznych. Usługa jest udostępniana przez uprzywilejowany proces SVCHOST."
+    },
+    {
+        "Name":  "Wcmsvc",
+        "DisplayName":  "Menedżer połączeń systemu Windows",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Automatycznie podejmuje decyzję o połączeniu/rozłączeniu na podstawie opcji łączności sieciowej obecnie dostępnych na komputerze i umożliwia zarządzanie łącznością sieciową na podstawie ustawień zasad grupy."
+    },
+    {
+        "Name":  "wcncsvc",
+        "DisplayName":  "Połącz teraz w systemie Windows — Rejestrator konfiguracji",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa WCNCSVC obsługuje konfigurację usługi Połącz teraz w systemie Windows będącej implementacją protokołu Wireless Protected Setup (WPS) przygotowaną przez firmę Microsoft. Jest ona używana do konfigurowania ustawień bezprzewodowej sieci LAN dla punktu dostępu (AP) lub urządzenia bezprzewodowego. Usługa jest uruchamiana programowo w razie potrzeby."
+    },
+    {
+        "Name":  "WdiServiceHost",
+        "DisplayName":  "Host usługi diagnostyki",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Host usługi diagnostyki jest używana przez usługę Zasady diagnostyki do przeprowadzania diagnostyki, która wymaga uruchomienia  w kontekście usługi lokalnej. Jeśli ta usługa zostanie zatrzymana, zależne od niej funkcje diagnostyczne przestaną działać."
+    },
+    {
+        "Name":  "WdiSystemHost",
+        "DisplayName":  "Host systemu diagnostyki",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa Host systemu diagnostyki jest używana przez usługę Zasady diagnostyki do przeprowadzania diagnostyki, która wymaga uruchomienia  w kontekście systemu lokalnego. Jeśli ta usługa zostanie zatrzymana, zależne od niej funkcje diagnostyczne przestaną działać."
+    },
+    {
+        "Name":  "WdNisSvc",
+        "DisplayName":  "Usługa inspekcji sieci Programu antywirusowego Microsoft Defender",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Pomaga chronić przed próbami włamań ukierunkowanymi na znane i nowo odkryte luki w protokołach sieciowych"
+    },
+    {
+        "Name":  "WebClient",
+        "DisplayName":  "WebClient",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia programom dla systemu Windows tworzenie, dostęp i modyfikowanie plików w Internecie. Jeśli ta usługa zostanie zatrzymana, funkcje te będą niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
+    },
+    {
+        "Name":  "webthreatdefsvc",
+        "DisplayName":  "Usługa Web Threat Defense",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługa punktu końcowego Web Threat Defense pomaga chronić komputer, identyfikując nieautoryzowane jednostki próbujące uzyskać dostęp do poświadczeń użytkownika"
+    },
+    {
+        "Name":  "webthreatdefusersvc",
+        "DisplayName":  "Usługa użytkownika Web Threat Defense",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa użytkownika Web Threat Defense pomaga chronić komputer, ostrzegając użytkownika, gdy nieautoryzowane jednostki próbują uzyskać dostęp do jego poświadczeń"
+    },
+    {
+        "Name":  "Wecsvc",
+        "DisplayName":  "Kolektor zdarzeń systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa zarządza trwałymi subskrypcjami zdarzeń ze zdalnych źródeł obsługujących protokół WS-Management. Obejmuje to dzienniki zdarzeń systemu Windows Vista, sprzęt i źródła zdarzeń z obsługą interfejsu IPMI. Usługa przechowuje zdarzenia przesyłane dalej w lokalnym dzienniku zdarzeń. Jeśli ta usługa zostanie zatrzymana lub wyłączona, nie będzie możliwe tworzenie subskrypcji zdarzeń i akceptowanie zdarzeń przesyłanych dalej."
+    },
+    {
+        "Name":  "WEPHOSTSVC",
+        "DisplayName":  "Usługa hosta dostawcy szyfrowania systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa hosta dostawcy szyfrowania systemu Windows przekazuje funkcje związane z szyfrowaniem od zewnętrznych dostawców szyfrowania do procesów, które wymagają określenia i stosowania zasad EAS. Zatrzymanie tej usługi spowoduje zakłócenie testów zgodności z zasadami EAS, które zostały ustawione przez połączone konta pocztowe."
+    },
+    {
+        "Name":  "wercplsupport",
+        "DisplayName":  "Obsługa panelu sterowania Raporty dotyczące problemów",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa umożliwia obsługę wyświetlania, wysyłania i usuwania raportów dotyczących problemów na poziomie systemu w panelu sterowania Raporty dotyczące problemów."
+    },
+    {
+        "Name":  "WerSvc",
+        "DisplayName":  "Usługa raportowania błędów systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zezwala na raportowanie błędów w sytuacji, gdy programy przestaną działać lub odpowiadać, oraz na dostarczanie istniejących rozwiązań. Zezwala także na generowanie dzienników dla usług diagnostycznych i naprawczych. Jeśli ta usługa zostanie zatrzymana, funkcja raportowania błędów może działać niepoprawnie i mogą nie być wyświetlane wyniki działania usług diagnostycznych i naprawczych."
+    },
+    {
+        "Name":  "WFDSConMgrSvc",
+        "DisplayName":  "Usługa menedżera połączeń usług Wi-Fi Direct",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zarządza połączeniami z usługami bezprzewodowymi, w tym ekranami i stacjami dokującymi."
+    },
+    {
+        "Name":  "WiaRpc",
+        "DisplayName":  "Zdarzenia pozyskiwania obrazów nieruchomych",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Uruchamia aplikacje skojarzone ze zdarzeniami pozyskiwania obrazów."
+    },
+    {
+        "Name":  "WinDefend",
+        "DisplayName":  "Usługa Program antywirusowy Microsoft Defender",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Pomaga chronić użytkowników przed złośliwym oprogramowaniem i innym potencjalnie niechcianym oprogramowaniem"
+    },
+    {
+        "Name":  "WinHttpAutoProxySvc",
+        "DisplayName":  "Usługa autowykrywania serwera proxy w sieci Web WinHTTP",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Usługi WinHTTP implementują stos HTTP klienta i udostępniają deweloperom interfejs Win32 API oraz składnik automatyzacji COM, które służą do wysyłania żądań i odbierania odpowiedzi HTTP. Ponadto usługi WinHTTP obsługują autowykrywanie konfiguracji serwera proxy dzięki implementacji protokołu autowykrywania serwera proxy w sieci Web (WPAD, Web Proxy Auto-Discovery)."
+    },
+    {
+        "Name":  "Winmgmt",
+        "DisplayName":  "Instrumentacja zarządzania Windows",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Dostarcza interfejs i model obiektowy w celu uzyskiwania dostępu do informacji zarządzania o systemie operacyjnym, urządzeniach, aplikacjach i usługach. Jeśli ta usługa zostanie zatrzymana, większość oprogramowania opartego na systemie Windows nie będzie działać właściwie. Jeśli ta usługa zostanie wyłączona, uruchomienie usług od niej zależnych nie powiedzie się."
+    },
+    {
+        "Name":  "WinRM",
+        "DisplayName":  "Zdalne zarządzanie systemem Windows (WS-Management)",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa Zdalne zarządzanie systemem Windows (WinRM) implementuje protokół WS-Management na potrzeby zarządzania zdalnego. Protokół WS-Management to standardowy protokół usług sieci Web służący do zdalnego zarządzania oprogramowaniem i sprzętem. Usługa WinRM nasłuchuje w sieci żądań WS-Management i przetwarza je. Aby usługa WinRM mogła nasłuchiwać w sieci, należy skonfigurować ją z odbiornikiem przy użyciu narzędzia winrm.cmd lub za pośrednictwem zasad grupy. Usługa WinRM daje dostęp do danych WMI i umożliwia zbieranie zdarzeń. Zbieranie zdarzeń i ich subskrybowanie wymaga, aby usługa była uruchomiona. Do transportu komunikatów usługi WinRM służą protokoły HTTP i HTTPS. Usługa WinRM jest niezależna od programu IIS, ale jest wstępnie skonfigurowana do współużytkowania z tym programem portu na tym samym komputerze. Usługa WinRM rezerwuje prefiks adresu URL /wsman. Aby zapobiec konfliktom z programem IIS, żadne witryny sieci web obsługiwane w programie IIS nie mogą korzystać z prefiksu adresu URL /wsman."
+    },
+    {
+        "Name":  "wisvc",
+        "DisplayName":  "Usługa niejawnego programu testów systemu Windows",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza obsługę infrastrukturalną niejawnego programu testów systemu Windows. Ta usługa musi być włączona, aby było możliwe działanie niejawnego programu testów systemu Windows."
+    },
+    {
+        "Name":  "WlanSvc",
+        "DisplayName":  "Autokonfiguracja sieci WLAN",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa WLANSVC zapewnia logikę niezbędną do konfigurowania, odnajdowania, łączenia i rozłączania z bezprzewodową siecią lokalną (WLAN) zgodnie ze standardami IEEE 802.11. Zawiera także logikę umożliwiającą przekształcenie komputera w programowy punkt dostępu, dzięki któremu inne urządzenia lub komputery mogą połączyć się z komputerem bezprzewodowo za pośrednictwem karty WLAN obsługującej taką funkcję. Zatrzymanie lub wyłączenie usługi WLANSVC spowoduje, że wszystkie karty WLAN w komputerze będą niedostępne z poziomu sieciowego interfejsu użytkownika systemu Windows. Jeżeli komputer jest wyposażony w kartę WLAN, zdecydowanie zalecane jest pozostawienie usługi WLANSVC działającej."
+    },
+    {
+        "Name":  "wlidsvc",
+        "DisplayName":  "Asystent logowania za pomocą konta Microsoft",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia użytkownikom logowanie za pośrednictwem usług weryfikacji tożsamości konta Microsoft. Jeśli ta usługa zostanie zatrzymana, użytkownicy nie będą mogli logować się do komputera za pomocą konta Microsoft."
+    },
+    {
+        "Name":  "wlpasvc",
+        "DisplayName":  "Usługa Asystent profilów lokalnych",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa umożliwia zarządzanie profilami modułów tożsamości subskrybentów"
+    },
+    {
+        "Name":  "WManSvc",
+        "DisplayName":  "Usługa zarządzania systemu Windows",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Wykonuje zadania zarządzania, w tym działania związane z inicjowaniem obsługi i rejestrowaniem"
+    },
+    {
+        "Name":  "wmiApSrv",
+        "DisplayName":  "Karta wydajności WMI",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Dostarcza klientom w sieci informacje o bibliotece wydajności od dostawców Instrumentacji zarządzania Windows (WMI). Ta usługa działa tylko wtedy, gdy jest aktywna Pomoc danych wydajności."
+    },
+    {
+        "Name":  "WMPNetworkSvc",
+        "DisplayName":  "Usługa udostępniania w sieci programu Windows Media Player",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Udostępnia biblioteki programu Windows Media Player innym odtwarzaczom i urządzeniom multimedialnym w sieci przy użyciu technologii Universal Plug and Play"
+    },
+    {
+        "Name":  "workfolderssvc",
+        "DisplayName":  "Foldery robocze",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa synchronizuje pliki z serwerem folderów roboczych, umożliwiając Ci używanie tych plików na dowolnych komputerach i urządzeniach, na których skonfigurujesz foldery robocze."
+    },
+    {
+        "Name":  "WpcMonSvc",
+        "DisplayName":  "Kontrola rodzicielska",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Wymusza używanie kontroli rodzicielskiej w stosunku do kont dzieci w systemie Windows. Jeśli ta usługa zostanie zatrzymana lub wyłączona, kontrola rodzicielska może nie być wymuszana."
+    },
+    {
+        "Name":  "WPDBusEnum",
+        "DisplayName":  "Usługa modułu wyliczającego urządzenia przenośne",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Wymusza stosowanie zasad grupy dla wymiennych urządzeń pamięci masowej. Umożliwia aplikacjom, takim jak Windows Media Player i Kreator importu obrazów, transferowanie i synchronizowanie zawartości za pomocą wymiennych urządzeń pamięci masowej."
+    },
+    {
+        "Name":  "WpnService",
+        "DisplayName":  "Usługa systemu powiadomień WNS",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa działa w sesji 0 i hostuje dostawcę platformy powiadomień i połączeń, który obsługuje połączenie między urządzeniem a serwerem WNS."
+    },
+    {
+        "Name":  "WpnUserService",
+        "DisplayName":  "Usługa użytkownika powiadomień WNS",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Ta usługa hostuje platformę powiadomień systemu Windows umożliwiającą obsługę powiadomień lokalnych i wypychanych. Obsługiwane rodzaje powiadomień: kafelki, powiadomienia wyskakujące i powiadomienia nieprzetworzone."
+    },
+    {
+        "Name":  "WSAIFabricSvc",
+        "DisplayName":  "WSAIFabricSvc",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia obsługę komunikacji z usługą AIFabric w kontekście usługi lokalnej za pośrednictwem modelu COM."
+    },
+    {
+        "Name":  "wscsvc",
+        "DisplayName":  "Centrum zabezpieczeń",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Usługa WSCSVC (Centrum zabezpieczeń Windows) monitoruje ustawienia kondycji zabezpieczeń komputera i raportuje ich stan. Ustawienia kondycji dotyczą zapory (włączona/wyłączona), oprogramowania antywirusowego (włączone/wyłączone/nieaktualne), oprogramowania antyszpiegowskiego (włączone/wyłączone/nieaktualne), usługi Windows Update (automatyczne/ręczne pobieranie i instalowanie aktualizacji), kontroli konta użytkownika (włączona/wyłączona) i ustawień internetowych (zalecane/niezalecane). Usługa udostępnia niezależnym dostawcom oprogramowania interfejsy API COM służące do rejestracji i zapisywania stanu ich produktów w usłudze Centrum zabezpieczeń. Interfejs użytkownika funkcji Zabezpieczenia i konserwacja używa tej usługi do przekazywania alertów usługi Systray i wyświetlania w postaci graficznej stanów kondycji zabezpieczeń w panelu sterowania tej funkcji. Ochrona dostępu do sieci używa tej usługi do wysyłania raportów o stanach kondycji zabezpieczeń klientów do serwera zasad sieciowych ochrony dostępu do sieci dla potrzeb podejmowania decyzji dotyczących kwarantanny w sieci. Usługa ta ma również publiczny interfejs API, który umożliwia zewnętrznym użytkownikom programowe pobieranie skumulowanego stanu kondycji zabezpieczeń systemu."
+    },
+    {
+        "Name":  "WSearch",
+        "DisplayName":  "Windows Search",
+        "Status":  4,
+        "StartType":  "Auto",
+        "Description":  "Zapewnia indeksowanie zawartości, buforowanie właściwości i wyniki wyszukiwania plików, wiadomości e-mail i innej zawartości."
+    },
+    {
+        "Name":  "wuauserv",
+        "DisplayName":  "Windows Update",
+        "Status":  4,
+        "StartType":  "Manual",
+        "Description":  "Umożliwia wykrywanie, pobieranie i instalowanie aktualizacji systemu Windows i innych programów. Wyłączenie tej usługi spowoduje, że użytkownicy tego komputera nie będą mogli używać rozszerzenia Windows Update ani funkcji automatycznego aktualizowania, a programy nie będą mogły używać funkcji API Windows Update Agent (WUA)."
+    },
+    {
+        "Name":  "WwanSvc",
+        "DisplayName":  "Automatyczne konfigurowanie bezprzewodowej sieci WAN",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa służy do zarządzania kartami danych/modułami wbudowanymi komórkowej łączności szerokopasmowej (GSM i CDMA) oraz połączeniami przez automatyczne konfigurowanie sieci. Zdecydowanie zalecamy pozostawienie tej usługi działającej w celu zapewnienia jak najlepszego działania komórkowych urządzeń szerokopasmowych."
+    },
+    {
+        "Name":  "XblAuthManager",
+        "DisplayName":  "Menedżer autoryzacji Xbox Live",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Zapewnia usługi uwierzytelniania i autoryzacji do współdziałania z Xbox Live. Jeśli ta usługa zostanie zatrzymana, niektóre aplikacje mogą nie działać poprawnie."
+    },
+    {
+        "Name":  "XblGameSave",
+        "DisplayName":  "Zapisywanie gier Xbox Live",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Usługa ta synchronizuje zapisane dane dla gier Xbox Live z włączoną funkcją zapisywania. Jeśli ta usługa zostanie przerwana, zapisane dane gry nie zostaną przesłane czy pobrane z usługi Xbox Live."
+    },
+    {
+        "Name":  "XboxGipSvc",
+        "DisplayName":  "Xbox Accessory Management Service",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "This service manages connected Xbox Accessories."
+    },
+    {
+        "Name":  "XboxNetApiSvc",
+        "DisplayName":  "Usługa sieciowa Xbox Live",
+        "Status":  1,
+        "StartType":  "Manual",
+        "Description":  "Ta usługa obsługuje interfejs programowania aplikacji Windows.Networking.XboxLive."
+    }
+]

@@ -1,0 +1,21 @@
+home.bat: only if home version is installed.
+professional.bat: only if professional version is installed.
+enterprise.bat: only if professional version is installed.
+
+Before activating the Windows server system, you must update it to the full version of the system using a separate .bat update:
+Windows Server 2022 URL:https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022:
+win2022standard_update.bat
+win2022datacenter_update.bat
+
+Windows Server 2025 URL:https://www.microsoft.com/en-us/evalcenter/download-windows-server-2025:
+win2025standard_update.bat
+win2025datacenter_update.bat
+
+After installing the operating system, 
+we execute the .bat file with the update and after successful updating, 
+we restart the computer.
+
+After downloading and installing the specified Windows, 
+we update the system with the .bat file specified for the given version, 
+then restart and after logging in, 
+activate it with the specified .bat file: This information is only for the Windows server system.
