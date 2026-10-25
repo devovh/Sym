@@ -31,7 +31,7 @@
         "Name":  "AppMgmt",
         "DisplayName":  "Zarządzanie aplikacjami",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Przetwarza żądania instalacji, usunięcia i wyliczenia oprogramowania wdrożonego za pośrednictwem zasad grupy. Jeśli ta usługa zostanie wyłączona, użytkownicy nie będą mogli instalować, usuwać ani wyliczać oprogramowania wdrożonego za pośrednictwem zasad grupy. Jeśli ta usługa zostanie wyłączona, nie będzie możliwe uruchamianie żadnych usług jawnie od niej zależnych."
     },
     {
@@ -94,7 +94,7 @@
         "Name":  "AxInstSV",
         "DisplayName":  "Instalator kontrolek ActiveX (AxInstSV)",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Zapewnia weryfikację funkcji Kontrola konta użytkownika w celu instalacji kontrolek ActiveX pochodzących z Internetu oraz umożliwia zarządzanie instalacją kontrolki ActiveX na podstawie ustawień zasad grupy. Ta usługa jest uruchamiana na żądanie i jeśli zostanie wyłączona, instalacja kontrolek ActiveX będzie przebiegać zgodnie z ustawieniami domyślnymi przeglądarki."
     },
     {
@@ -199,7 +199,7 @@
         "Name":  "CertPropSvc",
         "DisplayName":  "Propagacja certyfikatu",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Kopiuje certyfikaty użytkownika i certyfikaty główne z kart inteligentnych do magazynu certyfikatów bieżącego użytkownika, wykrywa włożenie karty inteligentnej do czytnika oraz w razie potrzeby instaluje ministerownik Plug and Play karty."
     },
     {
@@ -346,7 +346,7 @@
         "Name":  "DiagTrack",
         "DisplayName":  "Środowiska i telemetria połączonego użytkownika",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Usługa Środowiska i telemetria połączonego użytkownika umożliwia korzystanie z funkcji, które obsługują środowiska w aplikacji i połączonego użytkownika. Ta usługa zarządza także zbieraniem i transmisją informacji diagnostycznych i użycia (te działania są sterowane zdarzeniami), gdy opcje prywatności diagnostyki i użycia są włączone w obszarze Opinie i diagnostyka. (Informacje są używane do udoskonalania środowiska pracy i jakości platformy systemu Windows)."
     },
     {
@@ -626,7 +626,7 @@
         "Name":  "LanmanServer",
         "DisplayName":  "Serwer",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Oferuje udostępnianie w sieci plików, drukarek i potoków dla tego komputera. Jeśli ta usługa zostanie zatrzymana, te funkcje staną się niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
     },
     {
@@ -871,7 +871,7 @@
         "Name":  "PeerDistSvc",
         "DisplayName":  "BranchCache",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Ta usługa buforuje zawartość sieci z węzłów równorzędnych w podsieci lokalnej."
     },
     {
@@ -1088,7 +1088,7 @@
         "Name":  "SCPolicySvc",
         "DisplayName":  "Zasady usuwania karty inteligentnej",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Umożliwia skonfigurowanie systemu w taki sposób, aby po usunięciu karty inteligentnej był blokowany pulpit użytkownika."
     },
     {
@@ -1207,14 +1207,14 @@
         "Name":  "SNMPTrap",
         "DisplayName":  "SNMP Trap",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Odbiera wiadomości pułapek generowane przez lokalnych lub zdalnych agentów protokołu SNMP (Simple Network Management Protocol) i przesyła dalej wiadomości do programów zarządzających SNMP uruchomionych na tym komputerze. Jeśli ta usługa zostanie zatrzymana, programy oparte na SNMP na tym komputerze nie będą odbierać wiadomości pułapek. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
     },
     {
         "Name":  "Spooler",
         "DisplayName":  "Bufor wydruku",
         "Status":  4,
-        "StartType":  "Auto",
+        "StartType":  "Disabled",
         "Description":  "Ta usługa buforuje zadania drukowania i obsługuje współpracę z drukarką.  Jeśli wyłączysz tę usługę, nie będzie można drukować ani wyświetlać drukarek."
     },
     {
@@ -1228,7 +1228,7 @@
         "Name":  "SSDPSRV",
         "DisplayName":  "Odnajdywanie SSDP",
         "Status":  4,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Wykrywa urządzenia i usługi sieciowe, które korzystają z protokołu odnajdywania SSDP, na przykład urządzenia UPnP. Zgłasza także urządzenia i usługi SSDP działające na komputerze lokalnym. Po zatrzymaniu tej usługi urządzenia działające na podstawie protokołu SSDP nie będą odnajdywane. Gdy ta usługa będzie wyłączona, nie będzie można uruchomić żadnych usług bezpośrednio od niej zależnych."
     },
     {
@@ -1585,7 +1585,7 @@
         "Name":  "WebClient",
         "DisplayName":  "WebClient",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Umożliwia programom dla systemu Windows tworzenie, dostęp i modyfikowanie plików w Internecie. Jeśli ta usługa zostanie zatrzymana, funkcje te będą niedostępne. Jeśli ta usługa zostanie wyłączona, wszelkie usługi jawnie od niej zależne przestaną się uruchamiać."
     },
     {
@@ -1627,7 +1627,7 @@
         "Name":  "WerSvc",
         "DisplayName":  "Usługa raportowania błędów systemu Windows",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Zezwala na raportowanie błędów w sytuacji, gdy programy przestaną działać lub odpowiadać, oraz na dostarczanie istniejących rozwiązań. Zezwala także na generowanie dzienników dla usług diagnostycznych i naprawczych. Jeśli ta usługa zostanie zatrzymana, funkcja raportowania błędów może działać niepoprawnie i mogą nie być wyświetlane wyniki działania usług diagnostycznych i naprawczych."
     },
     {
@@ -1669,7 +1669,7 @@
         "Name":  "WinRM",
         "DisplayName":  "Zdalne zarządzanie systemem Windows (WS-Management)",
         "Status":  1,
-        "StartType":  "Manual",
+        "StartType":  "Disabled",
         "Description":  "Usługa Zdalne zarządzanie systemem Windows (WinRM) implementuje protokół WS-Management na potrzeby zarządzania zdalnego. Protokół WS-Management to standardowy protokół usług sieci Web służący do zdalnego zarządzania oprogramowaniem i sprzętem. Usługa WinRM nasłuchuje w sieci żądań WS-Management i przetwarza je. Aby usługa WinRM mogła nasłuchiwać w sieci, należy skonfigurować ją z odbiornikiem przy użyciu narzędzia winrm.cmd lub za pośrednictwem zasad grupy. Usługa WinRM daje dostęp do danych WMI i umożliwia zbieranie zdarzeń. Zbieranie zdarzeń i ich subskrybowanie wymaga, aby usługa była uruchomiona. Do transportu komunikatów usługi WinRM służą protokoły HTTP i HTTPS. Usługa WinRM jest niezależna od programu IIS, ale jest wstępnie skonfigurowana do współużytkowania z tym programem portu na tym samym komputerze. Usługa WinRM rezerwuje prefiks adresu URL /wsman. Aby zapobiec konfliktom z programem IIS, żadne witryny sieci web obsługiwane w programie IIS nie mogą korzystać z prefiksu adresu URL /wsman."
     },
     {
