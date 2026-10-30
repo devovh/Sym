@@ -1,0 +1,85 @@
+IP Mode 	Mode 	Internal Client 	Protocol 	Local IP Address 	Local Subnet Mask 	Remote IP Address 	Remote Subnet Mask 	Wan Port Range 	Lan Port Range 	Delete
+IPv4	Drop for upstream		ICMP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0			Delete
+IPv4	Drop for upstream		ICMP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0			Delete
+IPv4	Drop for downstream		ICMP			1.0.0.0	128.0.0.0			Delete
+IPv4	Drop for downstream		ICMP			128.0.0.0	128.0.0.0			Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 20-26	TCP: 20-26	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 20-26	TCP: 20-26	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 20-26	UDP: 20-26	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 20-26	UDP: 20-26	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 20-26	TCP: 20-26	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 20-26	TCP: 20-26	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 20-26	UDP: 20-26	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 20-26	UDP: 20-26	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 2323-2323	TCP: 2323-2323	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 2323-2323	TCP: 2323-2323	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 2323-2323	UDP: 2323-2323	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 2323-2323	UDP: 2323-2323	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 2323-2323	TCP: 2323-2323	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 2323-2323	TCP: 2323-2323	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 2323-2323	UDP: 2323-2323	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 2323-2323	UDP: 2323-2323	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 3389-3389	TCP: 3389-3389	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 3389-3389	UDP: 3389-3389	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 3389-3389	TCP: 3389-3389	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 3389-3389	UDP: 3389-3389	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 3389-3389	TCP: 3389-3389	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 3389-3389	UDP: 3389-3389	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 3389-3389	TCP: 3389-3389	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 3389-3389	UDP: 3389-3389	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 5900-5900	TCP: 5900-5900	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 5900-5900	TCP: 5900-5900	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 5900-5900	TCP: 5900-5900	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 5900-5900	TCP: 5900-5900	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 5555-5555	TCP: 5555-5555	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 5555-5555	TCP: 5555-5555	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 5555-5555	TCP: 5555-5555	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 5555-5555	TCP: 5555-5555	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 7547-7547	TCP: 7547-7547	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 7547-7547	TCP: 7547-7547	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 7547-7547	TCP: 7547-7547	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 7547-7547	TCP: 7547-7547	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 8080-8080	TCP: 8080-8080	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 8080-8080	TCP: 8080-8080	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 8080-8080	TCP: 8080-8080	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 8080-8080	TCP: 8080-8080	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 8443-8443	TCP: 8443-8443	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 8443-8443	TCP: 8443-8443	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 8443-8443	TCP: 8443-8443	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 8443-8443	TCP: 8443-8443	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 5000-5001	TCP: 5000-5001	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 5000-5001	TCP: 5000-5001	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 5000-5001	TCP: 5000-5001	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 5000-5001	TCP: 5000-5001	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 135-139	TCP: 135-139	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 135-139	UDP: 135-139	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 135-139	TCP: 135-139	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 135-139	UDP: 135-139	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 135-139	TCP: 135-139	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 135-139	UDP: 135-139	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 135-139	TCP: 135-139	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 135-139	UDP: 135-139	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 445-445	TCP: 445-445	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 445-445	TCP: 445-445	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 445-445	TCP: 445-445	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 445-445	TCP: 445-445	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 1900-1900	UDP: 1900-1900	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 1900-1900	UDP: 1900-1900	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 1900-1900	UDP: 1900-1900	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 1900-1900	UDP: 1900-1900	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 2869-2869	TCP: 2869-2869	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 2869-2869	TCP: 2869-2869	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 2869-2869	TCP: 2869-2869	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 2869-2869	TCP: 2869-2869	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 5353-5355	UDP: 5353-5355	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 5353-5355	UDP: 5353-5355	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 5353-5355	UDP: 5353-5355	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 5353-5355	UDP: 5353-5355	Delete
+IPv6	Drop for upstream		ALL	fc00::	7	fc00::	7			Delete
+IPv6	Drop for upstream		ALL	2000::	3	2000::	3			Delete
+IPv6	Drop for downstream		ALL			2000::	3			Delete
+IPv6	Drop for downstream		ALL			fc00::	7			Delete
+IPv6	Drop for upstream		ALL	fe80::	10	fe80::	10			Delete
+IPv6	Drop for downstream		ALL			fe80::	10			Delete
+IPv6	Drop for upstream		ALL	ff00::	8	ff00::	8			Delete
+IPv6	Drop for downstream		ALL			ff00::	8			Delete
