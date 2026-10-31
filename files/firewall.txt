@@ -83,3 +83,11 @@ IPv6	Drop for upstream		ALL	fe80::	10	fe80::	10			Delete
 IPv6	Drop for downstream		ALL			fe80::	10			Delete
 IPv6	Drop for upstream		ALL	ff00::	8	ff00::	8			Delete
 IPv6	Drop for downstream		ALL			ff00::	8			Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	TCP: 53-53	TCP: 53-53	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	1.0.0.0	128.0.0.0	UDP: 53-53	UDP: 53-53	Delete
+IPv4	Drop for upstream		TCP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	TCP: 53-53	TCP: 53-53	Delete
+IPv4	Drop for upstream		UDP	192.168.1.0	255.255.255.0	128.0.0.0	128.0.0.0	UDP: 53-53	UDP: 53-53	Delete
+IPv4	Drop for downstream		TCP			1.0.0.0	128.0.0.0	TCP: 53-53	TCP: 53-53	Delete
+IPv4	Drop for downstream		UDP			1.0.0.0	128.0.0.0	UDP: 53-53	UDP: 53-53	Delete
+IPv4	Drop for downstream		TCP			128.0.0.0	128.0.0.0	TCP: 53-53	TCP: 53-53	Delete
+IPv4	Drop for downstream		UDP			128.0.0.0	128.0.0.0	UDP: 53-53	UDP: 53-53	Delete
