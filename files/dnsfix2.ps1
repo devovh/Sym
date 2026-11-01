@@ -6,6 +6,8 @@ $remove = @(
     "2620:fe::fe",
     "8.8.8.8",
     "8.8.4.4",
+	"1.1.1.1",
+	"1.0.0.1",
     "2001:4860:4860::8844",
     "2001:4860:4860::8888",
 	"2606:4700:4700::1001",
@@ -17,12 +19,12 @@ foreach ($dns in $remove) {
 }
 
 # 2. Ustaw Cloudflare IPv4
-netsh dns add encryption server=1.1.1.1 dohtemplate=https://cloudflare-dns.com/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=1.1.1.2 dohtemplate=https://security.cloudflare-dns.com/dns-query autoupgrade=yes udpfallback=no
 
-netsh dns add encryption server=1.0.0.1 dohtemplate=https://cloudflare-dns.com/dns-query autoupgrade=yes udpfallback=no
+netsh dns add encryption server=1.0.0.2 dohtemplate=https://security.cloudflare-dns.com/dns-query autoupgrade=yes udpfallback=no
 
 # 3. Ustaw DNS tylko IPv4 na Ethernet
-Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses @("1.1.1.1","1.0.0.1")
+Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses @("1.1.1.2","1.0.0.2")
 
 # 4. Wyczyść cache
 Clear-DnsClientCache
