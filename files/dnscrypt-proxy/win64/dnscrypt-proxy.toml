@@ -28,9 +28,7 @@
 ## Remove the leading # first to enable this; lines starting with # are ignored.
 
 server_names = [
-  'odoh-cloudflare',
-  'odoh-crypto-sx',
-  'odoh-nextdns'
+  'odoh-cloudflare'
 ]
 
 
@@ -343,9 +341,7 @@ tls_disable_session_tickets = true
 ## lists are up to date, these resolvers will not even be used.
 
 bootstrap_resolvers = [
-  '9.9.9.9:53',
-  '1.1.1.1:53',
-  '149.112.112.112:53'
+  '1.1.1.1:53'
 ]
 
 
@@ -361,7 +357,7 @@ bootstrap_resolvers = [
 ## (*) this is incompatible with systemd sockets.
 ## `listen_addresses` must not be empty.
 
-ignore_system_dns = true
+ignore_system_dns = false
 
 
 ## Maximum time (in seconds) to wait for network connectivity before
@@ -382,7 +378,7 @@ netprobe_timeout = 60
 ## On other operating systems, the connection will be initialized
 ## but nothing will be sent at all.
 
-netprobe_address = '9.9.9.9:53'
+netprobe_address = '1.1.1.1:53'
 
 
 ## Offline mode - Do not use any remote encrypted servers.
@@ -556,7 +552,7 @@ cache_neg_max_ttl = 600
 ## Path to the query log file (absolute, or relative to the same directory as the config file)
 ## Can be set to /dev/stdout in order to log to the standard output.
 
-# file = 'query.log'
+file = 'query.log'
 
 
 ## Query log format (currently supported: tsv and ltsv)
@@ -567,7 +563,7 @@ cache_neg_max_ttl = 600
 ## The relay field shows the anonymizing relay name when using Anonymized DNS or ODoH,
 ## or "-" when no relay is used.
 
-#format = 'tsv'
+format = 'ltsv'
 
 
 ## Do not log these query types, to reduce verbosity. Keep empty to log everything.
@@ -929,8 +925,7 @@ fragments_blocked = [
 routes = [
     { server_name='*', via=[
         'odohrelay-crypto-sx',
-        'odohrelay-koki-ams',
-        'odohrelay-scaleway-fr'
+	'odohrelay-numa'
     ] }
 ]
 
